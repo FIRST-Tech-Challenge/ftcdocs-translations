@@ -1,0 +1,2 @@
+-r ftcdocs/docs/requirements.txt
+git+https://github.com/TheTripleV/sphinx-intl.git@transifox

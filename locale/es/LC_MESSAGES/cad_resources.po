@@ -1,0 +1,420 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Uday Vidyadharan, 2023
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-06 06:33+0000\n"
+"PO-Revision-Date: 2023-07-06 01:50+0000\n"
+"Last-Translator: Uday Vidyadharan, 2023\n"
+"Language-Team: Spanish (https://app.transifex.com/first-inspires/teams/171738/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../ftcdocs/docs/source/cad_resources/autodesk/autodesk.rst:2
+msgid "AUTODESK CAD Resources"
+msgstr "Recursos CAD de AUTODESK"
+
+#: ../../ftcdocs/docs/source/cad_resources/autodesk/autodesk.rst:4
+msgid ""
+"Autodesk is dedicated to preparing the next generation of tinkerers, makers,"
+" designers, engineers, and revolutionizers to lead in the Future of Work. "
+"With advanced technologies and workflows accelerating change in industries "
+"and careers, we at Autodesk are excited to partner with you on your "
+"professional journey. We invest in students by offering our broad portfolio "
+"of cloud-based integrated CAD/CAM platform technologies because we believe "
+"your ideas and innovation have the power to make this world a better place "
+"for everyone. Lead the change and change the world."
+msgstr ""
+"Autodesk se dedica a preparar a la próxima generación de manipuladores, "
+"fabricantes, diseñadores, ingenieros y revolucionarios para liderar el "
+"futuro del trabajo. Con tecnologías y flujos de trabajo avanzados que "
+"aceleran el cambio en industrias y carreras, en Autodesk nos complace "
+"asociarnos con usted en su viaje profesional. Invertimos en los estudiantes "
+"ofreciendo nuestra amplia cartera de tecnologías de plataforma CAD/CAM "
+"integradas basadas en la nube porque creemos que sus ideas e innovación "
+"tienen el poder de hacer de este mundo un lugar mejor para todos. Lidera el "
+"cambio y cambia el mundo."
+
+#: ../../ftcdocs/docs/source/cad_resources/autodesk/autodesk.rst:14
+msgid "Obtaining AUTODESK Software"
+msgstr "Obtención del software AUTODESK"
+
+#: ../../ftcdocs/docs/source/cad_resources/autodesk/autodesk.rst:16
+msgid ""
+"Autodesk makes software available to all *FIRST* teams via their *FIRST* "
+"`Education Community FIRST ROBOTICS COMPETITION Page. "
+"<https://www.autodesk.com/education/competitions/first>`__"
+msgstr ""
+"Autodesk pone el software a disposición de todos los equipos de *FIRST* a "
+"través de su *FIRST* `Comunidad educativa FIRST ROBOTICS COMPETITION "
+"Page.<https://www.autodesk.com/education/competitions/first> `__"
+
+#: ../../ftcdocs/docs/source/cad_resources/autodesk/autodesk.rst:20
+msgid ""
+"Autodesk's desktop-based CAD and Animation tools are world-class and "
+"available for download. Users must first create an Educational Access "
+"account, verify your account, and then complete your profile to ensure "
+"eligibility. Once completed, you'll be provided with one-year education "
+"access (renewable). To get started, visit the `Autodesk Education Website "
+"<https://www.autodesk.com/education/edu-software/overview>`__."
+msgstr ""
+"Las herramientas de animación y CAD basadas en escritorio de Autodesk son de"
+" clase mundial y están disponibles para su descarga. Los usuarios primero "
+"deben crear una cuenta de Acceso educativo, verificar su cuenta y luego "
+"completar su perfil para garantizar la elegibilidad. Una vez completado, se "
+"le proporcionará acceso a la educación de un año (renovable). Para comenzar,"
+" visite el `sitio web educativo de "
+"Autodesk<https://www.autodesk.com/education/edu-software/overview> `__."
+
+#: ../../ftcdocs/docs/source/cad_resources/autodesk/autodesk.rst:27
+msgid "AUTODESK Training Videos"
+msgstr "Vídeos de formación de AUTODESK"
+
+#: ../../ftcdocs/docs/source/cad_resources/autodesk/autodesk.rst:29
+msgid "A few resources for training:"
+msgstr "Algunos recursos para la formación:"
+
+#: ../../ftcdocs/docs/source/cad_resources/autodesk/autodesk.rst:31
+msgid ""
+"`Autodesk Fusion 360 Self-paced Learning Courses "
+"<https://help.autodesk.com/view/fusion360/ENU/courses/>`__"
+msgstr ""
+"`Autodesk Fusion 360 Cursos de aprendizaje a su propio "
+"ritmo<https://help.autodesk.com/view/fusion360/ENU/courses/> `__"
+
+#: ../../ftcdocs/docs/source/cad_resources/autodesk/autodesk.rst:32
+msgid ""
+"`Autodesk Inventor Self-paced Learning Courses "
+"<https://knowledge.autodesk.com/support/inventor/learn>`__"
+msgstr ""
+"`Cursos de aprendizaje a su propio ritmo de Autodesk "
+"Inventor<https://knowledge.autodesk.com/support/inventor/learn> `__"
+
+#: ../../ftcdocs/docs/source/cad_resources/autodesk/autodesk.rst:33
+msgid ""
+"`Tinkercad Self-paced Learning Courses <https://www.tinkercad.com/learn>`__"
+msgstr ""
+"`Cursos de aprendizaje a su propio ritmo de "
+"Tinkercad<https://www.tinkercad.com/learn> `__"
+
+#: ../../ftcdocs/docs/source/cad_resources/autodesk/autodesk.rst:34
+msgid ""
+"`3ds Max Self-paced Learning Courses "
+"<https://knowledge.autodesk.com/support/3ds-max/learn>`__"
+msgstr ""
+"`Cursos de aprendizaje a su propio ritmo de 3ds "
+"Max<https://knowledge.autodesk.com/support/3ds-max/learn> `__"
+
+#: ../../ftcdocs/docs/source/cad_resources/index.rst:1
+#: ../../ftcdocs/docs/source/cad_resources/index.rst:7
+msgid "CAD Resources"
+msgstr "Recursos CAD"
+
+#: ../../ftcdocs/docs/source/cad_resources/index.rst:1
+msgid "Computer Aided Design Resources for the FIRST Tech Challenge"
+msgstr ""
+"Recursos de diseño asistido por computadora para el FIRST Tech Challenge"
+
+#: ../../ftcdocs/docs/source/cad_resources/index.rst:1
+msgid "FTC Docs, FIRST Tech Challenge, CAD, Resources"
+msgstr "FTC Docs, FIRST Tech Challenge, CAD, Recursos"
+
+#: ../../ftcdocs/docs/source/cad_resources/index.rst:9
+msgid ""
+"`Computer Aided Design (CAD) <https://en.wikipedia.org/wiki/Computer-"
+"aided_design>`__ and 3D animation software is used in *FIRST* Tech Challenge"
+" by teams to design and visualize complex systems prior to manufacturing. "
+"There are many software options for CAD and there's no way to list them all."
+" Some software is provided free of charge, some software is provided for a "
+"fee, and some require subscriptions. However, many organizations provide "
+"free access to \"premium\" CAD software to *FIRST* teams."
+msgstr ""
+"`Diseño asistido por computadora "
+"(CAD)<https://en.wikipedia.org/wiki/Computer-aided_design> `__ y el software"
+" de animación 3D se utiliza en *FIRST* Tech Challenge por equipos para "
+"diseñar y visualizar sistemas complejos antes de la fabricación. Hay muchas "
+"opciones de software para CAD y no hay forma de enumerarlas todas. Parte del"
+" software se proporciona de forma gratuita, parte del software se "
+"proporciona mediante el pago de una tarifa y algunos requieren "
+"suscripciones. Sin embargo, muchas organizaciones brindan acceso gratuito al"
+" software CAD &quot;premium&quot; a los equipos *FIRST*."
+
+#: ../../ftcdocs/docs/source/cad_resources/index.rst:17
+msgid ""
+"When looking for a CAD package, consider what computers the software will "
+"run on. Some CAD packages are desktop solutions and require a fairly "
+"competent computer with ample resources to run. Some CAD suppliers also "
+"provide cloud-based tools, which move the processing load onto cloud servers"
+" - these solutions often merely require an internet-connected computer with "
+"a web browser."
+msgstr ""
+"Cuando busque un paquete CAD, considere en qué computadoras se ejecutará el "
+"software. Algunos paquetes CAD son soluciones de escritorio y requieren una "
+"computadora bastante competente con amplios recursos para ejecutarse. "
+"Algunos proveedores de CAD también ofrecen herramientas basadas en la nube, "
+"que trasladan la carga de procesamiento a servidores en la nube; estas "
+"soluciones a menudo simplemente requieren una computadora conectada a "
+"Internet con un navegador web."
+
+#: ../../ftcdocs/docs/source/cad_resources/index.rst:23
+msgid "Here are a few tools commonly used by teams:"
+msgstr "Aquí hay algunas herramientas comúnmente utilizadas por los equipos:"
+
+#: ../../ftcdocs/docs/source/cad_resources/index.rst:25
+msgid "Software for Beginners"
+msgstr "Software para principiantes"
+
+#: ../../ftcdocs/docs/source/cad_resources/index.rst:27
+msgid "`Autodesk TinkerCAD <https://www.tinkercad.com/>`__ (free) (desktop)"
+msgstr ""
+"`Autodesk TinkerCAD<https://www.tinkercad.com/> `__ (gratis) (escritorio)"
+
+#: ../../ftcdocs/docs/source/cad_resources/index.rst:28
+msgid "`FreeCAD <https://www.freecadweb.org/>`__ (free) (desktop)"
+msgstr "`FreeCAD<https://www.freecadweb.org/> `__ (gratis) (escritorio)"
+
+#: ../../ftcdocs/docs/source/cad_resources/index.rst:30
+msgid "Software for Intermediate Users"
+msgstr "Software para usuarios intermedios"
+
+#: ../../ftcdocs/docs/source/cad_resources/index.rst:32
+msgid ""
+":doc:`Autodesk Fusion 360 <autodesk/autodesk>` (Free to *FIRST* teams) "
+"(desktop)"
+msgstr ""
+":doc:`Autodesk Fusion 360<autodesk/autodesk> ` (Gratis para *FIRST* equipos)"
+" (escritorio)"
+
+#: ../../ftcdocs/docs/source/cad_resources/index.rst:33
+msgid ""
+":doc:`Dassault Systemes 3DEXPERIENCE <solidworks/solidworks>` (Free to "
+"*FIRST* teams) (cloud)"
+msgstr ""
+":doc:`Dassault Systemes 3DEXPERIENCE<solidworks/solidworks> ` (Gratis para "
+"*FIRST* equipos) (nube)"
+
+#: ../../ftcdocs/docs/source/cad_resources/index.rst:34
+msgid ":doc:`PTC OnShape <ptc/ptc>` (Free to *FIRST* teams) (Cloud)"
+msgstr ":doc:`PTC OnShape<ptc/ptc> ` (Gratis para *FIRST* equipos) (Cloud)"
+
+#: ../../ftcdocs/docs/source/cad_resources/index.rst:35
+msgid ""
+"`Trimble SketchUp <https://www.sketchup.com/>`__ (Free plans available) "
+"(desktop)"
+msgstr ""
+"`Trimble SketchUp<https://www.sketchup.com/> `__ (planes gratuitos "
+"disponibles) (escritorio)"
+
+#: ../../ftcdocs/docs/source/cad_resources/index.rst:37
+msgid "Software for Professional Users"
+msgstr "Software para usuarios profesionales"
+
+#: ../../ftcdocs/docs/source/cad_resources/index.rst:39
+msgid ""
+":doc:`Autodesk Inventor <autodesk/autodesk>` (Free to *FIRST* teams) "
+"(desktop)"
+msgstr ""
+":doc:`Autodesk Inventor<autodesk/autodesk> ` (Gratis para *FIRST* equipos) "
+"(escritorio)"
+
+#: ../../ftcdocs/docs/source/cad_resources/index.rst:40
+msgid ""
+":doc:`Dassault Systemes Solidworks <solidworks/solidworks>` (Free to *FIRST*"
+" teams) (desktop)"
+msgstr ""
+":doc:`Dassault Systemes Solidworks<solidworks/solidworks> ` (Gratis para "
+"*FIRST* equipos) (escritorio)"
+
+#: ../../ftcdocs/docs/source/cad_resources/index.rst:41
+msgid ":doc:`PTC Creo <ptc/ptc>` (Free to *FIRST* teams) (desktop)"
+msgstr ":doc:`PTC Creo<ptc/ptc> ` (Gratis para *FIRST* equipos) (escritorio)"
+
+#: ../../ftcdocs/docs/source/cad_resources/ptc/ptc.rst:2
+msgid "PTC CAD Resources"
+msgstr "Recursos CAD de PTC"
+
+#: ../../ftcdocs/docs/source/cad_resources/ptc/ptc.rst:4
+msgid ""
+"PTC is proud to join forces with *FIRST* to empower the engineers and "
+"innovators of tomorrow! Through PTC Education, teams can gain free software "
+"and services, including Onshape, Creo, Mathcad, Windchill, and Vuforia, "
+"easy-to-use training curriculum, and financial grants to select teams. PTC’s"
+" product development software will enable collaboration, increase "
+"efficiency, and enhance accuracy during the robot design process."
+msgstr ""
+"¡PTC se enorgullece de unir fuerzas con *FIRST* para empoderar a los "
+"ingenieros e innovadores del mañana! A través de PTC Education, los equipos "
+"pueden obtener software y servicios gratuitos, incluidos Onshape, Creo, "
+"Mathcad, Windchill y Vuforia, un programa de capacitación fácil de usar y "
+"subvenciones financieras para equipos seleccionados. El software de "
+"desarrollo de productos de PTC permitirá la colaboración, aumentará la "
+"eficiencia y mejorará la precisión durante el proceso de diseño de robots."
+
+#: ../../ftcdocs/docs/source/cad_resources/ptc/ptc.rst:12
+msgid "Obtaining PTC Software"
+msgstr "Obtención del software PTC"
+
+#: ../../ftcdocs/docs/source/cad_resources/ptc/ptc.rst:14
+msgid ""
+"PTC makes software available to all *FIRST* teams via their *FIRST* `PTC "
+"Student Download Page <https://www.ptc.com/en/education/student/first>`__."
+msgstr ""
+"PTC pone el software a disposición de todos los equipos *FIRST* a través de "
+"su página de descarga para estudiantes de *FIRST* "
+"`PTC<https://www.ptc.com/en/education/student/first> `__."
+
+#: ../../ftcdocs/docs/source/cad_resources/ptc/ptc.rst:17
+msgid ""
+"PTC's cloud-based CAD tool, `OnShape <https://www.onshape.com/en/>`__, "
+"merely requires a `FREE Education account "
+"<https://www.onshape.com/en/education/>`__ available to all *FIRST* teams "
+"(each student/mentor on the team needs their own account, mentors/coaches "
+"should sign up as an \"Educator\"). Once you're signed up for a free "
+"account, ALL of `PTC's OnShape training materials "
+"<https://learn.onshape.com/>`__ are now available through the OnShape login."
+" PTC also `provides access to their desktop-based CAD tool, Creo "
+"<https://www.ptc.com/en/products/education/free-software/standalone-"
+"educator>`__, free to *FIRST* teams."
+msgstr ""
+"La herramienta de CAD basada en la nube de PTC, "
+"`OnShape<https://www.onshape.com/en/> `__, simplemente requiere una cuenta "
+"de educación GRATUITA<https://www.onshape.com/en/education/> `__ disponible "
+"para todos los equipos *FIRST* (cada estudiante/mentor del equipo necesita "
+"su propia cuenta, los mentores/entrenadores deben registrarse como "
+"&quot;Educadores&quot;). Una vez que se registre para obtener una cuenta "
+"gratuita, TODOS los materiales de capacitación de OnShape de "
+"`PTC<https://learn.onshape.com/> `__ ahora están disponibles a través del "
+"inicio de sesión de OnShape. PTC también `proporciona acceso a su "
+"herramienta CAD basada en escritorio, "
+"Creo<https://www.ptc.com/en/products/education/free-software/standalone-"
+"educator> `__, gratis para *FIRST* equipos."
+
+#: ../../ftcdocs/docs/source/cad_resources/ptc/ptc.rst:28
+msgid "PTC Onshape Training Videos"
+msgstr "Vídeos de formación de PTC Onshape"
+
+#: ../../ftcdocs/docs/source/cad_resources/ptc/ptc.rst:30
+msgid "*FIRST* Tech Challenge specific Training Videos"
+msgstr "*FIRST* Vídeos de formación específicos del desafío tecnológico"
+
+#: ../../ftcdocs/docs/source/cad_resources/ptc/ptc.rst:32
+msgid ""
+"`Using the FIRST Tech Challenge Library with Onshape "
+"<https://ftconshape.com/introduction-to-the-ftc-parts-library/>`__"
+msgstr ""
+"`Uso de la biblioteca FIRST Tech Challenge con "
+"Onshape<https://ftconshape.com/introduction-to-the-ftc-parts-library/> `__"
+
+#: ../../ftcdocs/docs/source/cad_resources/ptc/ptc.rst:34
+msgid ""
+"Select PTC Learning Pathway Training Series (available on OnShape login)"
+msgstr ""
+"Seleccione la serie de formación de vías de aprendizaje de PTC (disponible "
+"en el inicio de sesión de OnShape)"
+
+#: ../../ftcdocs/docs/source/cad_resources/ptc/ptc.rst:36
+msgid ""
+"`CAD Basics Learning Path Training "
+"<https://learn.onshape.com/learn/learning-path/introduction-to-cad>`__"
+msgstr ""
+"`Capacitación de ruta de aprendizaje de conceptos básicos de "
+"CAD<https://learn.onshape.com/learn/learning-path/introduction-to-cad> `__"
+
+#: ../../ftcdocs/docs/source/cad_resources/ptc/ptc.rst:37
+msgid ""
+"`OnShape Fundamentals Training <https://learn.onshape.com/learn/learning-"
+"path/onshape-fundamentals-cad>`__"
+msgstr ""
+"`Entrenamiento de fundamentos de "
+"OnShape<https://learn.onshape.com/learn/learning-path/onshape-fundamentals-"
+"cad> `__"
+
+#: ../../ftcdocs/docs/source/cad_resources/solidworks/solidworks.rst:2
+msgid "SOLIDWORKS® CAD Resources"
+msgstr "Recursos CAD de SOLIDWORKS®"
+
+#: ../../ftcdocs/docs/source/cad_resources/solidworks/solidworks.rst:4
+msgid ""
+"For over 15 years, Dassault Systèmes has been a software supplier to "
+"*FIRST®* teams with SOLIDWORKS®. We are also introducing the 3DEXPERIENCE® "
+"platform, a technology platform that provides Product Lifecycle Management "
+"(PLM), collaboration, community, and Cloud CAD Apps to all *FIRST* teams. "
+"Enhance collaborative robot design with your team."
+msgstr ""
+"Durante más de 15 años, Dassault Systèmes ha sido proveedor de software para"
+" equipos *FIRST®* con SOLIDWORKS®. También presentamos la plataforma "
+"3DEXPERIENCE®, una plataforma tecnológica que proporciona gestión del ciclo "
+"de vida del producto (PLM), colaboración, comunidad y aplicaciones CAD en la"
+" nube para todos los equipos *FIRST*. Mejore el diseño colaborativo de "
+"robots con su equipo."
+
+#: ../../ftcdocs/docs/source/cad_resources/solidworks/solidworks.rst:11
+msgid "Obtaining SOLIDWORKS® Software"
+msgstr "Obtención del software SOLIDWORKS®"
+
+#: ../../ftcdocs/docs/source/cad_resources/solidworks/solidworks.rst:13
+msgid ""
+"Dassault Systèmes makes select software available to all *FIRST* teams."
+msgstr ""
+"Dassault Systèmes pone software seleccionado a disposición de todos los "
+"equipos *FIRST*."
+
+#: ../../ftcdocs/docs/source/cad_resources/solidworks/solidworks.rst:15
+msgid ""
+"As of the 2022-2023 season, Dassault Systèmes is changing their software "
+"application process. **More Details to be announced by Kickoff**. All teams "
+"who would like to request software should create a 3DEXPERIENCE ID "
+"regardless of whether you're requesting desktop or cloud-based software."
+msgstr ""
+"A partir de la temporada 2022-2023, Dassault Systèmes cambiará su proceso de"
+" aplicación de software. **Más detalles serán anunciados por Kickoff**. "
+"Todos los equipos que deseen solicitar software deben crear una ID de "
+"3DEXPERIENCE, independientemente de si está solicitando software de "
+"escritorio o basado en la nube."
+
+#: ../../ftcdocs/docs/source/cad_resources/solidworks/solidworks.rst:17
+msgid ""
+"Dassault Systèmes provides both cloud-based and desktop-based tools to "
+"*FIRST* teams. Teams must:"
+msgstr ""
+"Dassault Systèmes proporciona herramientas basadas en la nube y de "
+"escritorio a los equipos *FIRST*. Los equipos deben:"
+
+#: ../../ftcdocs/docs/source/cad_resources/solidworks/solidworks.rst:20
+msgid ""
+"`Create a 3DEXPERIENCE ID <https://eu1-ds-iam.3dexperience.3ds.com/login>`__"
+" if you don't have one."
+msgstr ""
+"`Crear una ID de 3DEXPERIENCE<https://eu1-ds-iam.3dexperience.3ds.com/login>"
+" `__ si no tienes uno."
+
+#: ../../ftcdocs/docs/source/cad_resources/solidworks/solidworks.rst:22
+msgid "Apply to request your license (**more details coming soon**)."
+msgstr "Aplicar para solicitar su licencia (**más detalles próximamente**)."
+
+#: ../../ftcdocs/docs/source/cad_resources/solidworks/solidworks.rst:25
+msgid "SOLIDWORKS® Training Videos"
+msgstr "Vídeos de formación de SOLIDWORKS®"
+
+#: ../../ftcdocs/docs/source/cad_resources/solidworks/solidworks.rst:27
+msgid ""
+"Learning content for both the cloud-based and desktop-based tools is managed"
+" through the `3DS online learning portal "
+"<https://edu.3ds.com/en/learn/eduspace>`__, which manages access through "
+"your 3DEXPERIENCE ID."
+msgstr ""
+"El contenido de aprendizaje para las herramientas basadas en la nube y de "
+"escritorio se administra a través del portal de aprendizaje en línea "
+"`3DS<https://edu.3ds.com/en/learn/eduspace> `__, que gestiona el acceso a "
+"través de su 3DEXPERIENCE ID."

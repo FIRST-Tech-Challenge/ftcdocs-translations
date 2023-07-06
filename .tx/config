@@ -1,111 +1,112 @@
 [main]
-host = https://www.transifex.com
+host     = https://www.transifex.com
+lang_map = es_MX: es
 
-[o:first-inspires:p:ftc-docs:r:cad_resources]
+[o:first-inspires:p:ftcdocs:r:cad_resources]
 file_filter  = locale/<lang>/LC_MESSAGES/cad_resources.po
-source_file  = ftcdocs/docs/build/gettext/cad_resources.pot
+source_file  = locale/pot/cad_resources.pot
 type         = PO
 minimum_perc = 0
 
-[o:first-inspires:p:ftc-docs:r:control_hard_compon]
+[o:first-inspires:p:ftcdocs:r:control_hard_compon]
 file_filter  = locale/<lang>/LC_MESSAGES/control_hard_compon.po
-source_file  = ftcdocs/docs/build/gettext/control_hard_compon.pot
+source_file  = locale/pot/control_hard_compon.pot
 type         = PO
 minimum_perc = 0
 
-[o:first-inspires:p:ftc-docs:r:faq]
+[o:first-inspires:p:ftcdocs:r:faq]
 file_filter  = locale/<lang>/LC_MESSAGES/faq.po
-source_file  = ftcdocs/docs/build/gettext/faq.pot
+source_file  = locale/pot/faq.pot
 type         = PO
 minimum_perc = 0
 
-[o:first-inspires:p:ftc-docs:r:ftc_docs]
+[o:first-inspires:p:ftcdocs:r:ftc_docs]
 file_filter  = locale/<lang>/LC_MESSAGES/ftc_docs.po
-source_file  = ftcdocs/docs/build/gettext/ftc_docs.pot
+source_file  = locale/pot/ftc_docs.pot
 type         = PO
 minimum_perc = 0
 
-[o:first-inspires:p:ftc-docs:r:ftc_ml]
+[o:first-inspires:p:ftcdocs:r:ftc_ml]
 file_filter  = locale/<lang>/LC_MESSAGES/ftc_ml.po
-source_file  = ftcdocs/docs/build/gettext/ftc_ml.pot
+source_file  = locale/pot/ftc_ml.pot
 type         = PO
 minimum_perc = 0
 
-[o:first-inspires:p:ftc-docs:r:ftc_sdk]
+[o:first-inspires:p:ftcdocs:r:ftc_sdk]
 file_filter  = locale/<lang>/LC_MESSAGES/ftc_sdk.po
-source_file  = ftcdocs/docs/build/gettext/ftc_sdk.pot
+source_file  = locale/pot/ftc_sdk.pot
 type         = PO
 minimum_perc = 0
 
-[o:first-inspires:p:ftc-docs:r:game_specific_resources]
+[o:first-inspires:p:ftcdocs:r:game_specific_resources]
 file_filter  = locale/<lang>/LC_MESSAGES/game_specific_resources.po
-source_file  = ftcdocs/docs/build/gettext/game_specific_resources.pot
+source_file  = locale/pot/game_specific_resources.pot
 type         = PO
 minimum_perc = 0
 
-[o:first-inspires:p:ftc-docs:r:gracious_professionalism]
+[o:first-inspires:p:ftcdocs:r:gracious_professionalism]
 file_filter  = locale/<lang>/LC_MESSAGES/gracious_professionalism.po
-source_file  = ftcdocs/docs/build/gettext/gracious_professionalism.pot
+source_file  = locale/pot/gracious_professionalism.pot
 type         = PO
 minimum_perc = 0
 
-[o:first-inspires:p:ftc-docs:r:hardware_and_software_configuration]
+[o:first-inspires:p:ftcdocs:r:hardware_and_software_configuration]
 file_filter  = locale/<lang>/LC_MESSAGES/hardware_and_software_configuration.po
-source_file  = ftcdocs/docs/build/gettext/hardware_and_software_configuration.pot
+source_file  = locale/pot/hardware_and_software_configuration.pot
 type         = PO
 minimum_perc = 0
 
-[o:first-inspires:p:ftc-docs:r:index]
+[o:first-inspires:p:ftcdocs:r:index]
 file_filter  = locale/<lang>/LC_MESSAGES/index.po
-source_file  = ftcdocs/docs/build/gettext/index.pot
+source_file  = locale/pot/index.pot
 type         = PO
 minimum_perc = 0
 
-[o:first-inspires:p:ftc-docs:r:manuals]
+[o:first-inspires:p:ftcdocs:r:manuals]
 file_filter  = locale/<lang>/LC_MESSAGES/manuals.po
-source_file  = ftcdocs/docs/build/gettext/manuals.pot
+source_file  = locale/pot/manuals.pot
 type         = PO
 minimum_perc = 0
 
-[o:first-inspires:p:ftc-docs:r:overview]
+[o:first-inspires:p:ftcdocs:r:overview]
 file_filter  = locale/<lang>/LC_MESSAGES/overview.po
-source_file  = ftcdocs/docs/build/gettext/overview.pot
+source_file  = locale/pot/overview.pot
 type         = PO
 minimum_perc = 0
 
-[o:first-inspires:p:ftc-docs:r:persona_pages]
+[o:first-inspires:p:ftcdocs:r:persona_pages]
 file_filter  = locale/<lang>/LC_MESSAGES/persona_pages.po
-source_file  = ftcdocs/docs/build/gettext/persona_pages.pot
+source_file  = locale/pot/persona_pages.pot
 type         = PO
 minimum_perc = 0
 
-[o:first-inspires:p:ftc-docs:r:programming_resources]
+[o:first-inspires:p:ftcdocs:r:programming_resources]
 file_filter  = locale/<lang>/LC_MESSAGES/programming_resources.po
-source_file  = ftcdocs/docs/build/gettext/programming_resources.pot
+source_file  = locale/pot/programming_resources.pot
 type         = PO
 minimum_perc = 0
 
-[o:first-inspires:p:ftc-docs:r:sphinx]
+[o:first-inspires:p:ftcdocs:r:sphinx]
 file_filter  = locale/<lang>/LC_MESSAGES/sphinx.po
-source_file  = ftcdocs/docs/build/gettext/sphinx.pot
+source_file  = locale/pot/sphinx.pot
 type         = PO
 minimum_perc = 0
 
-[o:first-inspires:p:ftc-docs:r:sponsors]
+[o:first-inspires:p:ftcdocs:r:sponsors]
 file_filter  = locale/<lang>/LC_MESSAGES/sponsors.po
-source_file  = ftcdocs/docs/build/gettext/sponsors.pot
+source_file  = locale/pot/sponsors.pot
 type         = PO
 minimum_perc = 0
 
-[o:first-inspires:p:ftc-docs:r:todo]
+[o:first-inspires:p:ftcdocs:r:todo]
 file_filter  = locale/<lang>/LC_MESSAGES/todo.po
-source_file  = ftcdocs/docs/build/gettext/todo.pot
+source_file  = locale/pot/todo.pot
 type         = PO
 minimum_perc = 0
 
-[o:first-inspires:p:ftc-docs:r:tos]
+[o:first-inspires:p:ftcdocs:r:tos]
 file_filter  = locale/<lang>/LC_MESSAGES/tos.po
-source_file  = ftcdocs/docs/build/gettext/tos.pot
+source_file  = locale/pot/tos.pot
 type         = PO
 minimum_perc = 0
 

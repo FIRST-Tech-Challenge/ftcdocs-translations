@@ -3,16 +3,1771 @@
 # This file is distributed under the same license as the FIRST Tech Challenge Docs package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Uday Vidyadharan, 2023
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: FIRST Tech Challenge Docs 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-06 06:33+0000\n"
+"POT-Creation-Date: 2023-07-06 21:04+0000\n"
 "PO-Revision-Date: 2023-07-06 01:50+0000\n"
+"Last-Translator: Uday Vidyadharan, 2023\n"
 "Language-Team: Spanish (https://app.transifex.com/first-inspires/teams/171738/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/ds_components/components/components.rst:2
+msgid "Driver Station Components"
+msgstr "Componentes de la estación del conductor"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/ds_components/components/components.rst:5
+msgid "Android Device"
+msgstr "Dispositivo Android"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/ds_components/components/components.rst:14
+msgid "REV Driver Hub"
+msgstr "Centro de controlador REV"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/ds_components/components/components.rst:0
+msgid "REV-31-1596"
+msgstr "REV-31-1596"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/ds_components/components/components.rst:25
+msgid "REV Driver Hub (REV-31-1596)"
+msgstr "Centro del controlador REV (REV-31-1596)"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/ds_components/components/components.rst:31
+msgid "Android Smartphone"
+msgstr "Teléfono inteligente Android"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/ds_components/components/components.rst:0
+msgid "MotoE5"
+msgstr "MotoE5"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/ds_components/components/components.rst:42
+msgid "Moto E5"
+msgstr "motorola e5"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/ds_components/components/components.rst:44
+msgid ""
+"The heart of the Driver Station is the Android Device that runs the Driver "
+"Station App. This Android Device requirement can be fulfilled either through"
+" the use of a `REV Driver Hub <https://www.revrobotics.com/rev-31-1596/>`_ "
+"or one of the approved Android Smartphones listed in :doc:`Game Manual 1 "
+"<../../../manuals/game_manuals/game_manuals>`. It is of vital importance "
+"that the Driver Station App be updated to a version that meets or exceeds "
+"the minimum Driver Station App version as defined in :doc:`Game Manual 1 "
+"<../../../manuals/game_manuals/game_manuals>`."
+msgstr ""
+"El corazón de Driver Station es el dispositivo Android que ejecuta la "
+"aplicación Driver Station. Este requisito de dispositivo Android se puede "
+"cumplir mediante el uso de un `REV Driver "
+"Hub<https://www.revrobotics.com/rev-31-1596/> `_ o uno de los teléfonos "
+"inteligentes Android aprobados que se enumeran en :doc:` Manual del juego 1 "
+"&lt;../../../manuals/game_manuals/game_manuals&gt;`. Es de vital importancia"
+" que la aplicación Driver Station se actualice a una versión que cumpla o "
+"exceda la versión mínima de la aplicación Driver Station como se define en "
+":doc:`Manual del juego 1 &lt;../../../manuals/game_manuals/game_manuals "
+"&gt;`."
+
+#: ../../ftcdocs/docs/source/control_hard_compon/ds_components/components/components.rst:55
+msgid "USB-OTG Adapter / Hubs"
+msgstr "Adaptadores / concentradores USB-OTG"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/ds_components/components/components.rst:64
+#: ../../ftcdocs/docs/source/control_hard_compon/ds_components/components/components.rst:0
+msgid "USB OTG Cable"
+msgstr "Cable USB OTG"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/ds_components/components/components.rst:75
+msgid "USB OTG Adapter Cable"
+msgstr "Cable adaptador USB OTG"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/ds_components/components/components.rst:81
+msgid "USB Hub"
+msgstr "Concentrador USB"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/ds_components/components/components.rst:0
+msgid "USBHub"
+msgstr "Concentrador USB"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/ds_components/components/components.rst:92
+msgid "Anker USB Hub"
+msgstr "Concentrador USB Anker"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/ds_components/components/components.rst:98
+msgid "USB OTG Hub"
+msgstr "Concentrador USB OTG"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/ds_components/components/components.rst:0
+msgid "REV-31-1592"
+msgstr "REV-31-1592"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/ds_components/components/components.rst:109
+msgid "REV UltraUSB (REV-31-1592)"
+msgstr "REV UltraUSB (REV-31-1592)"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/ds_components/components/components.rst:111
+msgid ""
+"If the Android Device being used is an Android Smartphone, the smartphone "
+"only provides a single USB-Micro-B port on the bottom of the phone. In order"
+" to use USB devices with the Android Smartphone, like a gamepad, a USB-OTG "
+"Adapter Cable must be used. This cable provides a USB Type A port for the "
+"Gamepad or peripherals (like a USB Hub, to allow more than one Gamepad to be"
+" used). If available, it is instead recommended to use a USB Hub with OTG "
+"cable built in, like the `REV UltraUSB (REV-31-1592) "
+"<https://www.revrobotics.com/rev-31-1592/>`_ - this reduces the number of "
+"connections and failure points in the system."
+msgstr ""
+"Si el dispositivo Android que se utiliza es un teléfono inteligente Android,"
+" el teléfono inteligente solo proporciona un único puerto USB-Micro-B en la "
+"parte inferior del teléfono. Para usar dispositivos USB con el teléfono "
+"inteligente Android, como un gamepad, se debe usar un cable adaptador USB-"
+"OTG. Este cable proporciona un puerto USB tipo A para Gamepad o periféricos "
+"(como un concentrador USB, para permitir el uso de más de un Gamepad). Si "
+"está disponible, se recomienda utilizar un concentrador USB con cable OTG "
+"incorporado, como el `REV UltraUSB "
+"(REV-31-1592)<https://www.revrobotics.com/rev-31-1592/> `_ - esto reduce el "
+"número de conexiones y puntos de falla en el sistema."
+
+#: ../../ftcdocs/docs/source/control_hard_compon/ds_components/components/components.rst:120
+msgid ""
+"When using a REV Driver Hub, no OTG adapters are necessary - gamepads may "
+"connect directly to one of the three USB-A ports on the device."
+msgstr ""
+"Cuando se usa un concentrador de controladores REV, no se necesitan "
+"adaptadores OTG: los gamepads pueden conectarse directamente a uno de los "
+"tres puertos USB-A del dispositivo."
+
+#: ../../ftcdocs/docs/source/control_hard_compon/ds_components/components/components.rst:124
+msgid "Comercial USB Battery Pack"
+msgstr "Paquete de batería USB comercial"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/ds_components/components/components.rst:133
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/power_distr/power-distr.rst:206
+msgid "USB Battery Pack"
+msgstr "Paquete de batería USB"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/ds_components/components/components.rst:0
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/power_distr/power-distr.rst:0
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/power_distr/power-distr.rst:0
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/power_distr/power-distr.rst:0
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/power_distr/power-distr.rst:0
+msgid "REV-31-1387"
+msgstr "REV-31-1387"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/ds_components/components/components.rst:144
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/power_distr/power-distr.rst:217
+msgid "Anker Battery Pack"
+msgstr "Paquete de batería Anker"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/ds_components/components/components.rst:146
+msgid ""
+"A commercial USB battery pack is an auxiliary power source that can be used "
+"in specific situations in accordance with the :ref:`Game "
+"Manuals<manuals/game_manuals/game_manuals:game manuals>`. A USB battery pack"
+" is permitted to be used to charge your Android Device. Only the REV Driver "
+"Hub can be charged while in use, through its USB-C port."
+msgstr ""
+"Un paquete de baterías USB comercial es una fuente de alimentación auxiliar "
+"que se puede utilizar en situaciones específicas de acuerdo con los "
+":ref:`Manuales del juego.<manuals/game_manuals/game_manuals:game manuals> `."
+" Se permite el uso de un paquete de batería USB para cargar su dispositivo "
+"Android. Solo el REV Driver Hub se puede cargar mientras está en uso, a "
+"través de su puerto USB-C."
+
+#: ../../ftcdocs/docs/source/control_hard_compon/ds_components/components/components.rst:153
+msgid "Gamepads"
+msgstr "mandos"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/ds_components/components/components.rst:162
+msgid "Logitech F310"
+msgstr "Logitech F310"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/ds_components/components/components.rst:0
+msgid "LogitechF310"
+msgstr "LogitechF310"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/ds_components/components/components.rst:173
+msgid "Logitech F310 Gamepad"
+msgstr "Mando para juegos Logitech F310"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/ds_components/components/components.rst:179
+#: ../../ftcdocs/docs/source/control_hard_compon/ds_components/components/components.rst:0
+msgid "Xbox 360"
+msgstr "Xbox 360"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/ds_components/components/components.rst:190
+msgid "Xbox 360 Gamepad"
+msgstr "Mando Xbox 360"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/ds_components/components/components.rst:196
+msgid "Sony Dualshock 4"
+msgstr "sony dualshock 4"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/ds_components/components/components.rst:0
+msgid "DualShock4"
+msgstr "DualShock4"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/ds_components/components/components.rst:207
+msgid "Sony DualShock 4 Gamepad"
+msgstr "Mando para juegos Sony DualShock 4"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/ds_components/components/components.rst:213
+msgid "Etpark PS4 Wired"
+msgstr "Etpark PS4 con cable"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/ds_components/components/components.rst:0
+msgid "Etpark PS4"
+msgstr "Parque PS4"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/ds_components/components/components.rst:224
+msgid "Etpark PS4 Wired Gamepad"
+msgstr "Mando con cable Etpark PS4"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/ds_components/components/components.rst:230
+msgid "Quadstick"
+msgstr "cuádruple"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/ds_components/components/components.rst:0
+msgid "quadstick"
+msgstr "quadstick"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/ds_components/components/components.rst:241
+msgid "Quadstick FPS"
+msgstr "FPS de cuatro palos"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/ds_components/components/components.rst:243
+msgid ""
+":ref:`Game Manual 1 <manuals/game_manuals/game_manuals:game manuals>` "
+"defines the gamepads that are allowed in competition play. Up to two "
+"gamepads, in any combination, of the allowed types of gamepads may be used. "
+"All gamepads MUST be used in wired mode only, no wireless of any kind is "
+"allowed. Special features of some gamepads (Rumble, Lighting) may be "
+"programmed and used by teams for notifications and signaling to the drivers "
+"of the robot."
+msgstr ""
+":ref:`Manual del juego 1<manuals/game_manuals/game_manuals:game manuals> ` "
+"define los gamepads que están permitidos en el juego de competición. Se "
+"pueden usar hasta dos gamepads, en cualquier combinación, de los tipos de "
+"gamepads permitidos. Todos los gamepads DEBEN usarse solo en modo cableado, "
+"no se permite ningún tipo de conexión inalámbrica. Los equipos pueden "
+"programar y usar funciones especiales de algunos gamepads (Rumble, Lighting)"
+" para notificaciones y señales a los conductores del robot."
+
+#: ../../ftcdocs/docs/source/control_hard_compon/ds_components/index.rst:1
+#: ../../ftcdocs/docs/source/control_hard_compon/ds_components/index.rst:7
+msgid "Driver Station Overview"
+msgstr "Descripción general de la estación del conductor"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/ds_components/index.rst:1
+msgid "An overview of the various components of the FTC Driver Station"
+msgstr ""
+"Una descripción general de los diversos componentes de la FTC Driver Station"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/ds_components/index.rst:1
+msgid "FTC Docs, FIRST Tech Challenge, DS"
+msgstr "FTC Docs, FIRST Tech Challenge, DS"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/ds_components/index.rst:9
+msgid ""
+"These images represent a basic connection diagram for the components that "
+"have typically been used to create a Driver Station. These components have "
+"typically been purchased from the *FIRST* Storefront (in the \"Control and "
+"Communication\" kit). These configurations show sample connections, and in "
+"no way represent the only possible way of connecting these components. These"
+" images also do not represent using a `Driver Station Carrier "
+"<https://www.thingiverse.com/thing:3386378>`_, which is recommended for "
+"teams to use for component management and transportation. See rule ``DS07`` "
+"in :doc:`Game Manual 1 <../../manuals/game_manuals/game_manuals>` for more "
+"information on Driver Station Carriers."
+msgstr ""
+"Estas imágenes representan un diagrama de conexión básico para los "
+"componentes que normalmente se han utilizado para crear una Driver Station. "
+"Estos componentes normalmente se han comprado en la tienda *FIRST* (en el "
+"kit &quot;Control y comunicación&quot;). Estas configuraciones muestran "
+"conexiones de muestra y de ninguna manera representan la única forma posible"
+" de conectar estos componentes. Estas imágenes tampoco representan el uso de"
+" un portador de estación de "
+"conductor.<https://www.thingiverse.com/thing:3386378> `_, que se recomienda "
+"que los equipos utilicen para la gestión y el transporte de componentes. "
+"Consulte la regla ``DS07`` en :doc:`Manual de juego 1 "
+"&lt;../../manuals/game_manuals/game_manuals&gt;` para obtener más "
+"información sobre los soportes de la estación del conductor."
+
+#: ../../ftcdocs/docs/source/control_hard_compon/ds_components/index.rst:0
+msgid "Driver Station"
+msgstr "Estación del conductor"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/ds_components/index.rst:25
+msgid ":download:`Driver Station C1 - Basic Config<images/C1.pdf>`"
+msgstr ":download:`Driver Station C1 - Configuración básica<images/C1.pdf> `"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/ds_components/index.rst:0
+msgid "Driver Station Image"
+msgstr "Imagen de la estación del conductor"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/ds_components/index.rst:31
+#: ../../ftcdocs/docs/source/control_hard_compon/ds_components/index.rst:41
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/index.rst:34
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/index.rst:44
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/index.rst:54
+msgid "Diagram courtesy of FRC Team 3161 and Stefen Acepcion"
+msgstr "Diagrama cortesía de FRC Team 3161 y Stefen Acepcion"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/ds_components/index.rst:0
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/index.rst:0
+msgid "License"
+msgstr "Licencia"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/ds_components/index.rst:35
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/index.rst:48
+msgid ":download:`License and Attribution<../license/sa_license.pdf>`"
+msgstr ":download:`Licencia y Atribución&lt;../license/sa_license.pdf&gt;`"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/ds_components/index.rst:0
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/index.rst:0
+msgid "License Info"
+msgstr "Información de licencia"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/index.rst:1
+#: ../../ftcdocs/docs/source/control_hard_compon/index.rst:7
+msgid "Hardware Component Overview"
+msgstr "Descripción general de los componentes de hardware"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/index.rst:1
+msgid ""
+"A detailed overview of the hardware components present in the FTC Control "
+"System"
+msgstr ""
+"Una descripción detallada de los componentes de hardware presentes en el "
+"sistema de control de la FTC"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/index.rst:1
+msgid ""
+"FTC Docs, FIRST Tech Challenge, FTC, Hardware Component, Control System, "
+"Overview"
+msgstr ""
+"FTC Docs, FIRST Tech Challenge, FTC, componente de hardware, sistema de "
+"control, descripción general"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/index.rst:9
+msgid ""
+"The *FIRST* Tech Challenge Control System is divided into two main "
+"components: the Driver Station (DS) and the Robot Controller (RC). This "
+"section will give you a brief introduction to the hardware components, their"
+" various configurations, and connections."
+msgstr ""
+"El sistema de control *FIRST* Tech Challenge se divide en dos componentes "
+"principales: la estación del conductor (DS) y el controlador de robot (RC). "
+"Esta sección le brindará una breve introducción a los componentes de "
+"hardware, sus diversas configuraciones y conexiones."
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/encoders/encoders.rst:2
+msgid "Encoders (Rotation Counters)"
+msgstr "Codificadores (contadores de rotación)"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/encoders/encoders.rst:11
+msgid "REV HD Hex Motor"
+msgstr "Motor hexagonal REV HD"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/encoders/encoders.rst:21
+msgid "Built-in Encoder in the REV HD Hex Motor"
+msgstr "Codificador integrado en el motor hexagonal REV HD"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/encoders/encoders.rst:27
+msgid "REV Through Bore Encoder"
+msgstr "REV a través del codificador de orificio"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/encoders/encoders.rst:37
+msgid "REV Through Bore Encoder, in incremental mode."
+msgstr "REV Through Bore Encoder, en modo incremental."
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/encoders/encoders.rst:39
+msgid ""
+"An encoder is a device that measures the rotational displacement around an "
+"axis.  Most legal *FIRST* Tech Challenge motors contain a built in "
+"quadrature encoder that is compatible with a REV Hub. It is also possible to"
+" use a standalone incremental encoder like a REV Through Bore Encoder (shown"
+" above). An incremental encoder works by sending out a \"tick\" per partial "
+"rotation of the shaft. More information on how many ticks are output per "
+"rotation can be found on the manufacturer's website. An absolute encoder is "
+"able to indicate the displacement of the shaft from its starting position "
+"and the the exact angle the shaft is currently at relative to a \"zero\" "
+"position."
+msgstr ""
+"Un codificador es un dispositivo que mide el desplazamiento de rotación "
+"alrededor de un eje. La mayoría de los motores *FIRST* Tech Challenge "
+"legales contienen un codificador de cuadratura incorporado que es compatible"
+" con un REV Hub. También es posible usar un codificador incremental "
+"independiente como un codificador REV Through Bore (que se muestra arriba). "
+"Un codificador incremental funciona enviando un &quot;tick&quot; por "
+"rotación parcial del eje. Puede encontrar más información sobre cuántos "
+"ticks se emiten por rotación en el sitio web del fabricante. Un codificador "
+"absoluto puede indicar el desplazamiento del eje desde su posición inicial y"
+" el ángulo exacto en el que se encuentra actualmente el eje en relación con "
+"una posición &quot;cero&quot;."
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/encoders/encoders.rst:51
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/motors/motors.rst:98
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/sensors/sensors.rst:278
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/servos/servos.rst:68
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/uvc/uvc.rst:51
+msgid "Additional Resources"
+msgstr "Recursos adicionales"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/encoders/encoders.rst:53
+msgid ""
+":ref:`Encoder Port Overview "
+"<control_hard_compon/rc_components/hub/ports/exh-ports:encoder ports>`"
+msgstr ""
+":ref:`Resumen del puerto del "
+"codificador<control_hard_compon/rc_components/hub/ports/exh-ports:encoder "
+"ports> `"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/hub.rst:2
+msgid "REV Hubs"
+msgstr "Bujes REV"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/hub.rst:4
+msgid ""
+"The REV Hubs are the core control units of a *FIRST* Tech Challenge robot."
+msgstr ""
+"Los REV Hubs son las unidades de control centrales de un robot *FIRST* Tech "
+"Challenge."
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/hub.rst:7
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/ch-ports.rst:8
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/index.rst:0
+msgid "Control Hub"
+msgstr "Centro de control"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/hub.rst:19
+msgid "REV-31-1595"
+msgstr "REV-31-1595"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/hub.rst:19
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/ch-ports.rst:8
+msgid "REV Control Hub (REV-31-1595)"
+msgstr "Centro de control REV (REV-31-1595)"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/hub.rst:21
+msgid ""
+"A REV Control Hub combines a REV Expansion Hub with an embedded Android "
+"daughterboard connected to it.  This means it is able to control all of the "
+"hardware components of your robot and also run your actual robot software.  "
+"This is in contrast to the REV Expansion Hub which was only able to control "
+"hardware devices but is not able to to interpret and run the SDK."
+msgstr ""
+"Un REV Control Hub combina un REV Expansion Hub con una placa secundaria "
+"integrada de Android conectada a él. Esto significa que puede controlar "
+"todos los componentes de hardware de su robot y también ejecutar su software"
+" de robot real. Esto contrasta con REV Expansion Hub, que solo podía "
+"controlar dispositivos de hardware pero no podía interpretar ni ejecutar el "
+"SDK."
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/hub.rst:28
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/exh-ports.rst:8
+msgid "Expansion Hub"
+msgstr "Centro de expansión"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/hub.rst:40
+msgid "REV-31-1153"
+msgstr "REV-31-1153"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/hub.rst:40
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/exh-ports.rst:8
+msgid "REV Expansion Hub (REV-31-1153)"
+msgstr "Centro de expansión REV (REV-31-1153)"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/hub.rst:42
+msgid ""
+"A REV Expansion Hub is a hub that is used to control all of the hardware "
+"components of your robot. It takes the commands your Android Device sends "
+"and actually makes it happen. If you want to move a motor, an Expansion Hub "
+"is what takes the instruction of moving the motor and actually sends power "
+"to the motor in the correct manner. It however does not know when to do this"
+" which is where the Android Device comes into play. This device can either "
+"be a traditional Android Phone connected via USB or just the embedded device"
+" in a Control Hub. When using more than one hub, these hubs can be connected"
+" via ``RS485`` or USB. More information can be found :ref:`here "
+"<hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-"
+"dual-hubs:using two expansion hubs>`."
+msgstr ""
+"Un concentrador de expansión REV es un concentrador que se utiliza para "
+"controlar todos los componentes de hardware de su robot. Toma los comandos "
+"que envía su dispositivo Android y realmente lo hace posible. Si desea mover"
+" un motor, un Expansion Hub es lo que toma la instrucción de mover el motor "
+"y en realidad envía energía al motor de la manera correcta. Sin embargo, no "
+"sabe cuándo hacer esto, que es donde entra en juego el dispositivo Android. "
+"Este dispositivo puede ser un teléfono Android tradicional conectado a "
+"través de USB o simplemente el dispositivo integrado en un concentrador de "
+"control. Cuando se utiliza más de un concentrador, estos concentradores se "
+"pueden conectar a través de ``RS485`` o USB. Puede encontrar más información"
+" :ref:`aquí "
+"<hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-"
+"dual-hubs:using two expansion hubs> `."
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/ch-ports.rst:2
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/ch-ports.rst:17
+msgid "Control Hub Ports"
+msgstr "Puertos del concentrador de control"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:2
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:2
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:2
+msgid "Battery Ports"
+msgstr "Puertos de batería"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:5
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:5
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:5
+msgid ""
+"**Never** connect a battery charger directly to the battery port. This will "
+"void your warranty and fry your hub."
+msgstr ""
+"**Nunca** conecte un cargador de batería directamente al puerto de la "
+"batería. Esto anulará su garantía y freirá su hub."
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:8
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:8
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:8
+msgid ""
+"These `XT-30 <https://docs.revrobotics.com/duo-control/control-system-"
+"overview/cables-and-connectors/xt-30-power-cable>`_ connectors are used to "
+"power your REV Hub as well as all the devices connected to it. As the "
+"connector is known for its fragility it is highly recommended you be careful"
+" when using it. It is also recommended that you expand your connector prongs"
+" periodically. For more information on this process please watch this `video"
+" <https://www.youtube.com/watch?v=UYXTiSeVmB0>`_. While this video features "
+"an XT60, a larger version of the XT-30, and a drone the advice is much the "
+"same. This port may also be used to connect a grounding strap. For more "
+"information on legal grounding straps see ``<RE15>``, :ref:`Game Manual Part"
+" 1 <manuals/game_manuals/game_manuals:game manuals>`. For more information "
+"on this port please see `REV Documentation "
+"<https://docs.revrobotics.com/duo-control/control-system-overview/control-"
+"hub-basics#input-power-specifications>`_."
+msgstr ""
+"Estos `XT-30 <https://docs.revrobotics.com/duo-control/control-system-"
+"overview/cables-and-connectors/xt-30-power-cable> Los conectores `_ se "
+"utilizan para alimentar su REV Hub, así como todos los dispositivos "
+"conectados a él. Como el conector es conocido por su fragilidad, se "
+"recomienda encarecidamente que tenga cuidado al usarlo. También se "
+"recomienda que expanda las puntas de su conector periódicamente. Para "
+"obtener más información sobre este proceso, mire este "
+"`video<https://www.youtube.com/watch?v=UYXTiSeVmB0> `_. Si bien este video "
+"presenta un XT60, una versión más grande del XT-30 y un dron, el consejo es "
+"muy similar. Este puerto también se puede usar para conectar una correa de "
+"puesta a tierra. Para obtener más información sobre correas de puesta a "
+"tierra legales, consulte ``<RE15> ``, :ref:`Manual del juego Parte "
+"1<manuals/game_manuals/game_manuals:game manuals> `. Para obtener más "
+"información sobre este puerto, consulte `Documentación REV "
+"<https://docs.revrobotics.com/duo-control/control-system-overview/control-"
+"hub-basics#input-power-specifications> `_."
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:19
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:19
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:19
+msgid "Motor Ports"
+msgstr "Puertos de motor"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:21
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:21
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:21
+msgid ""
+"These `JST-VH <https://docs.revrobotics.com/duo-control/control-system-"
+"overview/cables-and-connectors/jst-vh-motor-power>`_ style connectors are "
+"used to power your motors. There are 4 of these ports per hub and they are "
+"numbered from 0-3. As you are able to use 8 motors per robot you may want to"
+" control more than these hubs allow. In that case it is possible for you to "
+"use an :ref:`additional "
+"hub<hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-"
+"dual-hubs:using two expansion hubs>` or to use a `REV SPARKmini Motor "
+"Controller <https://www.revrobotics.com/rev-31-1230/>`_ (REV-31-1230) to "
+"power more motors. For more information on this port please see `REV Motor "
+"Port Documentation <https://docs.revrobotics.com/duo-control/control-system-"
+"overview/control-hub-basics#motor-port-specifications>`_."
+msgstr ""
+"Estos `JST-VH <https://docs.revrobotics.com/duo-control/control-system-"
+"overview/cables-and-connectors/jst-vh-motor-power> Los conectores de estilo "
+"`_ se utilizan para alimentar sus motores. Hay 4 de estos puertos por "
+"concentrador y están numerados del 0 al 3. Como puede usar 8 motores por "
+"robot, es posible que desee controlar más de lo que permiten estos "
+"concentradores. En ese caso, es posible que utilice un concentrador "
+":ref:`adicional "
+"<hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-"
+"dual-hubs:using two expansion hubs> ` o para usar un controlador de motor "
+"`REV SPARKmini<https://www.revrobotics.com/rev-31-1230/> `_ (REV-31-1230) "
+"para impulsar más motores. Para obtener más información sobre este puerto, "
+"consulte `Documentación del puerto del motor REV "
+"<https://docs.revrobotics.com/duo-control/control-system-overview/control-"
+"hub-basics#motor-port-specifications> `_."
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:32
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:32
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:32
+msgid "Encoder Ports"
+msgstr "Puertos de codificador"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:34
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:34
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:34
+msgid ""
+"These 4-pin `JST-PH <https://docs.revrobotics.com/duo-control/control-"
+"system-overview/cables-and-connectors/jst-ph-sensors-and-rs485>`_ style "
+"connectors are used for your quadrature encoders. There are 4 of these ports"
+" on each hub and they can be used in tandem with the motor they are adjacent"
+" to. However, it is also possible to use this port to connect to a "
+"standalone incremental encoder. To connect to more than 4 encoders it is "
+"currently necessary to connect an additional hub. For more information on "
+"this port please see `REV Encoder Port Documentation "
+"<https://docs.revrobotics.com/duo-control/control-system-overview/control-"
+"hub-basics#encoder-port-specifications>`_."
+msgstr ""
+"Estos `JST-PH de 4 pines <https://docs.revrobotics.com/duo-control/control-"
+"system-overview/cables-and-connectors/jst-ph-sensors-and-rs485> Los "
+"conectores de estilo `_ se utilizan para sus codificadores de cuadratura. "
+"Hay 4 de estos puertos en cada concentrador y se pueden usar junto con el "
+"motor al que están adyacentes. Sin embargo, también es posible usar este "
+"puerto para conectarse a un codificador incremental independiente. Para "
+"conectarse a más de 4 codificadores, actualmente es necesario conectar un "
+"concentrador adicional. Para obtener más información sobre este puerto, "
+"consulte `Documentación del puerto del codificador REV "
+"<https://docs.revrobotics.com/duo-control/control-system-overview/control-"
+"hub-basics#encoder-port-specifications> `_."
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:44
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:44
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:44
+msgid "Servo Ports"
+msgstr "Puertos para servos"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:46
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:46
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:46
+msgid ""
+"These 0.1” Header pins are used to power and control your servos. There are "
+"6 ports on each hub and they are numbered from 0-5. Be mindful of matching "
+"the polarity of the device attached to this port as it is possible to flip "
+"the connector. For increasing the power supplied to these servos it is "
+"possible to use a Servo Power Module that is in compliance with ``<RE05>``, "
+":ref:`Game Manual Part 1 <manuals/game_manuals/game_manuals:game manuals>`. "
+"For more information on this port please see `REV Servo Port Documentation "
+"<https://docs.revrobotics.com/duo-control/control-system-overview/control-"
+"hub-basics#servo-port-specifications>`_."
+msgstr ""
+"Estos pines de encabezado de 0.1 ”se utilizan para alimentar y controlar sus"
+" servos. Hay 6 puertos en cada concentrador y están numerados del 0 al 5. "
+"Tenga cuidado de hacer coincidir la polaridad del dispositivo conectado a "
+"este puerto, ya que es posible voltear el conector. Para aumentar la "
+"potencia suministrada a estos servos, es posible utilizar un módulo de "
+"potencia de servo que cumpla con ``<RE05> ``, :ref:`Manual del juego Parte "
+"1<manuals/game_manuals/game_manuals:game manuals> `. Para obtener más "
+"información sobre este puerto, consulte `Documentación del puerto REV Servo "
+"<https://docs.revrobotics.com/duo-control/control-system-overview/control-"
+"hub-basics#servo-port-specifications> `_."
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:53
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:53
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:53
+msgid "+5V Power Ports"
+msgstr "Puertos de alimentación de +5 V"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:55
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:55
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:55
+msgid ""
+"These 0.1” Header pins are used to power and control various appliances. "
+"There are two ports on each hub. These connectors can be used for a limited "
+"range of applications in FIRST Tech Challenge, such as powering powered USB "
+"hubs. For more information on this port please see `REV +5V Power Port "
+"Documentation <https://docs.revrobotics.com/duo-control/control-system-"
+"overview/control-hub-basics#+5v-power-port-specifications>`_ and :ref:`Game "
+"Manual Part 1 <manuals/game_manuals/game_manuals:game manuals>`."
+msgstr ""
+"Estos pines de cabecera de 0,1” se utilizan para alimentar y controlar "
+"varios aparatos. Hay dos puertos en cada concentrador. Estos conectores se "
+"pueden utilizar para una gama limitada de aplicaciones en FIRST Tech "
+"Challenge, como la alimentación de concentradores USB con alimentación. Para"
+" obtener más información sobre este puerto, consulte la documentación del "
+"puerto de alimentación `REV +5V <https://docs.revrobotics.com/duo-"
+"control/control-system-overview/control-hub-basics#+5v-power-port-"
+"specifications> `_ y :ref:`Manual del juego Parte "
+"1<manuals/game_manuals/game_manuals:game manuals> `."
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:63
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:63
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:63
+msgid "Analog Ports"
+msgstr "Puertos Analógicos"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:65
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:65
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:65
+msgid ""
+"These 4-pin `JST-PH <https://docs.revrobotics.com/duo-control/control-"
+"system-overview/cables-and-connectors/jst-ph-sensors-and-rs485>`_ style "
+"connectors are used for your analog inputs. There are 2 of these ports on "
+"each hub. These ports have 4 channels labeled from 0-4. This port can be "
+"used to connect to a standalone analog sensor. A common example of an analog"
+" sensor is a `potentiometer <https://www.revrobotics.com/rev-31-1155/>`_. An"
+" analog sensor is one that outputs a range of values rather than digital "
+"which alternates between one of two states. For more information on this "
+"port please see `REV Analog Port Documentation "
+"<https://docs.revrobotics.com/duo-control/control-system-overview/control-"
+"hub-basics#analog-port-specifications>`_."
+msgstr ""
+"Estos `JST-PH de 4 pines <https://docs.revrobotics.com/duo-control/control-"
+"system-overview/cables-and-connectors/jst-ph-sensors-and-rs485> Los "
+"conectores de estilo `_ se utilizan para sus entradas analógicas. Hay 2 de "
+"estos puertos en cada concentrador. Estos puertos tienen 4 canales "
+"etiquetados del 0 al 4. Este puerto se puede utilizar para conectarse a un "
+"sensor analógico independiente. Un ejemplo común de un sensor analógico es "
+"un `potenciómetro<https://www.revrobotics.com/rev-31-1155/> `_. Un sensor "
+"analógico es uno que emite un rango de valores en lugar de digital que "
+"alterna entre uno de dos estados. Para obtener más información sobre este "
+"puerto, consulte `Documentación del puerto analógico REV "
+"<https://docs.revrobotics.com/duo-control/control-system-overview/control-"
+"hub-basics#analog-port-specifications> `_."
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:73
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:73
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:73
+msgid "Digital Ports"
+msgstr "Puertos digitales"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:75
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:75
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:75
+msgid ""
+"These 4-pin `JST-PH <https://docs.revrobotics.com/duo-control/control-"
+"system-overview/cables-and-connectors/jst-ph-sensors-and-rs485>`_ style "
+"connectors are used for your digital inputs. There are 4 of these ports on "
+"each hub with a total of 8 channels labeled from `0-7`. A device attached to"
+" a digital port alternates between one of two states (e.g., on and off). One"
+" such device would be a button. It is important to note that each port has "
+"two channels and devices such as the `REV Touch Sensor "
+"<https://www.revrobotics.com/rev-31-1425/>`_ will only operate on one "
+"channel (N+1)."
+msgstr ""
+"Estos `JST-PH de 4 pines <https://docs.revrobotics.com/duo-control/control-"
+"system-overview/cables-and-connectors/jst-ph-sensors-and-rs485> Los "
+"conectores de estilo `_ se utilizan para sus entradas digitales. Hay 4 de "
+"estos puertos en cada concentrador con un total de 8 canales etiquetados de "
+"`0-7`. Un dispositivo conectado a un puerto digital alterna entre uno de dos"
+" estados (por ejemplo, encendido y apagado). Uno de esos dispositivos sería "
+"un botón. Es importante tener en cuenta que cada puerto tiene dos canales y "
+"dispositivos como el `REV Touch "
+"Sensor<https://www.revrobotics.com/rev-31-1425/> `_ solo operará en un canal"
+" (N+1)."
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:82
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:82
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:82
+msgid "I2C Ports"
+msgstr "Puertos I2C"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:84
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:84
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:84
+msgid "Todo"
+msgstr "Hacer"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:85
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:85
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:85
+msgid ""
+"TODO [uvidyadharan] Add reference to I2C Driver creation tutorial once "
+"migrated"
+msgstr ""
+"TODO [uvidyadharan] Agregar referencia al tutorial de creación de "
+"controladores I2C una vez migrado"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:88
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:88
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:88
+msgid ""
+"These 4-pin `JST-PH <https://docs.revrobotics.com/duo-control/control-"
+"system-overview/cables-and-connectors/jst-ph-sensors-and-rs485>`_ style "
+"connectors are used for connecting I2C sensors. Each port is a single I2C "
+"bus where multiple sensors can be attached. Using sensors with identical "
+"addresses on the same bus can cause problems. The range of I2C sensors that "
+"can be connected is limited by :ref:`Game Manual Part 1 "
+"<manuals/game_manuals/game_manuals:game manuals>`. While it is possible to "
+"use a large range of sensors, the vast majority of I2C sensors do not have "
+"drivers built into the SDK. It is possible to use community drivers or "
+"create your own. For more information on this port please see `REV I2C Port "
+"Documentation <https://docs.revrobotics.com/duo-control/control-system-"
+"overview/control-hub-basics#i2c-port-specifications>`_."
+msgstr ""
+"Estos `JST-PH de 4 pines <https://docs.revrobotics.com/duo-control/control-"
+"system-overview/cables-and-connectors/jst-ph-sensors-and-rs485> Los "
+"conectores de estilo `_ se utilizan para conectar sensores I2C. Cada puerto "
+"es un solo bus I2C donde se pueden conectar múltiples sensores. El uso de "
+"sensores con direcciones idénticas en el mismo bus puede causar problemas. "
+"La gama de sensores I2C que se pueden conectar está limitada por "
+":ref:`Manual del juego Parte 1<manuals/game_manuals/game_manuals:game "
+"manuals> `. Si bien es posible utilizar una amplia gama de sensores, la gran"
+" mayoría de los sensores I2C no tienen controladores integrados en el SDK. "
+"Es posible utilizar drivers comunitarios o crear uno propio. Para obtener "
+"más información sobre este puerto, consulte `Documentación del puerto REV "
+"I2C <https://docs.revrobotics.com/duo-control/control-system-"
+"overview/control-hub-basics#i2c-port-specifications> `_."
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:98
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:98
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:98
+msgid "RS485"
+msgstr "RS485"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:100
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:100
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:100
+msgid ""
+"These 3-pin `JST-PH <https://docs.revrobotics.com/duo-control/control-"
+"system-overview/cables-and-connectors/jst-ph-sensors-and-rs485>`_ style "
+"connectors are used for serial communication between REV Hubs. You would use"
+" this port if you wished to use a second REV Hub as described :ref:`in this "
+"tutorial "
+"<hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-"
+"dual-hubs:using two expansion hubs>`. Both RS485 ports can be used to add "
+"redundancy by using two cables connecting both ports between the REV Hubs."
+msgstr ""
+"Estos `JST-PH de 3 pines <https://docs.revrobotics.com/duo-control/control-"
+"system-overview/cables-and-connectors/jst-ph-sensors-and-rs485> Los "
+"conectores de estilo `_ se utilizan para la comunicación en serie entre los "
+"concentradores REV. Usaría este puerto si deseara usar un segundo REV Hub "
+"como se describe :ref:`en este tutorial "
+"<hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-"
+"dual-hubs:using two expansion hubs> `. Ambos puertos RS485 se pueden usar "
+"para agregar redundancia usando dos cables que conectan ambos puertos entre "
+"los concentradores REV."
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:106
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:106
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:106
+msgid "UART"
+msgstr "UART"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:108
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:108
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/std-ports.rst:108
+msgid ""
+"This connector is used only for **Developer** (non end user) debugging. Its "
+"use is not supported by FIRST."
+msgstr ""
+"Este conector se usa solo para la depuración de **desarrolladores** (no "
+"usuarios finales). FIRST no admite su uso."
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/ch-ports.rst:17
+msgid "Control Hub Front Ports"
+msgstr "Puertos frontales del concentrador de control"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/ch-ports.rst:21
+msgid "USB-A Ports"
+msgstr "Puertos USB-A"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/ch-ports.rst:23
+msgid ""
+"A Control Hub has both a USB 2.0 and 3.0 Type-A female port. This is "
+"primarily used for connecting UVC Cameras in acccordance with ``<RE14>``."
+msgstr ""
+"Un concentrador de control tiene un puerto hembra USB 2.0 y 3.0 tipo A. Esto"
+" se usa principalmente para conectar cámaras UVC de acuerdo con ``<RE14> ``."
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/ch-ports.rst:27
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/exh-ports.rst:13
+msgid "USB-B Port"
+msgstr "Puerto USB-B"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/ch-ports.rst:29
+msgid ""
+"On a Control Hub, the USB-mini-B port is used only to communicate directly "
+"to the I/O system. In this case, it is only for the purpose of uploading "
+"firmware to the device."
+msgstr ""
+"En un concentrador de control, el puerto USB-mini-B se usa solo para "
+"comunicarse directamente con el sistema de E/S. En este caso, es solo con el"
+" fin de cargar el firmware en el dispositivo."
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/ch-ports.rst:34
+msgid "USB-C Ports"
+msgstr "Puertos USB-C"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/ch-ports.rst:36
+msgid ""
+"A Control Hub has a USB-C port. This is primarily used for connecting to a "
+"laptop for loading the SDK but can also be used with a UVC Camera in "
+"acccordance with ``<RE14>``."
+msgstr ""
+"Un concentrador de control tiene un puerto USB-C. Esto se usa principalmente"
+" para conectarse a una computadora portátil para cargar el SDK, pero también"
+" se puede usar con una cámara UVC de acuerdo con ``<RE14> ``."
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/ch-ports.rst:41
+msgid "HDMI"
+msgstr "HDMI"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/ch-ports.rst:43
+msgid ""
+"The Control Hub lacks a display of its own even though it is a fully-fledged"
+" Android device. The Control Hub has an HDMI port that provides video output"
+" for the device; this HDMI port can be used to connect to an external "
+"display."
+msgstr ""
+"El Control Hub carece de una pantalla propia a pesar de que es un "
+"dispositivo Android completo. El concentrador de control tiene un puerto "
+"HDMI que proporciona salida de video para el dispositivo; este puerto HDMI "
+"se puede utilizar para conectarse a una pantalla externa."
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/exh-ports.rst:2
+msgid "Expansion Hub Ports"
+msgstr "Puertos del concentrador de expansión"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/hub/ports/exh-ports.rst:15
+msgid ""
+"An Android RC phone controls an Expansion Hub through this USB-mini-B port, "
+"connected with USB OTG cable. This port also allows firmware updates."
+msgstr ""
+"Un teléfono Android RC controla un Expansion Hub a través de este puerto "
+"USB-mini-B, conectado con un cable USB OTG. Este puerto también permite "
+"actualizaciones de firmware."
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/index.rst:1
+msgid "FTC Robot Controller Overview, FTC Docs"
+msgstr "Descripción general del controlador de robot FTC, FTC Docs"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/index.rst:1
+msgid "A Visual Overview of the FTC Robot Controller"
+msgstr "Una descripción visual del controlador de robot FTC"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/index.rst:1
+msgid ""
+"FTC, FIRST Tech Challenge, RC, Robot Controller, Control Hub, Expansion Hub"
+msgstr ""
+"FTC, FIRST Tech Challenge, RC, controlador de robot, concentrador de "
+"control, concentrador de expansión"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/index.rst:8
+msgid "Robot Controller Overview"
+msgstr "Descripción general del controlador de robot"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/index.rst:10
+msgid ""
+"These images represent a basic connection diagram for the components that "
+"have typically been included in a standard Robot Starter Kit plus the "
+"components purchased from the *FIRST* Storefront (demonstrating components "
+"from the REV and Tetrix starter kits, along with the Electronics kit). These"
+" configurations show sample connections, and in no way represent the only "
+"possible way of connecting these components.  In both diagrams is an extra "
+"optional REV Expansion Hub that has NOT been included with standard starter "
+"kits nor electronics kits; it is included in these diagrams as a sample of "
+"how to connect an additional optional REV Expansion Hub if one is available "
+"and desired."
+msgstr ""
+"Estas imágenes representan un diagrama de conexión básico para los "
+"componentes que normalmente se han incluido en un kit de inicio de robot "
+"estándar más los componentes comprados en *FIRST* Storefront (que muestran "
+"los componentes de los kits de inicio de REV y Tetrix, junto con el kit de "
+"electrónica). Estas configuraciones muestran conexiones de muestra y de "
+"ninguna manera representan la única forma posible de conectar estos "
+"componentes. En ambos diagramas hay un concentrador de expansión REV "
+"opcional adicional que NO se ha incluido con los kits de inicio estándar ni "
+"con los kits electrónicos; se incluye en estos diagramas como una muestra de"
+" cómo conectar un concentrador de expansión REV opcional adicional si hay "
+"uno disponible y deseado."
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/index.rst:21
+msgid ""
+"Click on the headers below to switch between the different control system "
+"configuration diagrams."
+msgstr ""
+"Haga clic en los encabezados a continuación para cambiar entre los "
+"diferentes diagramas de configuración del sistema de control."
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/index.rst:28
+msgid ":download:`Control Hub B1 - Basic Config<images/B1.pdf>`"
+msgstr ":download:`Control Hub B1 - Configuración básica<images/B1.pdf> `"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/index.rst:0
+msgid "Control Hub RC Diagram"
+msgstr "Diagrama del centro de control RC"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/index.rst:0
+msgid "Android Phone / Hub"
+msgstr "Teléfono/hub Android"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/index.rst:38
+msgid ":download:`Android Phone A1 - Basic Config<images/A1.pdf>`"
+msgstr ""
+":download:`Teléfono Android A1 - Configuración básica<images/A1.pdf> `"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/index.rst:0
+msgid "Android Phone RC Diagram"
+msgstr "Diagrama RC del teléfono Android"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/motors/motors.rst:2
+msgid "Motors"
+msgstr "motores"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/motors/motors.rst:11
+msgid "TETRIX 12V DC Motor"
+msgstr "Motor TETRIX 12V CC"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/motors/motors.rst:0
+msgid "W44260"
+msgstr "W44260"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/motors/motors.rst:22
+msgid "TETRIX 12V TorqueNADO DC Motor"
+msgstr "Motor TETRIX 12V TorqueNADO CC"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/motors/motors.rst:28
+msgid "AndyMark 12V DC Motor"
+msgstr "Motor AndyMark de 12 V CC"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/motors/motors.rst:0
+msgid "am-3103AUS"
+msgstr "am-3103AUS"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/motors/motors.rst:39
+msgid "AndyMark NeveRest series 12V DC Motors"
+msgstr "Motores de 12 V CC de la serie AndyMark NeveRest"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/motors/motors.rst:45
+msgid "MATRIX 12V DC Motors"
+msgstr "Motores MATRIX 12V DC"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/motors/motors.rst:0
+msgid "5202-0002-0014"
+msgstr "5202-0002-0014"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/motors/motors.rst:56
+msgid "Modern Robotics/MATRIX 12V DC Motors"
+msgstr "Robótica moderna/Motores MATRIX de 12 V CC"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/motors/motors.rst:62
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/motors/motors.rst:79
+msgid "REV 12V DC Motor"
+msgstr "Motor REV 12V CC"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/motors/motors.rst:0
+msgid "REV-41-1301"
+msgstr "REV-41-1301"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/motors/motors.rst:73
+msgid "REV Robotics HD Hex 12V DC Motor"
+msgstr "REV Robotics HD Motor hexagonal de 12 V CC"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/motors/motors.rst:0
+msgid "REV-41-1300"
+msgstr "REV-41-1300"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/motors/motors.rst:90
+msgid "REV Robotics Core Hex 12V DC Motor"
+msgstr "Motor REV Robotics Core Hex de 12 V CC"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/motors/motors.rst:92
+msgid ""
+"Motors are the primary drivers of a robot. All motors are 12v brushed DC "
+"motors and are enumerated in :ref:`Game Manual Part 1 "
+"<manuals/game_manuals/game_manuals:game manuals>`. They may only be "
+"controlled via a REV Expansion Hub, REV Control Hub, REV SPARKmini Motor "
+"Controller, or VEX Motor Controller 29. ``<RE09>``"
+msgstr ""
+"Los motores son los principales impulsores de un robot. Todos los motores "
+"son motores de CC con escobillas de 12 V y se enumeran en :ref:`Manual del "
+"juego Parte 1<manuals/game_manuals/game_manuals:game manuals> `. Solo se "
+"pueden controlar a través de un concentrador de expansión REV, un "
+"concentrador de control REV, un controlador de motor REV SPARKmini o un "
+"controlador de motor VEX 29. ``<RE09> ``"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/motors/motors.rst:100
+msgid ""
+":ref:`Port Overview <control_hard_compon/rc_components/hub/ports/ch-"
+"ports:motor ports>`"
+msgstr ""
+":ref:`Vista general del "
+"puerto<control_hard_compon/rc_components/hub/ports/ch-ports:motor ports> `"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/motors/motors.rst:101
+msgid ""
+":ref:`Connecting Motors "
+"<hardware_and_software_configuration/connecting_devices/connecting_motor/connecting-"
+"motor:connecting a motor to the hub>`"
+msgstr ""
+":ref:`Conexión de motores "
+"<hardware_and_software_configuration/connecting_devices/connecting_motor/connecting-"
+"motor:connecting a motor to the hub> `"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/motors/motors.rst:102
+msgid ""
+":ref:`Configuring Motors "
+"<hardware_and_software_configuration/configuring/configuring_dc_motor/configuring-"
+"dc-motor:configuring a dc motor>`"
+msgstr ""
+":ref:`Configuración de motores "
+"<hardware_and_software_configuration/configuring/configuring_dc_motor/configuring-"
+"dc-motor:configuring a dc motor> `"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/power_distr/power-distr.rst:2
+msgid "Power Distribution"
+msgstr "Distribución de poder"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/power_distr/power-distr.rst:5
+msgid "Robot Main Battery"
+msgstr "Batería principal del robot"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/power_distr/power-distr.rst:14
+msgid "TETRIX 12V Battery"
+msgstr "Batería TETRIX 12V"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/power_distr/power-distr.rst:0
+msgid "W39057"
+msgstr "W39057"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/power_distr/power-distr.rst:25
+msgid "TETRIX (W39057, formally 739023)"
+msgstr "TETRIX (W39057, formalmente 739023)"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/power_distr/power-distr.rst:31
+msgid "MATRIX 12V Battery"
+msgstr "Batería MATRIZ 12V"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/power_distr/power-distr.rst:0
+msgid "14-0014"
+msgstr "14-0014"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/power_distr/power-distr.rst:42
+msgid "Modern Robotics/MATRIX (14-0014)"
+msgstr "Robótica moderna/MATRIZ (14-0014)"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/power_distr/power-distr.rst:48
+msgid "REV 12V Battery"
+msgstr "Batería REV 12V"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/power_distr/power-distr.rst:0
+msgid "REV-31-1302"
+msgstr "REV-31-1302"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/power_distr/power-distr.rst:59
+msgid "REV Robotics (REV-31-1302)"
+msgstr "Robótica REV (REV-31-1302)"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/power_distr/power-distr.rst:61
+msgid ""
+"The main power of a robot comes from one 12v battery. The battery may be one"
+" of the batteries shown above. Refer to section ``<RE03>`` in the :ref:`Game"
+" Manual Part 1<manuals/game_manuals/game_manuals:game manuals>` for exact "
+"information on allowed batteries. Note that it is typically allowed by "
+"``<RE15>`` to replace the connector on the batteries, provided the in-line "
+"fuse on the battery is preserved."
+msgstr ""
+"La energía principal de un robot proviene de una batería de 12v. La batería "
+"puede ser una de las baterías que se muestran arriba. Consulte la sección "
+"``<RE03> `` en el :ref:`Manual del juego Parte "
+"1<manuals/game_manuals/game_manuals:game manuals> ` para obtener información"
+" exacta sobre las baterías permitidas. Tenga en cuenta que normalmente está "
+"permitido por ``<RE15> `` para reemplazar el conector de las baterías, "
+"siempre que se conserve el fusible en línea de la batería."
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/power_distr/power-distr.rst:69
+msgid ""
+"Be sure to remove the 20A fuse from the in-line fuse holder prior to cutting"
+" any wires/connectors if/when replacing the factory default battery "
+"connector."
+msgstr ""
+"Asegúrese de quitar el fusible de 20 A del portafusibles en línea antes de "
+"cortar los cables/conectores si reemplaza el conector de batería "
+"predeterminado de fábrica."
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/power_distr/power-distr.rst:73
+msgid "Main Power Switch"
+msgstr "Interruptor principal"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/power_distr/power-distr.rst:82
+msgid "REV Power Switch"
+msgstr "Interruptor de encendido REV"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/power_distr/power-distr.rst:93
+msgid "REV (REV-31-1387)"
+msgstr "REV (REV-31-1387)"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/power_distr/power-distr.rst:99
+msgid "TETRIX Power Switch"
+msgstr "Interruptor de alimentación TETRIX"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/power_distr/power-distr.rst:110
+msgid "TETRIX (part # W39129)"
+msgstr "TETRIX (n.º de pieza W39129)"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/power_distr/power-distr.rst:116
+msgid "MATRIX Power Switch"
+msgstr "Interruptor de alimentación MATRIZ"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/power_distr/power-distr.rst:127
+msgid "MATRIX (part #50-0030)"
+msgstr "MATRIZ (parte #50-0030)"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/power_distr/power-distr.rst:130
+msgid ""
+"One Main Power Switch must control all power provided by the Main Battery. "
+"It along with its label should be placed in accordance to :ref:`Game Manual "
+"Part 1<manuals/game_manuals/game_manuals:game manuals>`. The legal power "
+"switches are shown above. ``<RE01>``"
+msgstr ""
+"Un interruptor de alimentación principal debe controlar toda la energía "
+"proporcionada por la batería principal. Debe colocarse junto con su etiqueta"
+" de acuerdo con :ref:`Manual del juego Parte "
+"1<manuals/game_manuals/game_manuals:game manuals> `. Los interruptores de "
+"energía legales se muestran arriba. ``<RE01> ``"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/power_distr/power-distr.rst:135
+msgid ""
+":download:`Power Switch Label "
+"<https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/power-"
+"button-labels.pdf>`"
+msgstr ""
+":descargar:`Etiqueta del interruptor de encendido "
+"<https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/power-"
+"button-labels.pdf> `"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/power_distr/power-distr.rst:138
+msgid "Power Distribution Block"
+msgstr "Bloque de distribución de energía"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/power_distr/power-distr.rst:147
+msgid "REV XT30 Power Distribution Block"
+msgstr "Bloque de distribución de energía REV XT30"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/power_distr/power-distr.rst:0
+msgid "REV-31-1293"
+msgstr "REV-31-1293"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/power_distr/power-distr.rst:158
+msgid "REV (REV-31-1293)"
+msgstr "REV (REV-31-1293)"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/power_distr/power-distr.rst:160
+msgid ""
+"Power Distribution Blocks help to distribute the power to devices such as "
+"Control Hubs, SPARKminis, and more. See :ref:`Game Manual Part "
+"1<manuals/game_manuals/game_manuals:game manuals>` for a description of "
+"legal Power Distribution methods. The REV XT30 Power Distribution Block "
+"shown is only one option for distributing power, and is not the only legal "
+"device for power distribution."
+msgstr ""
+"Los bloques de distribución de energía ayudan a distribuir la energía a "
+"dispositivos como concentradores de control, SPARKminis y más. Ver "
+":ref:`Manual del juego Parte 1<manuals/game_manuals/game_manuals:game "
+"manuals> ` para una descripción de los métodos legales de distribución de "
+"energía. El bloque de distribución de energía REV XT30 que se muestra es "
+"solo una opción para distribuir energía y no es el único dispositivo legal "
+"para la distribución de energía."
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/power_distr/power-distr.rst:168
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/power_distr/power-distr.rst:177
+msgid "REV Servo Power Module"
+msgstr "Módulo de potencia servo REV"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/power_distr/power-distr.rst:0
+msgid "REV-31-1144"
+msgstr "REV-31-1144"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/power_distr/power-distr.rst:188
+msgid "REV (REV-11-1144)"
+msgstr "REV (REV-11-1144)"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/power_distr/power-distr.rst:190
+msgid ""
+"This is an electronic device that boosts the power supplied to 3-wire "
+"servos. A REV Servo Power Module has 6 input servo ports and 6 matching "
+"output ports. It draws power from a 12V source and provides 6V power to each"
+" output servo port. A REV Servo Power Module can provide up to 15A of "
+"current across all output servo ports for a total of 90 Watts of power per "
+"module."
+msgstr ""
+"Este es un dispositivo electrónico que aumenta la potencia suministrada a "
+"los servos de 3 hilos. Un módulo de alimentación servo REV tiene 6 puertos "
+"servo de entrada y 6 puertos de salida correspondientes. Obtiene energía de "
+"una fuente de 12 V y proporciona energía de 6 V a cada puerto servo de "
+"salida. Un módulo de potencia servo REV puede proporcionar hasta 15 A de "
+"corriente en todos los puertos servo de salida para un total de 90 vatios de"
+" potencia por módulo."
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/power_distr/power-distr.rst:197
+msgid "Commercial USB Battery Pack"
+msgstr "Paquete de batería USB comercial"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/power_distr/power-distr.rst:219
+msgid ""
+"A commercial USB battery pack is an auxiliary power source that can be used "
+"in specific situations in accordance with the :ref:`Game "
+"Manuals<manuals/game_manuals/game_manuals:game manuals>`"
+msgstr ""
+"Un paquete de baterías USB comercial es una fuente de alimentación auxiliar "
+"que se puede utilizar en situaciones específicas de acuerdo con los "
+":ref:`Manuales del juego.<manuals/game_manuals/game_manuals:game manuals> `"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/sensors/sensors.rst:2
+msgid "Sensors"
+msgstr "Sensores"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/sensors/sensors.rst:5
+msgid ""
+"As per :ref:`Game Manual Part 1<manuals/game_manuals/game_manuals:game "
+"manuals>` a UVC Webcam is not considered a sensor."
+msgstr ""
+"Según :ref:`Manual del juego Parte 1<manuals/game_manuals/game_manuals:game "
+"manuals> ` una cámara web UVC no se considera un sensor."
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/sensors/sensors.rst:8
+msgid ""
+"Listed below are some examples of common robot sensors. This is not intended"
+" to limit or extend in any way the scope of sensors as established in "
+"``<RE12>``. While the *FIRST* Tech Challenge SDK supports many sensors not "
+"all are natively supported."
+msgstr ""
+"A continuación se enumeran algunos ejemplos de sensores de robot comunes. "
+"Esto no tiene la intención de limitar o ampliar de ninguna manera el alcance"
+" de los sensores según lo establecido en ``<RE12> ``. Si bien el *FIRST* "
+"Tech Challenge SDK es compatible con muchos sensores, no todos son "
+"compatibles de forma nativa."
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/sensors/sensors.rst:14
+msgid "Examples"
+msgstr "Ejemplos"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/sensors/sensors.rst:17
+msgid "Distance Sensor (Ultrasonic)"
+msgstr "Sensor de distancia (ultrasónico)"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/sensors/sensors.rst:26
+msgid "MaxBotix I2C Ultrasonic Sensor"
+msgstr "Sensor ultrasónico MaxBotix I2C"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/sensors/sensors.rst:0
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/sensors/sensors.rst:37
+msgid "MB1242"
+msgstr "MB1242"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/sensors/sensors.rst:40
+msgid ""
+"An Ultrasonic Distance Sensor is a device that is able to measure the "
+"distance between an object and the sensor.  It does this by sending out a "
+"sound wave and measuring the time it takes for the wave to travel to the "
+"object and back. Using this and the speed of sound the distance can be "
+"calculated."
+msgstr ""
+"Un sensor de distancia ultrasónico es un dispositivo que puede medir la "
+"distancia entre un objeto y el sensor. Lo hace enviando una onda de sonido y"
+" midiendo el tiempo que tarda la onda en viajar al objeto y regresar. Usando"
+" esto y la velocidad del sonido se puede calcular la distancia."
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/sensors/sensors.rst:46
+msgid "Distance Sensor (Optical)"
+msgstr "Sensor de distancia (óptico)"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/sensors/sensors.rst:55
+msgid "REV 2m Distance Sensor"
+msgstr "Sensor de distancia REV 2m"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/sensors/sensors.rst:0
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/sensors/sensors.rst:66
+msgid "REV-31-1505"
+msgstr "REV-31-1505"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/sensors/sensors.rst:68
+msgid ""
+"An Optical Time of Flight (ToF) Sensor is a device that is able to measure "
+"the distance between an object and the sensor. It does this by sending out a"
+" light beam and measuring the time it takes for the beam to travel to the "
+"object and back. Using this time and the known speed of light the distance "
+"can be calculated. Be aware that the way the object in question interacts "
+"with light can change the accuracy of the distance measurement. A "
+"transparent object like field panels will often provide inaccurate "
+"measurements."
+msgstr ""
+"Un sensor óptico de tiempo de vuelo (ToF) es un dispositivo que puede medir "
+"la distancia entre un objeto y el sensor. Lo hace enviando un haz de luz y "
+"midiendo el tiempo que tarda el haz en viajar al objeto y regresar. Usando "
+"este tiempo y la velocidad conocida de la luz se puede calcular la "
+"distancia. Tenga en cuenta que la forma en que el objeto en cuestión "
+"interactúa con la luz puede cambiar la precisión de la medición de la "
+"distancia. Un objeto transparente como los paneles de campo a menudo "
+"proporcionará mediciones inexactas."
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/sensors/sensors.rst:77
+msgid "Color Sensor"
+msgstr "sensor de color"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/sensors/sensors.rst:86
+msgid "REV Color Sensor"
+msgstr "Sensor de color REV"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/sensors/sensors.rst:0
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/sensors/sensors.rst:97
+msgid "REV-31-1557"
+msgstr "REV-31-1557"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/sensors/sensors.rst:103
+msgid "Modern Robotics Color Sensor"
+msgstr "Sensor de color de robótica moderna"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/sensors/sensors.rst:0
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/sensors/sensors.rst:114
+msgid "MR 45-2018"
+msgstr "MR 45-2018"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/sensors/sensors.rst:116
+msgid ""
+"A color sensor is usually a digital output device that is able to measure "
+"the color of an object. Most color sensors require the object in question to"
+" be relatively close to the sensor."
+msgstr ""
+"Un sensor de color suele ser un dispositivo de salida digital que puede "
+"medir el color de un objeto. La mayoría de los sensores de color requieren "
+"que el objeto en cuestión esté relativamente cerca del sensor."
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/sensors/sensors.rst:121
+msgid "Touch Sensor"
+msgstr "Sensor tactil"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/sensors/sensors.rst:130
+msgid "REV Touch Sensor"
+msgstr "Sensor táctil REV"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/sensors/sensors.rst:0
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/sensors/sensors.rst:141
+msgid "REV-31-1425"
+msgstr "REV-31-1425"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/sensors/sensors.rst:143
+msgid ""
+"A touch sensor is a digital output device that detects the activation of a "
+"button. This can be used as a limit switch, a way to limit the range of "
+"motion of a mechanism. Such a device would typically use the digital port."
+msgstr ""
+"Un sensor táctil es un dispositivo de salida digital que detecta la "
+"activación de un botón. Esto se puede usar como un interruptor de límite, "
+"una forma de limitar el rango de movimiento de un mecanismo. Dicho "
+"dispositivo normalmente usaría el puerto digital."
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/sensors/sensors.rst:149
+msgid "Magnetic Limit Switch"
+msgstr "Interruptor de límite magnético"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/sensors/sensors.rst:158
+msgid "REV Magnetic Limit Switch"
+msgstr "Interruptor de límite magnético REV"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/sensors/sensors.rst:0
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/sensors/sensors.rst:169
+msgid "REV-31-1462"
+msgstr "REV-31-1462"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/sensors/sensors.rst:171
+msgid ""
+"A Magnetic Limit Switch is used to detect the presence of a magnet in near "
+"proximity. This is commonly used to limit the range of movement of a "
+"mechanism that would cause damage if it went beyond said limit. This is done"
+" by placing a magnet on said mechanism which would cause the Limit Switch to"
+" activate. It is important to note that as a digital device this will only "
+"send out a boolean output and not a range. For measuring the strength of a "
+"magnetic field take a look at a magnetometer."
+msgstr ""
+"Se utiliza un interruptor de límite magnético para detectar la presencia de "
+"un imán en las proximidades. Esto se usa comúnmente para limitar el rango de"
+" movimiento de un mecanismo que causaría daño si fuera más allá de dicho "
+"límite. Esto se hace colocando un imán en dicho mecanismo que provocaría la "
+"activación del interruptor de límite. Es importante tener en cuenta que, "
+"como dispositivo digital, solo enviará una salida booleana y no un rango. "
+"Para medir la fuerza de un campo magnético, eche un vistazo a un "
+"magnetómetro."
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/sensors/sensors.rst:180
+msgid "IMU"
+msgstr "IMU"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/sensors/sensors.rst:189
+msgid "Navigation Sensor"
+msgstr "sensor de navegación"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/sensors/sensors.rst:0
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/sensors/sensors.rst:200
+msgid "navX2-Micro"
+msgstr "navX2-Micro"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/sensors/sensors.rst:206
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/sensors/sensors.rst:0
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/sensors/sensors.rst:217
+msgid "BNO055"
+msgstr "BNO055"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/sensors/sensors.rst:220
+msgid ""
+"An Interial Measurement Unit (IMU) is a sensor that is a combination of a "
+"Gyroscope, Accelerometer, and Magnetometer. A Gyroscope is a device that "
+"reports the `angular orientation "
+"<https://en.wikipedia.org/wiki/Orientation_(geometry)>`_ of an object in 3 "
+"dimensions. An Accelerometer is a device that reports the acceleration of an"
+" object in 3 dimensions. Acceleration can be thought of as the rate of "
+"change of speed at any given instant. A Magnetometer is a device that "
+"measures the strength of magnetic fields in 3 axes.  This can be used as a "
+"compass to gain the orientation of a robot relative to the poles of the "
+"Earth, an absolute measurement."
+msgstr ""
+"Una unidad de medida interna (IMU) es un sensor que es una combinación de un"
+" giroscopio, un acelerómetro y un magnetómetro. Un giroscopio es un "
+"dispositivo que informa la `orientación "
+"angular<https://en.wikipedia.org/wiki/Orientation_(geometry)> `_ de un "
+"objeto en 3 dimensiones. Un acelerómetro es un dispositivo que informa la "
+"aceleración de un objeto en 3 dimensiones. La aceleración se puede "
+"considerar como la tasa de cambio de velocidad en cualquier instante dado. "
+"Un magnetómetro es un dispositivo que mide la fuerza de los campos "
+"magnéticos en 3 ejes. Esto se puede utilizar como una brújula para obtener "
+"la orientación de un robot en relación con los polos de la Tierra, una "
+"medida absoluta."
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/sensors/sensors.rst:231
+msgid "Potentiometer"
+msgstr "Potenciómetro"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/sensors/sensors.rst:240
+msgid "REV Potentiometer"
+msgstr "Potenciómetro REV"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/sensors/sensors.rst:0
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/sensors/sensors.rst:251
+msgid "REV-31-1155"
+msgstr "REV-31-1155"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/sensors/sensors.rst:257
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/sensors/sensors.rst:268
+msgid "50k Ohm Potentiometer"
+msgstr "Potenciómetro de 50k ohmios"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/sensors/sensors.rst:0
+msgid "BBG-770"
+msgstr "BBG-770"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/sensors/sensors.rst:270
+msgid ""
+"A Potentiometer is a device that changes the output voltage based upon the "
+"degree to which the adjuster is turned. It is often used as a form of "
+"measuring the absolute orientation of an axle. The manner in which the "
+"output voltage changes is based on the Potentiometer that is used. Such a "
+"device is typically attatched via the analog port of the REV Hub."
+msgstr ""
+"Un potenciómetro es un dispositivo que cambia el voltaje de salida según el "
+"grado en que se gira el ajustador. A menudo se utiliza como una forma de "
+"medir la orientación absoluta de un eje. La forma en que cambia el voltaje "
+"de salida se basa en el potenciómetro que se utiliza. Dicho dispositivo "
+"generalmente se conecta a través del puerto analógico del REV Hub."
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/sensors/sensors.rst:280
+msgid ""
+":ref:`Analog Port Overview <control_hard_compon/rc_components/hub/ports/ch-"
+"ports:analog ports>`"
+msgstr ""
+":ref:`Descripción general del puerto "
+"analógico<control_hard_compon/rc_components/hub/ports/ch-ports:analog ports>"
+" `"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/sensors/sensors.rst:281
+msgid ""
+":ref:`Digital Port Overview <control_hard_compon/rc_components/hub/ports/ch-"
+"ports:digital ports>`"
+msgstr ""
+":ref:`Descripción general del puerto "
+"digital<control_hard_compon/rc_components/hub/ports/ch-ports:digital ports> "
+"`"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/sensors/sensors.rst:282
+msgid ""
+":ref:`I2C Port Overview <control_hard_compon/rc_components/hub/ports/ch-"
+"ports:i2c ports>`"
+msgstr ""
+":ref:`Resumen del puerto I2C<control_hard_compon/rc_components/hub/ports/ch-"
+"ports:i2c ports> `"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/servos/servos.rst:2
+msgid "Servos"
+msgstr "servos"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/servos/servos.rst:11
+msgid "REV Smart Robot Servo (SRS)"
+msgstr "Servo de robot inteligente REV (SRS)"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/servos/servos.rst:0
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/servos/servos.rst:22
+msgid "REV-41-1097"
+msgstr "REV-41-1097"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/servos/servos.rst:28
+msgid "goBILDA Dual Mode Servo"
+msgstr "servo de modo dual goBILDA"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/servos/servos.rst:0
+msgid "2000-0025-0504"
+msgstr "2000-0025-0504"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/servos/servos.rst:39
+msgid "GB 2000-0025-0504"
+msgstr "ES 2000-0025-0504"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/servos/servos.rst:45
+msgid "Hitec Conventional Servo"
+msgstr "Servo convencional Hitec"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/servos/servos.rst:0
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/servos/servos.rst:56
+msgid "W39197"
+msgstr "W39197"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/servos/servos.rst:58
+msgid ""
+"A servo is a type of device that takes a Pulse-Width Modulated (PWM) signal "
+"as an input and, with the help of an embedded controller, produces linear or"
+" rotational movement based upon the input signal. Servos may take an input "
+"signal generated by a REV Hub (either by a Control Hub or Expansion Hub) "
+"which itself provides 5V of power and a limited amount of current (see REV "
+"Documentation for more information). A REV Servo Power Module (SPM) may be "
+"utilized to boost the power provided to servos to a maximum of 90W at 6V for"
+" up to 6 servos per device. Robots in *FIRST* Tech Challenge may employ up "
+"to 12 total servos."
+msgstr ""
+"Un servo es un tipo de dispositivo que toma una señal modulada por ancho de "
+"pulso (PWM) como entrada y, con la ayuda de un controlador incorporado, "
+"produce un movimiento lineal o rotacional basado en la señal de entrada. Los"
+" servos pueden tomar una señal de entrada generada por un concentrador REV "
+"(ya sea por un concentrador de control o un concentrador de expansión) que a"
+" su vez proporciona 5 V de potencia y una cantidad limitada de corriente "
+"(consulte la documentación de REV para obtener más información). Se puede "
+"utilizar un módulo de potencia servo REV (SPM) para aumentar la potencia "
+"proporcionada a los servos a un máximo de 90 W a 6 V para hasta 6 servos por"
+" dispositivo. Los robots en *FIRST* Tech Challenge pueden emplear hasta 12 "
+"servos en total."
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/servos/servos.rst:70
+msgid ""
+":ref:`Port Overview <control_hard_compon/rc_components/hub/ports/ch-"
+"ports:servo ports>`"
+msgstr ""
+":ref:`Vista general del "
+"puerto<control_hard_compon/rc_components/hub/ports/ch-ports:servo ports> `"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/servos/servos.rst:71
+msgid ""
+":ref:`Connecting Servos "
+"<hardware_and_software_configuration/connecting_devices/connecting_servo/connecting-"
+"servo:connecting a servo to the hub>`"
+msgstr ""
+":ref:`Conexión de servos "
+"<hardware_and_software_configuration/connecting_devices/connecting_servo/connecting-"
+"servo:connecting a servo to the hub> `"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/servos/servos.rst:72
+msgid ""
+":ref:`Configuring Servos "
+"<hardware_and_software_configuration/configuring/configuring_servo/configuring-"
+"servo:configuring a servo>`"
+msgstr ""
+":ref:`Configuración de servos "
+"<hardware_and_software_configuration/configuring/configuring_servo/configuring-"
+"servo:configuring a servo> `"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/servos/servos.rst:73
+msgid ""
+":ref:`REV Servo Power Module "
+"<control_hard_compon/rc_components/power_distr/power-distr:rev servo power "
+"module>`"
+msgstr ""
+":ref:`REV Módulo de "
+"servoalimentación<control_hard_compon/rc_components/power_distr/power-"
+"distr:rev servo power module> `"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/uvc/uvc.rst:2
+msgid "UVC Webcam"
+msgstr "Cámara web UVC"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/uvc/uvc.rst:11
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/uvc/uvc.rst:22
+msgid "Logitech C270"
+msgstr "Logitech C270"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/uvc/uvc.rst:0
+msgid "C270"
+msgstr "C270"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/uvc/uvc.rst:28
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/uvc/uvc.rst:39
+msgid "Logitech C920"
+msgstr "Logitech C920"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/uvc/uvc.rst:0
+msgid "C920"
+msgstr "C920"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/uvc/uvc.rst:41
+msgid ""
+"A webcam is a device that provides visual images of the surrounding "
+"environment. For use as part of *FIRST* Tech Challenge teams must use a COTS"
+" `UVC <https://www.usb.org/document-library/video-class-v15-document-set>`_ "
+"(USB Video Class) Compatible Camera. This device can be connected directly "
+"to the REV Control Hub or to the Robot Control system via a powered USB hub "
+"``<RE14>``. This device is intended to be used in vision related tasks. An "
+"example use case of a webcam is reading the state of the barcode after "
+"randomization, a vision task in *Freight Frenzy*, 2021-2022."
+msgstr ""
+"Una cámara web es un dispositivo que proporciona imágenes visuales del "
+"entorno circundante. Para usar como parte de *FIRST* Tech Challenge, los "
+"equipos deben usar un COTS `UVC<https://www.usb.org/document-library/video-"
+"class-v15-document-set> Cámara compatible `_ (clase de vídeo USB). Este "
+"dispositivo se puede conectar directamente al concentrador de control REV o "
+"al sistema de control de robot a través de un concentrador USB con "
+"alimentación ``<RE14> ``. Este dispositivo está diseñado para ser utilizado "
+"en tareas relacionadas con la visión. Un ejemplo de caso de uso de una "
+"cámara web es leer el estado del código de barras después de la "
+"aleatorización, una tarea de visión en *Freight Frenzy*, 2021-2022."
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/uvc/uvc.rst:53
+msgid ""
+":ref:`Connecting UVC Camera via Powered USB Hub "
+"<hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-"
+"uvc-camera:configuring an external uvc camera and a powered usb hub>`"
+msgstr ""
+":ref:`Conexión de la cámara UVC a través de un concentrador USB alimentado "
+"<hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-"
+"uvc-camera:configuring an external uvc camera and a powered usb hub> `"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/uvc/uvc.rst:54
+msgid ""
+":ref:`Connecting UVC Camera directly to REV Control Hub "
+"<hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-"
+"external-webcam:configuring an external webcam with a control hub>`"
+msgstr ""
+":ref:`Conexión de la cámara UVC directamente al concentrador de control REV "
+"<hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-"
+"external-webcam:configuring an external webcam with a control hub> `"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/uvc/uvc.rst:55
+msgid ""
+":ref:`USB Port Overview <control_hard_compon/rc_components/hub/ports/ch-"
+"ports:USB-A Ports>`"
+msgstr ""
+":ref:`Resumen del puerto USB<control_hard_compon/rc_components/hub/ports/ch-"
+"ports:USB-A Ports> `"
+
+#: ../../ftcdocs/docs/source/control_hard_compon/rc_components/uvc/uvc.rst:56
+msgid ""
+":ref:`Vision in FIRST Tech Challenge <programming_resources/index:vision "
+"programming>`"
+msgstr ""
+":ref:`Visión en FIRST Tech Challenge<programming_resources/index:vision "
+"programming> `"

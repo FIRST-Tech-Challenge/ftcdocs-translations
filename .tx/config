@@ -308,6 +308,12 @@ source_file  = locale/pot/ftc_sdk/updating/rc_app/Updating-the-RC-App.pot
 type         = PO
 minimum_perc = 0
 
+[o:first-inspires:p:ftcdocs:r:game_specific_resources--field_coordinate_system--field-coordinate-system]
+file_filter  = locale/<lang>/LC_MESSAGES/game_specific_resources/field_coordinate_system/field-coordinate-system.po
+source_file  = locale/pot/game_specific_resources/field_coordinate_system/field-coordinate-system.pot
+type         = PO
+minimum_perc = 0
+
 [o:first-inspires:p:ftcdocs:r:game_specific_resources--ftcqa--ftcqa]
 file_filter  = locale/<lang>/LC_MESSAGES/game_specific_resources/ftcqa/ftcqa.po
 source_file  = locale/pot/game_specific_resources/ftcqa/ftcqa.pot

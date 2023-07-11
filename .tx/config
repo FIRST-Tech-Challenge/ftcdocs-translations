@@ -2,6 +2,108 @@
 host     = https://www.transifex.com
 lang_map = es_MX: es
 
+[o:first-inspires:p:ftcdocs:r:apriltag--opmode_test_images--opmode-test-images]
+file_filter  = locale/<lang>/LC_MESSAGES/apriltag/opmode_test_images/opmode-test-images.po
+source_file  = locale/pot/apriltag/opmode_test_images/opmode-test-images.pot
+type         = PO
+minimum_perc = 0
+
+[o:first-inspires:p:ftcdocs:r:apriltag--understanding_apriltag_detection_values--understanding-apriltag-detection-values]
+file_filter  = locale/<lang>/LC_MESSAGES/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.po
+source_file  = locale/pot/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.pot
+type         = PO
+minimum_perc = 0
+
+[o:first-inspires:p:ftcdocs:r:apriltag--vision_portal--apriltag_advanced_use--apriltag-advanced-use]
+file_filter  = locale/<lang>/LC_MESSAGES/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.po
+source_file  = locale/pot/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.pot
+type         = PO
+minimum_perc = 0
+
+[o:first-inspires:p:ftcdocs:r:apriltag--vision_portal--apriltag_camera_calibration--apriltag-camera-calibration]
+file_filter  = locale/<lang>/LC_MESSAGES/apriltag/vision_portal/apriltag_camera_calibration/apriltag-camera-calibration.po
+source_file  = locale/pot/apriltag/vision_portal/apriltag_camera_calibration/apriltag-camera-calibration.pot
+type         = PO
+minimum_perc = 0
+
+[o:first-inspires:p:ftcdocs:r:apriltag--vision_portal--apriltag_id_code--apriltag-id-code]
+file_filter  = locale/<lang>/LC_MESSAGES/apriltag/vision_portal/apriltag_id_code/apriltag-id-code.po
+source_file  = locale/pot/apriltag/vision_portal/apriltag_id_code/apriltag-id-code.pot
+type         = PO
+minimum_perc = 0
+
+[o:first-inspires:p:ftcdocs:r:apriltag--vision_portal--apriltag_intro--apriltag-intro]
+file_filter  = locale/<lang>/LC_MESSAGES/apriltag/vision_portal/apriltag_intro/apriltag-intro.po
+source_file  = locale/pot/apriltag/vision_portal/apriltag_intro/apriltag-intro.pot
+type         = PO
+minimum_perc = 0
+
+[o:first-inspires:p:ftcdocs:r:apriltag--vision_portal--apriltag_library--apriltag-library]
+file_filter  = locale/<lang>/LC_MESSAGES/apriltag/vision_portal/apriltag_library/apriltag-library.po
+source_file  = locale/pot/apriltag/vision_portal/apriltag_library/apriltag-library.pot
+type         = PO
+minimum_perc = 0
+
+[o:first-inspires:p:ftcdocs:r:apriltag--vision_portal--apriltag_metadata--apriltag-metadata]
+file_filter  = locale/<lang>/LC_MESSAGES/apriltag/vision_portal/apriltag_metadata/apriltag-metadata.po
+source_file  = locale/pot/apriltag/vision_portal/apriltag_metadata/apriltag-metadata.pot
+type         = PO
+minimum_perc = 0
+
+[o:first-inspires:p:ftcdocs:r:apriltag--vision_portal--apriltag_pose--apriltag-pose]
+file_filter  = locale/<lang>/LC_MESSAGES/apriltag/vision_portal/apriltag_pose/apriltag-pose.po
+source_file  = locale/pot/apriltag/vision_portal/apriltag_pose/apriltag-pose.pot
+type         = PO
+minimum_perc = 0
+
+[o:first-inspires:p:ftcdocs:r:apriltag--vision_portal--apriltag_reference_frame--apriltag-reference-frame]
+file_filter  = locale/<lang>/LC_MESSAGES/apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.po
+source_file  = locale/pot/apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.pot
+type         = PO
+minimum_perc = 0
+
+[o:first-inspires:p:ftcdocs:r:apriltag--vision_portal--vision_multiportal--vision-multiportal]
+file_filter  = locale/<lang>/LC_MESSAGES/apriltag/vision_portal/vision_multiportal/vision-multiportal.po
+source_file  = locale/pot/apriltag/vision_portal/vision_multiportal/vision-multiportal.pot
+type         = PO
+minimum_perc = 0
+
+[o:first-inspires:p:ftcdocs:r:apriltag--vision_portal--vision_processor_init--vision-processor-init]
+file_filter  = locale/<lang>/LC_MESSAGES/apriltag/vision_portal/vision_processor_init/vision-processor-init.po
+source_file  = locale/pot/apriltag/vision_portal/vision_processor_init/vision-processor-init.pot
+type         = PO
+minimum_perc = 0
+
+[o:first-inspires:p:ftcdocs:r:apriltag--vision_portal--visionportal_camera_controls--visionportal-camera-controls]
+file_filter  = locale/<lang>/LC_MESSAGES/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.po
+source_file  = locale/pot/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.pot
+type         = PO
+minimum_perc = 0
+
+[o:first-inspires:p:ftcdocs:r:apriltag--vision_portal--visionportal_cpu_and_bandwidth--visionportal-cpu-and-bandwidth]
+file_filter  = locale/<lang>/LC_MESSAGES/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.po
+source_file  = locale/pot/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.pot
+type         = PO
+minimum_perc = 0
+
+[o:first-inspires:p:ftcdocs:r:apriltag--vision_portal--visionportal_init--visionportal-init]
+file_filter  = locale/<lang>/LC_MESSAGES/apriltag/vision_portal/visionportal_init/visionportal-init.po
+source_file  = locale/pot/apriltag/vision_portal/visionportal_init/visionportal-init.pot
+type         = PO
+minimum_perc = 0
+
+[o:first-inspires:p:ftcdocs:r:apriltag--vision_portal--visionportal_overview--visionportal-overview]
+file_filter  = locale/<lang>/LC_MESSAGES/apriltag/vision_portal/visionportal_overview/visionportal-overview.po
+source_file  = locale/pot/apriltag/vision_portal/visionportal_overview/visionportal-overview.pot
+type         = PO
+minimum_perc = 0
+
+[o:first-inspires:p:ftcdocs:r:apriltag--vision_portal--visionportal_previews--visionportal-previews]
+file_filter  = locale/<lang>/LC_MESSAGES/apriltag/vision_portal/visionportal_previews/visionportal-previews.po
+source_file  = locale/pot/apriltag/vision_portal/visionportal_previews/visionportal-previews.pot
+type         = PO
+minimum_perc = 0
+
 [o:first-inspires:p:ftcdocs:r:cad_resources--autodesk--autodesk]
 file_filter  = locale/<lang>/LC_MESSAGES/cad_resources/autodesk/autodesk.po
 source_file  = locale/pot/cad_resources/autodesk/autodesk.pot

@@ -914,12 +914,6 @@ source_file  = locale/pot/programming_resources/vision/camera_calibration/camera
 type         = PO
 minimum_perc = 0
 
-[o:first-inspires:p:ftcdocs:r:programming_resources--vision--identifying_vumarks--identifying-vumarks]
-file_filter  = locale/<lang>/LC_MESSAGES/programming_resources/vision/identifying_vumarks/identifying-vumarks.po
-source_file  = locale/pot/programming_resources/vision/identifying_vumarks/identifying-vumarks.pot
-type         = PO
-minimum_perc = 0
-
 [o:first-inspires:p:ftcdocs:r:programming_resources--vision--java_tfod_opmode--java-tfod-opmode]
 file_filter  = locale/<lang>/LC_MESSAGES/programming_resources/vision/java_tfod_opmode/java-tfod-opmode.po
 source_file  = locale/pot/programming_resources/vision/java_tfod_opmode/java-tfod-opmode.pot

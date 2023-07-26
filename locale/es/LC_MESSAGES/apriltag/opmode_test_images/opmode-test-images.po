@@ -3,16 +3,241 @@
 # This file is distributed under the same license as the FIRST Tech Challenge Docs package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Uday Vidyadharan, 2023
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: FIRST Tech Challenge Docs 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-11 16:19+0000\n"
+"POT-Creation-Date: 2023-07-20 16:17+0000\n"
 "PO-Revision-Date: 2023-07-11 16:19+0000\n"
+"Last-Translator: Uday Vidyadharan, 2023\n"
 "Language-Team: Spanish (https://app.transifex.com/first-inspires/teams/171738/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../ftcdocs/docs/source/apriltag/opmode_test_images/opmode-test-images.rst:2
+msgid "*FIRST* Tech Challenge AprilTag Testing Samples"
+msgstr "*FIRST* Tech Challenge Muestras de prueba AprilTag"
+
+#: ../../ftcdocs/docs/source/apriltag/opmode_test_images/opmode-test-images.rst:5
+msgid "Introduction"
+msgstr "Introducción"
+
+#: ../../ftcdocs/docs/source/apriltag/opmode_test_images/opmode-test-images.rst:7
+msgid ""
+"In the 2023-2024 season, `FIRST Tech Challenge has introduced AprilTags "
+"<https://ftc-docs.firstinspires.org/apriltag-intro>`__ into the season-"
+"unique competition. AprilTags were developed by the April Robotics "
+"Laboratory at the University of Michigan and are a visual fiducial tagging "
+"system, built on a similar concept as QR codes, useful for a wide variety of"
+" tasks including augmented reality, robotics, and camera calibration. A "
+"properly calibrated camera and tag library can be used to detect AprilTags "
+"and provide information such as range and orientation information (also "
+"known as **pose** data) about the tags with respect to the camera. The "
+"*FIRST* Tech Challenge Software Development Kit (SDK) has been updated to "
+"add AprilTag detection APIs to help teams make use of this resource."
+msgstr ""
+"En la temporada 2023-2024, `FIRST Tech Challenge ha presentado "
+"AprilTags<https://ftc-docs.firstinspires.org/apriltag-intro> `__ en la "
+"competencia única de la temporada. AprilTags fue desarrollado por April "
+"Robotics Laboratory en la Universidad de Michigan y es un sistema de "
+"etiquetado fiduciario visual, basado en un concepto similar a los códigos "
+"QR, útil para una amplia variedad de tareas que incluyen realidad aumentada,"
+" robótica y calibración de cámaras. Se puede usar una cámara y una "
+"biblioteca de etiquetas correctamente calibradas para detectar AprilTags y "
+"proporcionar información como información de rango y orientación (también "
+"conocida como datos de **posición**) sobre las etiquetas con respecto a la "
+"cámara. El *FIRST* Tech Challenge Software Development Kit (SDK) se "
+"actualizó para agregar las API de detección de AprilTag para ayudar a los "
+"equipos a utilizar este recurso."
+
+#: ../../ftcdocs/docs/source/apriltag/opmode_test_images/opmode-test-images.rst:20
+msgid ""
+"This document contains examples of AprilTags that are intended to be used "
+"with the *FIRST* Tech Challenge AprilTag samples within the SDK. All "
+"AprilTags used in the 2023-2024 season are from the 36h11 tag family, which "
+"is a predetermined set of tags. The primary tag area is comprised of an 8x8 "
+"square matrix of black and white *pixels*. The size of the tag is measured "
+"based on the physical dimensions of the total black square portion of the "
+"tag – a 4 inch AprilTag has a black square portion that measures 4 inches on"
+" each side. Even though it is not used in measuring the size of an AprilTag,"
+" each tag also requires a white border one *pixel* thick surrounding the "
+"primary tag area (bringing the total tag size to 10x10 *pixels*). With the "
+"added white border, for example, a 4-inch AprilTag requires a footprint of 5"
+" inches on each side."
+msgstr ""
+"Este documento contiene ejemplos de AprilTags destinados a usarse con las "
+"muestras de AprilTag del *FIRST* Tech Challenge dentro del SDK. Todos los "
+"AprilTags utilizados en la temporada 2023-2024 son de la familia de "
+"etiquetas 36h11, que es un conjunto predeterminado de etiquetas. El área de "
+"la etiqueta principal se compone de una matriz cuadrada de 8x8 de *píxeles* "
+"en blanco y negro. El tamaño de la etiqueta se mide en función de las "
+"dimensiones físicas de la porción cuadrada negra total de la etiqueta: una "
+"AprilTag de 4 pulgadas tiene una porción cuadrada negra que mide 4 pulgadas "
+"en cada lado. Aunque no se utiliza para medir el tamaño de una AprilTag, "
+"cada etiqueta también requiere un borde blanco de un *píxel* de grosor "
+"alrededor del área de la etiqueta principal (lo que eleva el tamaño total de"
+" la etiqueta a 10x10 *píxeles*). Con el borde blanco agregado, por ejemplo, "
+"un AprilTag de 4 pulgadas requiere una huella de 5 pulgadas en cada lado."
+
+#: ../../ftcdocs/docs/source/apriltag/opmode_test_images/opmode-test-images.rst:39
+msgid "AprilTag Sizing"
+msgstr "Tamaño de la etiqueta de abril"
+
+#: ../../ftcdocs/docs/source/apriltag/opmode_test_images/opmode-test-images.rst:39
+msgid "Example sizing for 4-inch AprilTag"
+msgstr "Tamaño de ejemplo para AprilTag de 4 pulgadas"
+
+#: ../../ftcdocs/docs/source/apriltag/opmode_test_images/opmode-test-images.rst:41
+msgid ""
+"The AprilTag API for *FIRST* Tech Challenge can handle multiple tag sizes; "
+"each individual tag can be sized independently, but there cannot be multiple"
+" sizes for an individual tag. Some pose information calculated for each tag,"
+" such as distance from camera to tag data, requires knowing the exact size "
+"of the tags being used. The default tag sizes used with the sample programs "
+"within the SDK are as follows:"
+msgstr ""
+"La API AprilTag para *FIRST* Tech Challenge puede manejar múltiples tamaños "
+"de etiquetas; cada etiqueta individual puede tener un tamaño independiente, "
+"pero no puede haber varios tamaños para una etiqueta individual. Cierta "
+"información de pose calculada para cada etiqueta, como la distancia de la "
+"cámara a los datos de la etiqueta, requiere conocer el tamaño exacto de las "
+"etiquetas que se utilizan. Los tamaños de etiqueta predeterminados que se "
+"usan con los programas de muestra dentro del SDK son los siguientes:"
+
+#: ../../ftcdocs/docs/source/apriltag/opmode_test_images/opmode-test-images.rst:49
+msgid "**Tag Description**"
+msgstr "**Descripción de la etiqueta**"
+
+#: ../../ftcdocs/docs/source/apriltag/opmode_test_images/opmode-test-images.rst:49
+msgid "**Size of Tag in Inches (millimeters)**"
+msgstr "**Tamaño de la etiqueta en pulgadas (milímetros)**"
+
+#: ../../ftcdocs/docs/source/apriltag/opmode_test_images/opmode-test-images.rst:52
+msgid "Tag ID: 583 (AKA “Nemo”)"
+msgstr "ID de etiqueta: 583 (también conocido como &quot;Nemo&quot;)"
+
+#: ../../ftcdocs/docs/source/apriltag/opmode_test_images/opmode-test-images.rst:52
+#: ../../ftcdocs/docs/source/apriltag/opmode_test_images/opmode-test-images.rst:54
+msgid "4 in (101.6 mm)"
+msgstr "4 pulgadas (101,6 mm)"
+
+#: ../../ftcdocs/docs/source/apriltag/opmode_test_images/opmode-test-images.rst:54
+msgid "Tag ID: 584 (AKA “Jonah”)"
+msgstr "ID de etiqueta: 584 (alias &quot;Jonás&quot;)"
+
+#: ../../ftcdocs/docs/source/apriltag/opmode_test_images/opmode-test-images.rst:56
+msgid "Tag ID: 585 (AKA “Cousteau”)"
+msgstr "ID de etiqueta: 585 (también conocido como &quot;Cousteau&quot;)"
+
+#: ../../ftcdocs/docs/source/apriltag/opmode_test_images/opmode-test-images.rst:56
+#: ../../ftcdocs/docs/source/apriltag/opmode_test_images/opmode-test-images.rst:58
+msgid "6 in (152.4 mm)"
+msgstr "6 pulgadas (152,4 mm)"
+
+#: ../../ftcdocs/docs/source/apriltag/opmode_test_images/opmode-test-images.rst:58
+msgid "Tag ID: 586 (AKA “Ariel”)"
+msgstr "ID de etiqueta: 586 (alias &quot;Ariel&quot;)"
+
+#: ../../ftcdocs/docs/source/apriltag/opmode_test_images/opmode-test-images.rst:61
+msgid ""
+"When printing out the :download:`PDF version of this document "
+"<files/FTCAprilTagSDK82SamplesExtended.pdf>`, or portions thereof, please "
+"set the Page Size settings to “Actual Size” to ensure that the tags are "
+"printed properly. Every printer is slightly different, so it’s also a good "
+"idea to measure the width and height of the black-square portion of the main"
+" tag area to verify that the page printed properly."
+msgstr ""
+"Al imprimir la versión :download:`PDF de este "
+"documento<files/FTCAprilTagSDK82SamplesExtended.pdf> `, o partes del mismo, "
+"establezca la configuración de Tamaño de página en &quot;Tamaño real&quot; "
+"para asegurarse de que las etiquetas se impriman correctamente. Cada "
+"impresora es ligeramente diferente, por lo que también es una buena idea "
+"medir el ancho y el alto de la parte del cuadrado negro del área de la "
+"etiqueta principal para verificar que la página se imprimió correctamente."
+
+#: ../../ftcdocs/docs/source/apriltag/opmode_test_images/opmode-test-images.rst:73
+msgid "Printing Document"
+msgstr "Documento de impresión"
+
+#: ../../ftcdocs/docs/source/apriltag/opmode_test_images/opmode-test-images.rst:73
+msgid "Example printing settings for printing PDF at Actual Size"
+msgstr ""
+"Configuración de impresión de ejemplo para imprimir PDF en tamaño real"
+
+#: ../../ftcdocs/docs/source/apriltag/opmode_test_images/opmode-test-images.rst:75
+msgid ""
+"For more in-depth information about AprilTag detection values, and better "
+"understanding what they mean, please visit the following website:"
+msgstr ""
+"Para obtener información más detallada sobre los valores de detección de "
+"AprilTag y comprender mejor lo que significan, visite el siguiente sitio "
+"web:"
+
+#: ../../ftcdocs/docs/source/apriltag/opmode_test_images/opmode-test-images.rst:78
+msgid "https://ftc-docs.firstinspires.org/apriltag-detection-values"
+msgstr "https://ftc-docs.firstinspires.org/apriltag-detection-values"
+
+#: ../../ftcdocs/docs/source/apriltag/opmode_test_images/opmode-test-images.rst:79
+msgid ""
+":download:`Download and print the official PDF "
+"<files/FTCAprilTagSDK82SamplesExtended.pdf>`"
+msgstr ""
+":download:`Descarga e imprime el PDF "
+"oficial<files/FTCAprilTagSDK82SamplesExtended.pdf> `"
+
+#: ../../ftcdocs/docs/source/apriltag/opmode_test_images/opmode-test-images.rst:83
+msgid "AprilTags"
+msgstr "abrilEtiquetas"
+
+#: ../../ftcdocs/docs/source/apriltag/opmode_test_images/opmode-test-images.rst:85
+msgid ""
+"You can point your camera at these tags for recognition - ftc-docs does "
+"allow stretching of the image, so the image may not clearly and correctly be"
+" represented if the width of the display area is less than the width of the "
+"image. It is recommended to :download:`download and print the official PDF "
+"<files/FTCAprilTagSDK82SamplesExtended.pdf>`."
+msgstr ""
+"Puede apuntar su cámara a estas etiquetas para reconocerlas: ftc-docs "
+"permite estirar la imagen, por lo que es posible que la imagen no se "
+"represente clara y correctamente si el ancho del área de visualización es "
+"menor que el ancho de la imagen. Se recomienda :download:`descargar e "
+"imprimir el PDF oficial<files/FTCAprilTagSDK82SamplesExtended.pdf> `."
+
+#: ../../ftcdocs/docs/source/apriltag/opmode_test_images/opmode-test-images.rst:96
+msgid "Tag583_nemo"
+msgstr "Tag583_nemo"
+
+#: ../../ftcdocs/docs/source/apriltag/opmode_test_images/opmode-test-images.rst:96
+msgid "Tag 583, \"Nemo\""
+msgstr "Tag 583, \"Nemo\""
+
+#: ../../ftcdocs/docs/source/apriltag/opmode_test_images/opmode-test-images.rst:106
+msgid "Tag584_jonah"
+msgstr "Tag584_jonah"
+
+#: ../../ftcdocs/docs/source/apriltag/opmode_test_images/opmode-test-images.rst:106
+msgid "Tag 584, \"Jonah\""
+msgstr "Tag 584, \"Jonah\""
+
+#: ../../ftcdocs/docs/source/apriltag/opmode_test_images/opmode-test-images.rst:116
+msgid "Tag585_cousteau"
+msgstr "Tag585_cousteau"
+
+#: ../../ftcdocs/docs/source/apriltag/opmode_test_images/opmode-test-images.rst:116
+msgid "Tag 585, \"Cousteau\""
+msgstr "Tag 585, \"Cousteau\""
+
+#: ../../ftcdocs/docs/source/apriltag/opmode_test_images/opmode-test-images.rst:126
+msgid "Tag586_ariel"
+msgstr "Tag586_ariel"
+
+#: ../../ftcdocs/docs/source/apriltag/opmode_test_images/opmode-test-images.rst:126
+msgid "Tag 586, \"Ariel\""
+msgstr "Tag 586, \"Ariel\""

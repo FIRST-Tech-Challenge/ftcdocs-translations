@@ -4,8 +4,8 @@
 
 set -ex
 
-LANG_TO_PULL=${1:-'es'}
-LANG_MAP='es_MX: es'
+LANG_TO_PULL=${1:-'es, fr_CA'}
+LANG_MAP='es_MX: es,fr_CA: fr'
 MAINPROJECT=ftcdocs
 ORGANIZATION=first-inspires
 

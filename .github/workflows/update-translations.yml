@@ -11,7 +11,7 @@ on:
 jobs:
   update-translations:
     runs-on: ubuntu-latest
-    if: github.repository == 'uvidyadharan/ftcdocs-translations'
+    if: github.repository == 'FIRST-Tech-Challenge/ftcdocs-translations'
     steps:
       - uses: actions/checkout@v3
         with:

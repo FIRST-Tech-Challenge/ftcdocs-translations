@@ -1,6 +1,6 @@
 [main]
 host     = https://www.transifex.com
-lang_map = es_MX: es
+lang_map = es_MX: es, fr_CA: fr
 
 [o:first-inspires:p:ftcdocs:r:apriltag--opmode_test_images--opmode-test-images]
 file_filter            = locale/<lang>/LC_MESSAGES/apriltag/opmode_test_images/opmode-test-images.po

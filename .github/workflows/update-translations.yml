@@ -10,7 +10,7 @@ on:
     - cron:  '0 4,16 * * *'
 jobs:
   update-translations:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     if: github.repository == 'FIRST-Tech-Challenge/ftcdocs-translations'
     steps:
       - uses: actions/checkout@v3

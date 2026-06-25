@@ -1,6 +1,30 @@
 [main]
 host     = https://www.transifex.com
-lang_map = es_MX: es, fr_CA: fr
+lang_map = fr_CA: fr, es_MX: es
+
+[o:first-inspires:p:ftcdocs:r:404]
+file_filter            = locale/<lang>/LC_MESSAGES/404.po
+source_file            = locale/pot/404.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:ai--innovation_corner--innovation-corner]
+file_filter            = locale/<lang>/LC_MESSAGES/ai/innovation_corner/innovation-corner.po
+source_file            = locale/pot/ai/innovation_corner/innovation-corner.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:apriltag--apriltag_tips--decode_apriltag--decode-apriltag]
+file_filter            = locale/<lang>/LC_MESSAGES/apriltag/apriltag_tips/decode_apriltag/decode-apriltag.po
+source_file            = locale/pot/apriltag/apriltag_tips/decode_apriltag/decode-apriltag.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
 
 [o:first-inspires:p:ftcdocs:r:apriltag--opmode_test_images--opmode-test-images]
 file_filter            = locale/<lang>/LC_MESSAGES/apriltag/opmode_test_images/opmode-test-images.po
@@ -53,6 +77,14 @@ keep_translations      = false
 [o:first-inspires:p:ftcdocs:r:apriltag--vision_portal--apriltag_library--apriltag-library]
 file_filter            = locale/<lang>/LC_MESSAGES/apriltag/vision_portal/apriltag_library/apriltag-library.po
 source_file            = locale/pot/apriltag/vision_portal/apriltag_library/apriltag-library.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:apriltag--vision_portal--apriltag_localization--apriltag-localization]
+file_filter            = locale/<lang>/LC_MESSAGES/apriltag/vision_portal/apriltag_localization/apriltag-localization.po
+source_file            = locale/pot/apriltag/vision_portal/apriltag_localization/apriltag-localization.pot
 type                   = PO
 minimum_perc           = 0
 replace_edited_strings = false
@@ -138,6 +170,54 @@ minimum_perc           = 0
 replace_edited_strings = false
 keep_translations      = false
 
+[o:first-inspires:p:ftcdocs:r:apriltag--vision_portal--visionportal_webcams--visionportal-webcams]
+file_filter            = locale/<lang>/LC_MESSAGES/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.po
+source_file            = locale/pot/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:booklets--advanced]
+file_filter            = locale/<lang>/LC_MESSAGES/booklets/advanced.po
+source_file            = locale/pot/booklets/advanced.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:booklets--apriltags]
+file_filter            = locale/<lang>/LC_MESSAGES/booklets/apriltags.po
+source_file            = locale/pot/booklets/apriltags.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:booklets--control_system]
+file_filter            = locale/<lang>/LC_MESSAGES/booklets/control_system.po
+source_file            = locale/pot/booklets/control_system.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:booklets--index]
+file_filter            = locale/<lang>/LC_MESSAGES/booklets/index.po
+source_file            = locale/pot/booklets/index.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:booklets--sdk]
+file_filter            = locale/<lang>/LC_MESSAGES/booklets/sdk.po
+source_file            = locale/pot/booklets/sdk.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
 [o:first-inspires:p:ftcdocs:r:cad_resources--autodesk--autodesk]
 file_filter            = locale/<lang>/LC_MESSAGES/cad_resources/autodesk/autodesk.po
 source_file            = locale/pot/cad_resources/autodesk/autodesk.pot
@@ -165,6 +245,270 @@ keep_translations      = false
 [o:first-inspires:p:ftcdocs:r:cad_resources--solidworks--solidworks]
 file_filter            = locale/<lang>/LC_MESSAGES/cad_resources/solidworks/solidworks.po
 source_file            = locale/pot/cad_resources/solidworks/solidworks.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:color_processing--color-blob-concepts--color-blob-concepts]
+file_filter            = locale/<lang>/LC_MESSAGES/color_processing/color-blob-concepts/color-blob-concepts.po
+source_file            = locale/pot/color_processing/color-blob-concepts/color-blob-concepts.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:color_processing--color-locator-challenge--color-locator-challenge]
+file_filter            = locale/<lang>/LC_MESSAGES/color_processing/color-locator-challenge/color-locator-challenge.po
+source_file            = locale/pot/color_processing/color-locator-challenge/color-locator-challenge.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:color_processing--color-locator-discover--color-locator-discover]
+file_filter            = locale/<lang>/LC_MESSAGES/color_processing/color-locator-discover/color-locator-discover.po
+source_file            = locale/pot/color_processing/color-locator-discover/color-locator-discover.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:color_processing--color-locator-explore--color-locator-explore]
+file_filter            = locale/<lang>/LC_MESSAGES/color_processing/color-locator-explore/color-locator-explore.po
+source_file            = locale/pot/color_processing/color-locator-explore/color-locator-explore.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:color_processing--color-locator-round-blobs--color-locator-round-blobs]
+file_filter            = locale/<lang>/LC_MESSAGES/color_processing/color-locator-round-blobs/color-locator-round-blobs.po
+source_file            = locale/pot/color_processing/color-locator-round-blobs/color-locator-round-blobs.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:color_processing--color-sensor--color-sensor]
+file_filter            = locale/<lang>/LC_MESSAGES/color_processing/color-sensor/color-sensor.po
+source_file            = locale/pot/color_processing/color-sensor/color-sensor.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:color_processing--color-spaces--color-spaces]
+file_filter            = locale/<lang>/LC_MESSAGES/color_processing/color-spaces/color-spaces.po
+source_file            = locale/pot/color_processing/color-spaces/color-spaces.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:color_processing--index]
+file_filter            = locale/<lang>/LC_MESSAGES/color_processing/index.po
+source_file            = locale/pot/color_processing/index.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:common--mission]
+file_filter            = locale/<lang>/LC_MESSAGES/common/mission.po
+source_file            = locale/pot/common/mission.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:contrib--guidelines--guidelines]
+file_filter            = locale/<lang>/LC_MESSAGES/contrib/guidelines/guidelines.po
+source_file            = locale/pot/contrib/guidelines/guidelines.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:contrib--index]
+file_filter            = locale/<lang>/LC_MESSAGES/contrib/index.po
+source_file            = locale/pot/contrib/index.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:contrib--style_guide--ftc-docs-accessibility-guidelines]
+file_filter            = locale/<lang>/LC_MESSAGES/contrib/style_guide/ftc-docs-accessibility-guidelines.po
+source_file            = locale/pot/contrib/style_guide/ftc-docs-accessibility-guidelines.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:contrib--style_guide--image-and-figure-details]
+file_filter            = locale/<lang>/LC_MESSAGES/contrib/style_guide/image-and-figure-details.po
+source_file            = locale/pot/contrib/style_guide/image-and-figure-details.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:contrib--style_guide--style-guide]
+file_filter            = locale/<lang>/LC_MESSAGES/contrib/style_guide/style-guide.po
+source_file            = locale/pot/contrib/style_guide/style-guide.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:contrib--tutorials--codespaces--codespaces]
+file_filter            = locale/<lang>/LC_MESSAGES/contrib/tutorials/codespaces/codespaces.po
+source_file            = locale/pot/contrib/tutorials/codespaces/codespaces.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:contrib--tutorials--create_codespace--create-codespace]
+file_filter            = locale/<lang>/LC_MESSAGES/contrib/tutorials/create_codespace/create-codespace.po
+source_file            = locale/pot/contrib/tutorials/create_codespace/create-codespace.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:contrib--tutorials--github_repo--github-repo]
+file_filter            = locale/<lang>/LC_MESSAGES/contrib/tutorials/github_repo/github-repo.po
+source_file            = locale/pot/contrib/tutorials/github_repo/github-repo.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:contrib--tutorials--glossary--glossary]
+file_filter            = locale/<lang>/LC_MESSAGES/contrib/tutorials/glossary/glossary.po
+source_file            = locale/pot/contrib/tutorials/glossary/glossary.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:contrib--tutorials--index]
+file_filter            = locale/<lang>/LC_MESSAGES/contrib/tutorials/index.po
+source_file            = locale/pot/contrib/tutorials/index.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:contrib--tutorials--make_branch--make-branch]
+file_filter            = locale/<lang>/LC_MESSAGES/contrib/tutorials/make_branch/make-branch.po
+source_file            = locale/pot/contrib/tutorials/make_branch/make-branch.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:contrib--tutorials--make_fork--make-fork]
+file_filter            = locale/<lang>/LC_MESSAGES/contrib/tutorials/make_fork/make-fork.po
+source_file            = locale/pot/contrib/tutorials/make_fork/make-fork.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:contrib--tutorials--make_pr--make-pr]
+file_filter            = locale/<lang>/LC_MESSAGES/contrib/tutorials/make_pr/make-pr.po
+source_file            = locale/pot/contrib/tutorials/make_pr/make-pr.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:contrib--tutorials--make_rst--basic_rst_content--basic_rst_content]
+file_filter            = locale/<lang>/LC_MESSAGES/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.po
+source_file            = locale/pot/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:contrib--tutorials--make_rst--creating_rst--creating-rst]
+file_filter            = locale/<lang>/LC_MESSAGES/contrib/tutorials/make_rst/creating_rst/creating-rst.po
+source_file            = locale/pot/contrib/tutorials/make_rst/creating_rst/creating-rst.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:contrib--tutorials--make_rst--index]
+file_filter            = locale/<lang>/LC_MESSAGES/contrib/tutorials/make_rst/index.po
+source_file            = locale/pot/contrib/tutorials/make_rst/index.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:contrib--tutorials--make_rst--overview--overview]
+file_filter            = locale/<lang>/LC_MESSAGES/contrib/tutorials/make_rst/overview/overview.po
+source_file            = locale/pot/contrib/tutorials/make_rst/overview/overview.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:contrib--tutorials--overview--overview]
+file_filter            = locale/<lang>/LC_MESSAGES/contrib/tutorials/overview/overview.po
+source_file            = locale/pot/contrib/tutorials/overview/overview.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:contrib--tutorials--setup--setup]
+file_filter            = locale/<lang>/LC_MESSAGES/contrib/tutorials/setup/setup.po
+source_file            = locale/pot/contrib/tutorials/setup/setup.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:contrib--tutorials--setup_credentials--setup-credentials]
+file_filter            = locale/<lang>/LC_MESSAGES/contrib/tutorials/setup_credentials/setup-credentials.po
+source_file            = locale/pot/contrib/tutorials/setup_credentials/setup-credentials.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:contrib--tutorials--switch_branch--switch-branch]
+file_filter            = locale/<lang>/LC_MESSAGES/contrib/tutorials/switch_branch/switch-branch.po
+source_file            = locale/pot/contrib/tutorials/switch_branch/switch-branch.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:contrib--tutorials--tasks--tasks]
+file_filter            = locale/<lang>/LC_MESSAGES/contrib/tutorials/tasks/tasks.po
+source_file            = locale/pot/contrib/tutorials/tasks/tasks.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:contrib--tutorials--update_fork--update-fork]
+file_filter            = locale/<lang>/LC_MESSAGES/contrib/tutorials/update_fork/update-fork.po
+source_file            = locale/pot/contrib/tutorials/update_fork/update-fork.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:contrib--workflow--workflow]
+file_filter            = locale/<lang>/LC_MESSAGES/contrib/workflow/workflow.po
+source_file            = locale/pot/contrib/workflow/workflow.pot
 type                   = PO
 minimum_perc           = 0
 replace_edited_strings = false
@@ -282,6 +626,14 @@ minimum_perc           = 0
 replace_edited_strings = false
 keep_translations      = false
 
+[o:first-inspires:p:ftcdocs:r:devices--huskylens--huskylens]
+file_filter            = locale/<lang>/LC_MESSAGES/devices/huskylens/huskylens.po
+source_file            = locale/pot/devices/huskylens/huskylens.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
 [o:first-inspires:p:ftcdocs:r:faq--faqs]
 file_filter            = locale/<lang>/LC_MESSAGES/faq/faqs.po
 source_file            = locale/pot/faq/faqs.pot
@@ -290,193 +642,9 @@ minimum_perc           = 0
 replace_edited_strings = false
 keep_translations      = false
 
-[o:first-inspires:p:ftcdocs:r:ftc_docs--dark--dark]
-file_filter            = locale/<lang>/LC_MESSAGES/ftc_docs/dark/dark.po
-source_file            = locale/pot/ftc_docs/dark/dark.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
 [o:first-inspires:p:ftcdocs:r:ftc_docs--form--form]
 file_filter            = locale/<lang>/LC_MESSAGES/ftc_docs/form/form.po
 source_file            = locale/pot/ftc_docs/form/form.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:first-inspires:p:ftcdocs:r:ftc_docs--pdf--pdf]
-file_filter            = locale/<lang>/LC_MESSAGES/ftc_docs/pdf/pdf.po
-source_file            = locale/pot/ftc_docs/pdf/pdf.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:first-inspires:p:ftcdocs:r:ftc_ml--faq--faq]
-file_filter            = locale/<lang>/LC_MESSAGES/ftc_ml/faq/faq.po
-source_file            = locale/pot/ftc_ml/faq/faq.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:first-inspires:p:ftcdocs:r:ftc_ml--implement--android_studios--android-studios]
-file_filter            = locale/<lang>/LC_MESSAGES/ftc_ml/implement/android_studios/android-studios.po
-source_file            = locale/pot/ftc_ml/implement/android_studios/android-studios.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:first-inspires:p:ftcdocs:r:ftc_ml--implement--blocks--blocks]
-file_filter            = locale/<lang>/LC_MESSAGES/ftc_ml/implement/blocks/blocks.po
-source_file            = locale/pot/ftc_ml/implement/blocks/blocks.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:first-inspires:p:ftcdocs:r:ftc_ml--implement--index]
-file_filter            = locale/<lang>/LC_MESSAGES/ftc_ml/implement/index.po
-source_file            = locale/pot/ftc_ml/implement/index.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:first-inspires:p:ftcdocs:r:ftc_ml--implement--obj--obj]
-file_filter            = locale/<lang>/LC_MESSAGES/ftc_ml/implement/obj/obj.po
-source_file            = locale/pot/ftc_ml/implement/obj/obj.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:first-inspires:p:ftcdocs:r:ftc_ml--index]
-file_filter            = locale/<lang>/LC_MESSAGES/ftc_ml/index.po
-source_file            = locale/pot/ftc_ml/index.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:first-inspires:p:ftcdocs:r:ftc_ml--intro--intro]
-file_filter            = locale/<lang>/LC_MESSAGES/ftc_ml/intro/intro.po
-source_file            = locale/pot/ftc_ml/intro/intro.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:first-inspires:p:ftcdocs:r:ftc_ml--logging_on--logging-on]
-file_filter            = locale/<lang>/LC_MESSAGES/ftc_ml/logging_on/logging-on.po
-source_file            = locale/pot/ftc_ml/logging_on/logging-on.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:first-inspires:p:ftcdocs:r:ftc_ml--managing_tool--cancel_training--cancel-training]
-file_filter            = locale/<lang>/LC_MESSAGES/ftc_ml/managing_tool/cancel_training/cancel-training.po
-source_file            = locale/pot/ftc_ml/managing_tool/cancel_training/cancel-training.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:first-inspires:p:ftcdocs:r:ftc_ml--managing_tool--cont_training_models--cont-training-models]
-file_filter            = locale/<lang>/LC_MESSAGES/ftc_ml/managing_tool/cont_training_models/cont-training-models.po
-source_file            = locale/pot/ftc_ml/managing_tool/cont_training_models/cont-training-models.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:first-inspires:p:ftcdocs:r:ftc_ml--managing_tool--create_videos--create-videos]
-file_filter            = locale/<lang>/LC_MESSAGES/ftc_ml/managing_tool/create_videos/create-videos.po
-source_file            = locale/pot/ftc_ml/managing_tool/create_videos/create-videos.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:first-inspires:p:ftcdocs:r:ftc_ml--managing_tool--deleting_model--deleting-model]
-file_filter            = locale/<lang>/LC_MESSAGES/ftc_ml/managing_tool/deleting_model/deleting-model.po
-source_file            = locale/pot/ftc_ml/managing_tool/deleting_model/deleting-model.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:first-inspires:p:ftcdocs:r:ftc_ml--managing_tool--downloading_model--downloading-model]
-file_filter            = locale/<lang>/LC_MESSAGES/ftc_ml/managing_tool/downloading_model/downloading-model.po
-source_file            = locale/pot/ftc_ml/managing_tool/downloading_model/downloading-model.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:first-inspires:p:ftcdocs:r:ftc_ml--managing_tool--index]
-file_filter            = locale/<lang>/LC_MESSAGES/ftc_ml/managing_tool/index.po
-source_file            = locale/pot/ftc_ml/managing_tool/index.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:first-inspires:p:ftcdocs:r:ftc_ml--managing_tool--labeling--labeling]
-file_filter            = locale/<lang>/LC_MESSAGES/ftc_ml/managing_tool/labeling/labeling.po
-source_file            = locale/pot/ftc_ml/managing_tool/labeling/labeling.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:first-inspires:p:ftcdocs:r:ftc_ml--managing_tool--model_metrics--model-metrics]
-file_filter            = locale/<lang>/LC_MESSAGES/ftc_ml/managing_tool/model_metrics/model-metrics.po
-source_file            = locale/pot/ftc_ml/managing_tool/model_metrics/model-metrics.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:first-inspires:p:ftcdocs:r:ftc_ml--managing_tool--overview--overview]
-file_filter            = locale/<lang>/LC_MESSAGES/ftc_ml/managing_tool/overview/overview.po
-source_file            = locale/pot/ftc_ml/managing_tool/overview/overview.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:first-inspires:p:ftcdocs:r:ftc_ml--managing_tool--produce_dataset--produce-dataset]
-file_filter            = locale/<lang>/LC_MESSAGES/ftc_ml/managing_tool/produce_dataset/produce-dataset.po
-source_file            = locale/pot/ftc_ml/managing_tool/produce_dataset/produce-dataset.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:first-inspires:p:ftcdocs:r:ftc_ml--managing_tool--training_models--training-models]
-file_filter            = locale/<lang>/LC_MESSAGES/ftc_ml/managing_tool/training_models/training-models.po
-source_file            = locale/pot/ftc_ml/managing_tool/training_models/training-models.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:first-inspires:p:ftcdocs:r:ftc_ml--managing_tool--upload_videos--upload-videos]
-file_filter            = locale/<lang>/LC_MESSAGES/ftc_ml/managing_tool/upload_videos/upload-videos.po
-source_file            = locale/pot/ftc_ml/managing_tool/upload_videos/upload-videos.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:first-inspires:p:ftcdocs:r:ftc_ml--optimize_videos--optimize-videos]
-file_filter            = locale/<lang>/LC_MESSAGES/ftc_ml/optimize_videos/optimize-videos.po
-source_file            = locale/pot/ftc_ml/optimize_videos/optimize-videos.pot
 type                   = PO
 minimum_perc           = 0
 replace_edited_strings = false
@@ -541,6 +709,14 @@ keep_translations      = false
 [o:first-inspires:p:ftcdocs:r:ftc_sdk--updating--rc_app--Updating-the-RC-App]
 file_filter            = locale/<lang>/LC_MESSAGES/ftc_sdk/updating/rc_app/Updating-the-RC-App.po
 source_file            = locale/pot/ftc_sdk/updating/rc_app/Updating-the-RC-App.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:game_specific_resources--blog--blog]
+file_filter            = locale/<lang>/LC_MESSAGES/game_specific_resources/blog/blog.po
+source_file            = locale/pot/game_specific_resources/blog/blog.pot
 type                   = PO
 minimum_perc           = 0
 replace_edited_strings = false
@@ -722,6 +898,22 @@ minimum_perc           = 0
 replace_edited_strings = false
 keep_translations      = false
 
+[o:first-inspires:p:ftcdocs:r:hardware_and_software_configuration--self_inspect--new-self-inspect]
+file_filter            = locale/<lang>/LC_MESSAGES/hardware_and_software_configuration/self_inspect/new-self-inspect.po
+source_file            = locale/pot/hardware_and_software_configuration/self_inspect/new-self-inspect.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:hardware_and_software_configuration--self_inspect--self-inspect]
+file_filter            = locale/<lang>/LC_MESSAGES/hardware_and_software_configuration/self_inspect/self-inspect.po
+source_file            = locale/pot/hardware_and_software_configuration/self_inspect/self-inspect.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
 [o:first-inspires:p:ftcdocs:r:index]
 file_filter            = locale/<lang>/LC_MESSAGES/index.po
 source_file            = locale/pot/index.pot
@@ -733,6 +925,262 @@ keep_translations      = false
 [o:first-inspires:p:ftcdocs:r:manuals--game_manuals--game_manuals]
 file_filter            = locale/<lang>/LC_MESSAGES/manuals/game_manuals/game_manuals.po
 source_file            = locale/pot/manuals/game_manuals/game_manuals.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:manufacturing--3d_printing--3d_printed_parts--3d_printed_parts]
+file_filter            = locale/<lang>/LC_MESSAGES/manufacturing/3d_printing/3d_printed_parts/3d_printed_parts.po
+source_file            = locale/pot/manufacturing/3d_printing/3d_printed_parts/3d_printed_parts.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:manufacturing--3d_printing--3d_printing_intro--3d_printing_intro]
+file_filter            = locale/<lang>/LC_MESSAGES/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.po
+source_file            = locale/pot/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:manufacturing--3d_printing--designing_and_slicing--designing_and_slicing]
+file_filter            = locale/<lang>/LC_MESSAGES/manufacturing/3d_printing/designing_and_slicing/designing_and_slicing.po
+source_file            = locale/pot/manufacturing/3d_printing/designing_and_slicing/designing_and_slicing.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:manufacturing--3d_printing--designing_and_slicing--general_3d_print_design--general_3d_print_design]
+file_filter            = locale/<lang>/LC_MESSAGES/manufacturing/3d_printing/designing_and_slicing/general_3d_print_design/general_3d_print_design.po
+source_file            = locale/pot/manufacturing/3d_printing/designing_and_slicing/general_3d_print_design/general_3d_print_design.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:manufacturing--3d_printing--designing_and_slicing--part_printability--part_printability]
+file_filter            = locale/<lang>/LC_MESSAGES/manufacturing/3d_printing/designing_and_slicing/part_printability/part_printability.po
+source_file            = locale/pot/manufacturing/3d_printing/designing_and_slicing/part_printability/part_printability.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:manufacturing--3d_printing--designing_and_slicing--slicing_settings--slicing_settings]
+file_filter            = locale/<lang>/LC_MESSAGES/manufacturing/3d_printing/designing_and_slicing/slicing_settings/slicing_settings.po
+source_file            = locale/pot/manufacturing/3d_printing/designing_and_slicing/slicing_settings/slicing_settings.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:manufacturing--3d_printing--designing_and_slicing--slicing_software--slicing_software]
+file_filter            = locale/<lang>/LC_MESSAGES/manufacturing/3d_printing/designing_and_slicing/slicing_software/slicing_software.po
+source_file            = locale/pot/manufacturing/3d_printing/designing_and_slicing/slicing_software/slicing_software.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:manufacturing--3d_printing--designing_and_slicing--tolerancing--tolerancing]
+file_filter            = locale/<lang>/LC_MESSAGES/manufacturing/3d_printing/designing_and_slicing/tolerancing/tolerancing.po
+source_file            = locale/pot/manufacturing/3d_printing/designing_and_slicing/tolerancing/tolerancing.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:manufacturing--3d_printing--designing_and_slicing--what_is_slicing--what_is_slicing]
+file_filter            = locale/<lang>/LC_MESSAGES/manufacturing/3d_printing/designing_and_slicing/what_is_slicing/what_is_slicing.po
+source_file            = locale/pot/manufacturing/3d_printing/designing_and_slicing/what_is_slicing/what_is_slicing.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:manufacturing--3d_printing--designing_and_slicing--working_with_screws--working_with_screws]
+file_filter            = locale/<lang>/LC_MESSAGES/manufacturing/3d_printing/designing_and_slicing/working_with_screws/working_with_screws.po
+source_file            = locale/pot/manufacturing/3d_printing/designing_and_slicing/working_with_screws/working_with_screws.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:manufacturing--3d_printing--filament_choice--advanced_filaments--advanced_filaments]
+file_filter            = locale/<lang>/LC_MESSAGES/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.po
+source_file            = locale/pot/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:manufacturing--3d_printing--filament_choice--common_filaments--common_filaments]
+file_filter            = locale/<lang>/LC_MESSAGES/manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.po
+source_file            = locale/pot/manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:manufacturing--3d_printing--filament_choice--filament_choice]
+file_filter            = locale/<lang>/LC_MESSAGES/manufacturing/3d_printing/filament_choice/filament_choice.po
+source_file            = locale/pot/manufacturing/3d_printing/filament_choice/filament_choice.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:manufacturing--3d_printing--filament_choice--filament_storage--filament_storage]
+file_filter            = locale/<lang>/LC_MESSAGES/manufacturing/3d_printing/filament_choice/filament_storage/filament_storage.po
+source_file            = locale/pot/manufacturing/3d_printing/filament_choice/filament_storage/filament_storage.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:manufacturing--3d_printing--general_knowledge--common_tools--common_tools]
+file_filter            = locale/<lang>/LC_MESSAGES/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.po
+source_file            = locale/pot/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:manufacturing--3d_printing--general_knowledge--common_upgrades--common_upgrades]
+file_filter            = locale/<lang>/LC_MESSAGES/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.po
+source_file            = locale/pot/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:manufacturing--3d_printing--general_knowledge--general_knowledge]
+file_filter            = locale/<lang>/LC_MESSAGES/manufacturing/3d_printing/general_knowledge/general_knowledge.po
+source_file            = locale/pot/manufacturing/3d_printing/general_knowledge/general_knowledge.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:manufacturing--3d_printing--general_knowledge--hardware_tradeoffs--hardware_tradeoffs]
+file_filter            = locale/<lang>/LC_MESSAGES/manufacturing/3d_printing/general_knowledge/hardware_tradeoffs/hardware_tradeoffs.po
+source_file            = locale/pot/manufacturing/3d_printing/general_knowledge/hardware_tradeoffs/hardware_tradeoffs.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:manufacturing--3d_printing--general_knowledge--terminology--terminology]
+file_filter            = locale/<lang>/LC_MESSAGES/manufacturing/3d_printing/general_knowledge/terminology/terminology.po
+source_file            = locale/pot/manufacturing/3d_printing/general_knowledge/terminology/terminology.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:manufacturing--3d_printing--index]
+file_filter            = locale/<lang>/LC_MESSAGES/manufacturing/3d_printing/index.po
+source_file            = locale/pot/manufacturing/3d_printing/index.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:manufacturing--3d_printing--printer_choice--budget_printers--budget_printers]
+file_filter            = locale/<lang>/LC_MESSAGES/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.po
+source_file            = locale/pot/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:manufacturing--3d_printing--printer_choice--high_end_printers--high_end_printers]
+file_filter            = locale/<lang>/LC_MESSAGES/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.po
+source_file            = locale/pot/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:manufacturing--3d_printing--printer_choice--mid_range_printers--mid_range_printers]
+file_filter            = locale/<lang>/LC_MESSAGES/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.po
+source_file            = locale/pot/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:manufacturing--3d_printing--printer_choice--printer_choice]
+file_filter            = locale/<lang>/LC_MESSAGES/manufacturing/3d_printing/printer_choice/printer_choice.po
+source_file            = locale/pot/manufacturing/3d_printing/printer_choice/printer_choice.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:manufacturing--3d_printing--specific_skill_guides--basic_post_processing--basic_post_processing]
+file_filter            = locale/<lang>/LC_MESSAGES/manufacturing/3d_printing/specific_skill_guides/basic_post_processing/basic_post_processing.po
+source_file            = locale/pot/manufacturing/3d_printing/specific_skill_guides/basic_post_processing/basic_post_processing.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:manufacturing--3d_printing--specific_skill_guides--bed_leveling--bed_leveling]
+file_filter            = locale/<lang>/LC_MESSAGES/manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.po
+source_file            = locale/pot/manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:manufacturing--3d_printing--specific_skill_guides--extruder_calibration--extruder_calibration]
+file_filter            = locale/<lang>/LC_MESSAGES/manufacturing/3d_printing/specific_skill_guides/extruder_calibration/extruder_calibration.po
+source_file            = locale/pot/manufacturing/3d_printing/specific_skill_guides/extruder_calibration/extruder_calibration.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:manufacturing--3d_printing--specific_skill_guides--print_adhesion--print_adhesion]
+file_filter            = locale/<lang>/LC_MESSAGES/manufacturing/3d_printing/specific_skill_guides/print_adhesion/print_adhesion.po
+source_file            = locale/pot/manufacturing/3d_printing/specific_skill_guides/print_adhesion/print_adhesion.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:manufacturing--3d_printing--specific_skill_guides--specific_skill_guides]
+file_filter            = locale/<lang>/LC_MESSAGES/manufacturing/3d_printing/specific_skill_guides/specific_skill_guides.po
+source_file            = locale/pot/manufacturing/3d_printing/specific_skill_guides/specific_skill_guides.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:manufacturing--3d_printing--specific_skill_guides--temperature_tuning--temperature_tuning]
+file_filter            = locale/<lang>/LC_MESSAGES/manufacturing/3d_printing/specific_skill_guides/temperature_tuning/temperature_tuning.po
+source_file            = locale/pot/manufacturing/3d_printing/specific_skill_guides/temperature_tuning/temperature_tuning.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:manufacturing--3d_printing--troubleshooting--troubleshooting]
+file_filter            = locale/<lang>/LC_MESSAGES/manufacturing/3d_printing/troubleshooting/troubleshooting.po
+source_file            = locale/pot/manufacturing/3d_printing/troubleshooting/troubleshooting.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:manufacturing--index]
+file_filter            = locale/<lang>/LC_MESSAGES/manufacturing/index.po
+source_file            = locale/pot/manufacturing/index.pot
 type                   = PO
 minimum_perc           = 0
 replace_edited_strings = false
@@ -786,9 +1234,89 @@ minimum_perc           = 0
 replace_edited_strings = false
 keep_translations      = false
 
+[o:first-inspires:p:ftcdocs:r:programming_resources--android_studio_java--config--config]
+file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/android_studio_java/config/config.po
+source_file            = locale/pot/programming_resources/android_studio_java/config/config.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:programming_resources--android_studio_java--install--install]
+file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/android_studio_java/install/install.po
+source_file            = locale/pot/programming_resources/android_studio_java/install/install.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:programming_resources--android_studio_java--intro--intro]
+file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/android_studio_java/intro/intro.po
+source_file            = locale/pot/programming_resources/android_studio_java/intro/intro.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:programming_resources--android_studio_java--manage--manage]
+file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/android_studio_java/manage/manage.po
+source_file            = locale/pot/programming_resources/android_studio_java/manage/manage.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:programming_resources--android_studio_java--opmode--opmode]
+file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/android_studio_java/opmode/opmode.po
+source_file            = locale/pot/programming_resources/android_studio_java/opmode/opmode.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
 [o:first-inspires:p:ftcdocs:r:programming_resources--blocks--Blocks-Tutorial]
 file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/blocks/Blocks-Tutorial.po
 source_file            = locale/pot/programming_resources/blocks/Blocks-Tutorial.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:programming_resources--blocks--config--config]
+file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/blocks/config/config.po
+source_file            = locale/pot/programming_resources/blocks/config/config.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:programming_resources--blocks--connecting--connecting]
+file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/blocks/connecting/connecting.po
+source_file            = locale/pot/programming_resources/blocks/connecting/connecting.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:programming_resources--blocks--intro--intro]
+file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/blocks/intro/intro.po
+source_file            = locale/pot/programming_resources/blocks/intro/intro.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:programming_resources--blocks--opmode--opmode]
+file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/blocks/opmode/opmode.po
+source_file            = locale/pot/programming_resources/blocks/opmode/opmode.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:programming_resources--blocks--reference--reference]
+file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/blocks/reference/reference.po
+source_file            = locale/pot/programming_resources/blocks/reference/reference.pot
 type                   = PO
 minimum_perc           = 0
 replace_edited_strings = false
@@ -810,9 +1338,57 @@ minimum_perc           = 0
 replace_edited_strings = false
 keep_translations      = false
 
+[o:first-inspires:p:ftcdocs:r:programming_resources--laptops--laptops]
+file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/laptops/laptops.po
+source_file            = locale/pot/programming_resources/laptops/laptops.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
 [o:first-inspires:p:ftcdocs:r:programming_resources--onbot_java--OnBot-Java-Tutorial]
 file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/onbot_java/OnBot-Java-Tutorial.po
 source_file            = locale/pot/programming_resources/onbot_java/OnBot-Java-Tutorial.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:programming_resources--onbot_java--config--config]
+file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/onbot_java/config/config.po
+source_file            = locale/pot/programming_resources/onbot_java/config/config.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:programming_resources--onbot_java--connecting--connecting]
+file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/onbot_java/connecting/connecting.po
+source_file            = locale/pot/programming_resources/onbot_java/connecting/connecting.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:programming_resources--onbot_java--intro--intro]
+file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/onbot_java/intro/intro.po
+source_file            = locale/pot/programming_resources/onbot_java/intro/intro.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:programming_resources--onbot_java--opmode--opmode]
+file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/onbot_java/opmode/opmode.po
+source_file            = locale/pot/programming_resources/onbot_java/opmode/opmode.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:programming_resources--onbot_java--reference--reference]
+file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/onbot_java/reference/reference.po
+source_file            = locale/pot/programming_resources/onbot_java/reference/reference.pot
 type                   = PO
 minimum_perc           = 0
 replace_edited_strings = false
@@ -1074,14 +1650,6 @@ minimum_perc           = 0
 replace_edited_strings = false
 keep_translations      = false
 
-[o:first-inspires:p:ftcdocs:r:programming_resources--tutorial_specific--android_studio--disable_instant_run--disable-instant-run]
-file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/tutorial_specific/android_studio/disable_instant_run/disable-instant-run.po
-source_file            = locale/pot/programming_resources/tutorial_specific/android_studio/disable_instant_run/disable-instant-run.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
 [o:first-inspires:p:ftcdocs:r:programming_resources--tutorial_specific--android_studio--downloading_as_project_folder--Downloading-the-Android-Studio-Project-Folder]
 file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/tutorial_specific/android_studio/downloading_as_project_folder/Downloading-the-Android-Studio-Project-Folder.po
 source_file            = locale/pot/programming_resources/tutorial_specific/android_studio/downloading_as_project_folder/Downloading-the-Android-Studio-Project-Folder.pot
@@ -1202,41 +1770,9 @@ minimum_perc           = 0
 replace_edited_strings = false
 keep_translations      = false
 
-[o:first-inspires:p:ftcdocs:r:programming_resources--vision--blocks_tfod_opmode--blocks-tfod-opmode]
-file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.po
-source_file            = locale/pot/programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
 [o:first-inspires:p:ftcdocs:r:programming_resources--vision--camera_calibration--camera-calibration]
 file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/vision/camera_calibration/camera-calibration.po
 source_file            = locale/pot/programming_resources/vision/camera_calibration/camera-calibration.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:first-inspires:p:ftcdocs:r:programming_resources--vision--java_tfod_opmode--java-tfod-opmode]
-file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/vision/java_tfod_opmode/java-tfod-opmode.po
-source_file            = locale/pot/programming_resources/vision/java_tfod_opmode/java-tfod-opmode.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:first-inspires:p:ftcdocs:r:programming_resources--vision--tensorflow_ff_2021--tensorflow-ff-2021]
-file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/vision/tensorflow_ff_2021/tensorflow-ff-2021.po
-source_file            = locale/pot/programming_resources/vision/tensorflow_ff_2021/tensorflow-ff-2021.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:first-inspires:p:ftcdocs:r:programming_resources--vision--tensorflow_pp_2022--tensorflow_pp_2022]
-file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/vision/tensorflow_pp_2022/tensorflow_pp_2022.po
-source_file            = locale/pot/programming_resources/vision/tensorflow_pp_2022/tensorflow_pp_2022.pot
 type                   = PO
 minimum_perc           = 0
 replace_edited_strings = false
@@ -1250,9 +1786,185 @@ minimum_perc           = 0
 replace_edited_strings = false
 keep_translations      = false
 
-[o:first-inspires:p:ftcdocs:r:programming_resources--vision--webcam_controls--webcam-controls]
-file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/vision/webcam_controls/webcam-controls.po
-source_file            = locale/pot/programming_resources/vision/webcam_controls/webcam-controls.pot
+[o:first-inspires:p:ftcdocs:r:programming_resources--vision--webcam_controls--eval--eval]
+file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/vision/webcam_controls/eval/eval.po
+source_file            = locale/pot/programming_resources/vision/webcam_controls/eval/eval.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:programming_resources--vision--webcam_controls--exposure--auto_exposure--auto-exposure]
+file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/vision/webcam_controls/exposure/auto_exposure/auto-exposure.po
+source_file            = locale/pot/programming_resources/vision/webcam_controls/exposure/auto_exposure/auto-exposure.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:programming_resources--vision--webcam_controls--exposure--control--control]
+file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/vision/webcam_controls/exposure/control/control.po
+source_file            = locale/pot/programming_resources/vision/webcam_controls/exposure/control/control.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:programming_resources--vision--webcam_controls--exposure--index]
+file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/vision/webcam_controls/exposure/index.po
+source_file            = locale/pot/programming_resources/vision/webcam_controls/exposure/index.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:programming_resources--vision--webcam_controls--exposure--mode--mode]
+file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/vision/webcam_controls/exposure/mode/mode.po
+source_file            = locale/pot/programming_resources/vision/webcam_controls/exposure/mode/mode.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:programming_resources--vision--webcam_controls--exposure--samples--samples]
+file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/vision/webcam_controls/exposure/samples/samples.po
+source_file            = locale/pot/programming_resources/vision/webcam_controls/exposure/samples/samples.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:programming_resources--vision--webcam_controls--focus--control--control]
+file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/vision/webcam_controls/focus/control/control.po
+source_file            = locale/pot/programming_resources/vision/webcam_controls/focus/control/control.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:programming_resources--vision--webcam_controls--focus--index]
+file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/vision/webcam_controls/focus/index.po
+source_file            = locale/pot/programming_resources/vision/webcam_controls/focus/index.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:programming_resources--vision--webcam_controls--focus--mode--mode]
+file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/vision/webcam_controls/focus/mode/mode.po
+source_file            = locale/pot/programming_resources/vision/webcam_controls/focus/mode/mode.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:programming_resources--vision--webcam_controls--gain--control--control]
+file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/vision/webcam_controls/gain/control/control.po
+source_file            = locale/pot/programming_resources/vision/webcam_controls/gain/control/control.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:programming_resources--vision--webcam_controls--gain--ex1--ex1]
+file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/vision/webcam_controls/gain/ex1/ex1.po
+source_file            = locale/pot/programming_resources/vision/webcam_controls/gain/ex1/ex1.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:programming_resources--vision--webcam_controls--gain--ex2--ex2]
+file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/vision/webcam_controls/gain/ex2/ex2.po
+source_file            = locale/pot/programming_resources/vision/webcam_controls/gain/ex2/ex2.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:programming_resources--vision--webcam_controls--gain--ex3--ex3]
+file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/vision/webcam_controls/gain/ex3/ex3.po
+source_file            = locale/pot/programming_resources/vision/webcam_controls/gain/ex3/ex3.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:programming_resources--vision--webcam_controls--gain--index]
+file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/vision/webcam_controls/gain/index.po
+source_file            = locale/pot/programming_resources/vision/webcam_controls/gain/index.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:programming_resources--vision--webcam_controls--index]
+file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/vision/webcam_controls/index.po
+source_file            = locale/pot/programming_resources/vision/webcam_controls/index.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:programming_resources--vision--webcam_controls--overview--overview]
+file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/vision/webcam_controls/overview/overview.po
+source_file            = locale/pot/programming_resources/vision/webcam_controls/overview/overview.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:programming_resources--vision--webcam_controls--ptz--index]
+file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/vision/webcam_controls/ptz/index.po
+source_file            = locale/pot/programming_resources/vision/webcam_controls/ptz/index.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:programming_resources--vision--webcam_controls--ptz--pan_tilt--pan-tilt]
+file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/vision/webcam_controls/ptz/pan_tilt/pan-tilt.po
+source_file            = locale/pot/programming_resources/vision/webcam_controls/ptz/pan_tilt/pan-tilt.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:programming_resources--vision--webcam_controls--ptz--zoom--zoom]
+file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/vision/webcam_controls/ptz/zoom/zoom.po
+source_file            = locale/pot/programming_resources/vision/webcam_controls/ptz/zoom/zoom.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:programming_resources--vision--webcam_controls--samples--samples]
+file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/vision/webcam_controls/samples/samples.po
+source_file            = locale/pot/programming_resources/vision/webcam_controls/samples/samples.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:programming_resources--vision--webcam_controls--white_balance--control--control]
+file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/vision/webcam_controls/white_balance/control/control.po
+source_file            = locale/pot/programming_resources/vision/webcam_controls/white_balance/control/control.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:programming_resources--vision--webcam_controls--white_balance--index]
+file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/vision/webcam_controls/white_balance/index.po
+source_file            = locale/pot/programming_resources/vision/webcam_controls/white_balance/index.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:programming_resources--vision--webcam_controls--white_balance--mode--mode]
+file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/vision/webcam_controls/white_balance/mode/mode.po
+source_file            = locale/pot/programming_resources/vision/webcam_controls/white_balance/mode/mode.pot
 type                   = PO
 minimum_perc           = 0
 replace_edited_strings = false
@@ -1277,6 +1989,38 @@ keep_translations      = false
 [o:first-inspires:p:ftcdocs:r:sponsors--software--software]
 file_filter            = locale/<lang>/LC_MESSAGES/sponsors/software/software.po
 source_file            = locale/pot/sponsors/software/software.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:team_resources--team_resources]
+file_filter            = locale/<lang>/LC_MESSAGES/team_resources/team_resources.po
+source_file            = locale/pot/team_resources/team_resources.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:tech_tips--tech-tips]
+file_filter            = locale/<lang>/LC_MESSAGES/tech_tips/tech-tips.po
+source_file            = locale/pot/tech_tips/tech-tips.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:tech_tips--tech-tips--tech-tip-annual-maintenance--tech-tip-annual-maintenance]
+file_filter            = locale/<lang>/LC_MESSAGES/tech_tips/tech-tips/tech-tip-annual-maintenance/tech-tip-annual-maintenance.po
+source_file            = locale/pot/tech_tips/tech-tips/tech-tip-annual-maintenance/tech-tip-annual-maintenance.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:tech_tips--tech-tips--tech-tip-practice-timer--tech-tip-practice-timer]
+file_filter            = locale/<lang>/LC_MESSAGES/tech_tips/tech-tips/tech-tip-practice-timer/tech-tip-practice-timer.po
+source_file            = locale/pot/tech_tips/tech-tips/tech-tip-practice-timer/tech-tip-practice-timer.pot
 type                   = PO
 minimum_perc           = 0
 replace_edited_strings = false

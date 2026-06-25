@@ -27,4 +27,7 @@ if [ "$CI" = true ]
 then
     tx push --source --skip
 fi
-tx pull -l $LANG_TO_PULL -t --mode onlyreviewed --use-git-timestamps
+for lang in $(echo "$LANG_TO_PULL" | tr ',' ' '); do
+    tx pull -l "$lang" -t --mode onlyreviewed --use-git-timestamps || \
+        echo "Warning: pull failed for '$lang' (likely no reviewed translations yet)"
+done

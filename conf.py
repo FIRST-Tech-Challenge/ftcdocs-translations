@@ -10,11 +10,12 @@ This conf.py does:
 - Overrides source directory as 'sphinx/doc/`.
 """
 import os
-from sphinx.util.pycompat import execfile_
 
 BASEDIR = os.path.dirname(os.path.abspath(__file__))
 
-execfile_(os.path.join(BASEDIR, "ftcdocs/docs/source/conf.py"), globals())
+_conf_path = os.path.join(BASEDIR, "ftcdocs/docs/source/conf.py")
+with open(_conf_path) as _conf_file:
+    exec(compile(_conf_file.read(), _conf_path, "exec"), globals())
 
 locale_dirs = [os.path.join(BASEDIR, "locale/")]
 gettext_compact = False

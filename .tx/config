@@ -218,6 +218,14 @@ minimum_perc           = 0
 replace_edited_strings = false
 keep_translations      = false
 
+[o:first-inspires:p:ftcdocs:r:booklets--wiring_guide]
+file_filter            = locale/<lang>/LC_MESSAGES/booklets/wiring_guide.po
+source_file            = locale/pot/booklets/wiring_guide.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
 [o:first-inspires:p:ftcdocs:r:cad_resources--autodesk--autodesk]
 file_filter            = locale/<lang>/LC_MESSAGES/cad_resources/autodesk/autodesk.po
 source_file            = locale/pot/cad_resources/autodesk/autodesk.pot
@@ -1965,6 +1973,22 @@ keep_translations      = false
 [o:first-inspires:p:ftcdocs:r:programming_resources--vision--webcam_controls--white_balance--mode--mode]
 file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/vision/webcam_controls/white_balance/mode/mode.po
 source_file            = locale/pot/programming_resources/vision/webcam_controls/white_balance/mode/mode.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:robot_building--index]
+file_filter            = locale/<lang>/LC_MESSAGES/robot_building/index.po
+source_file            = locale/pot/robot_building/index.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:robot_building--wiring_guide--wiring-guide]
+file_filter            = locale/<lang>/LC_MESSAGES/robot_building/wiring_guide/wiring-guide.po
+source_file            = locale/pot/robot_building/wiring_guide/wiring-guide.pot
 type                   = PO
 minimum_perc           = 0
 replace_edited_strings = false

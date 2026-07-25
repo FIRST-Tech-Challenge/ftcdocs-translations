@@ -634,6 +634,70 @@ minimum_perc           = 0
 replace_edited_strings = false
 keep_translations      = false
 
+[o:first-inspires:p:ftcdocs:r:control_system_troubleshooting--index]
+file_filter            = locale/<lang>/LC_MESSAGES/control_system_troubleshooting/index.po
+source_file            = locale/pot/control_system_troubleshooting/index.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:control_system_troubleshooting--monitoring_wireless_environment--monitoring-wireless-environment]
+file_filter            = locale/<lang>/LC_MESSAGES/control_system_troubleshooting/monitoring_wireless_environment/monitoring-wireless-environment.po
+source_file            = locale/pot/control_system_troubleshooting/monitoring_wireless_environment/monitoring-wireless-environment.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:control_system_troubleshooting--troubleshooting_common_issues--troubleshooting-common-issues]
+file_filter            = locale/<lang>/LC_MESSAGES/control_system_troubleshooting/troubleshooting_common_issues/troubleshooting-common-issues.po
+source_file            = locale/pot/control_system_troubleshooting/troubleshooting_common_issues/troubleshooting-common-issues.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:control_system_troubleshooting--troubleshooting_wireless_at_events--troubleshooting-wireless-at-events]
+file_filter            = locale/<lang>/LC_MESSAGES/control_system_troubleshooting/troubleshooting_wireless_at_events/troubleshooting-wireless-at-events.po
+source_file            = locale/pot/control_system_troubleshooting/troubleshooting_wireless_at_events/troubleshooting-wireless-at-events.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:control_system_troubleshooting--using_log_files--using-log-files]
+file_filter            = locale/<lang>/LC_MESSAGES/control_system_troubleshooting/using_log_files/using-log-files.po
+source_file            = locale/pot/control_system_troubleshooting/using_log_files/using-log-files.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:control_system_troubleshooting--wifi_channel_planning--wifi-channel-planning]
+file_filter            = locale/<lang>/LC_MESSAGES/control_system_troubleshooting/wifi_channel_planning/wifi-channel-planning.po
+source_file            = locale/pot/control_system_troubleshooting/wifi_channel_planning/wifi-channel-planning.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:control_system_troubleshooting--wifi_technology--wifi-technology]
+file_filter            = locale/<lang>/LC_MESSAGES/control_system_troubleshooting/wifi_technology/wifi-technology.po
+source_file            = locale/pot/control_system_troubleshooting/wifi_technology/wifi-technology.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:control_system_troubleshooting--wireshark_packet_capture--wireshark-packet-capture]
+file_filter            = locale/<lang>/LC_MESSAGES/control_system_troubleshooting/wireshark_packet_capture/wireshark-packet-capture.po
+source_file            = locale/pot/control_system_troubleshooting/wireshark_packet_capture/wireshark-packet-capture.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
 [o:first-inspires:p:ftcdocs:r:devices--huskylens--huskylens]
 file_filter            = locale/<lang>/LC_MESSAGES/devices/huskylens/huskylens.po
 source_file            = locale/pot/devices/huskylens/huskylens.pot
@@ -1973,14 +2037,6 @@ keep_translations      = false
 [o:first-inspires:p:ftcdocs:r:programming_resources--vision--webcam_controls--white_balance--mode--mode]
 file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/vision/webcam_controls/white_balance/mode/mode.po
 source_file            = locale/pot/programming_resources/vision/webcam_controls/white_balance/mode/mode.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:first-inspires:p:ftcdocs:r:robot_building--index]
-file_filter            = locale/<lang>/LC_MESSAGES/robot_building/index.po
-source_file            = locale/pot/robot_building/index.pot
 type                   = PO
 minimum_perc           = 0
 replace_edited_strings = false

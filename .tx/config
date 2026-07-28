@@ -2042,6 +2042,86 @@ minimum_perc           = 0
 replace_edited_strings = false
 keep_translations      = false
 
+[o:first-inspires:p:ftcdocs:r:robot_building--best_practices--battery-mounting]
+file_filter            = locale/<lang>/LC_MESSAGES/robot_building/best_practices/battery-mounting.po
+source_file            = locale/pot/robot_building/best_practices/battery-mounting.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:robot_building--best_practices--control-system-software-management]
+file_filter            = locale/<lang>/LC_MESSAGES/robot_building/best_practices/control-system-software-management.po
+source_file            = locale/pot/robot_building/best_practices/control-system-software-management.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:robot_building--best_practices--gamepad]
+file_filter            = locale/<lang>/LC_MESSAGES/robot_building/best_practices/gamepad.po
+source_file            = locale/pot/robot_building/best_practices/gamepad.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:robot_building--best_practices--power-management]
+file_filter            = locale/<lang>/LC_MESSAGES/robot_building/best_practices/power-management.po
+source_file            = locale/pot/robot_building/best_practices/power-management.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:robot_building--best_practices--robot-best-practices]
+file_filter            = locale/<lang>/LC_MESSAGES/robot_building/best_practices/robot-best-practices.po
+source_file            = locale/pot/robot_building/best_practices/robot-best-practices.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:robot_building--best_practices--robot-controller-mounting]
+file_filter            = locale/<lang>/LC_MESSAGES/robot_building/best_practices/robot-controller-mounting.po
+source_file            = locale/pot/robot_building/best_practices/robot-controller-mounting.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:robot_building--best_practices--robot-grounding]
+file_filter            = locale/<lang>/LC_MESSAGES/robot_building/best_practices/robot-grounding.po
+source_file            = locale/pot/robot_building/best_practices/robot-grounding.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:robot_building--best_practices--robot-wiring]
+file_filter            = locale/<lang>/LC_MESSAGES/robot_building/best_practices/robot-wiring.po
+source_file            = locale/pot/robot_building/best_practices/robot-wiring.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:robot_building--best_practices--servo-power-usage]
+file_filter            = locale/<lang>/LC_MESSAGES/robot_building/best_practices/servo-power-usage.po
+source_file            = locale/pot/robot_building/best_practices/servo-power-usage.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:robot_building--best_practices--smartphone]
+file_filter            = locale/<lang>/LC_MESSAGES/robot_building/best_practices/smartphone.po
+source_file            = locale/pot/robot_building/best_practices/smartphone.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
 [o:first-inspires:p:ftcdocs:r:robot_building--wiring_guide--wiring-guide]
 file_filter            = locale/<lang>/LC_MESSAGES/robot_building/wiring_guide/wiring-guide.po
 source_file            = locale/pot/robot_building/wiring_guide/wiring-guide.pot

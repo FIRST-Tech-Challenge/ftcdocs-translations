@@ -1,6 +1,6 @@
 [main]
 host     = https://www.transifex.com
-lang_map = es_MX: es, fr_CA: fr
+lang_map = fr_CA: fr, es_MX: es
 
 [o:first-inspires:p:ftcdocs:r:404]
 file_filter            = locale/<lang>/LC_MESSAGES/404.po
@@ -45,14 +45,6 @@ keep_translations      = false
 [o:first-inspires:p:ftcdocs:r:apriltag--vision_portal--apriltag_advanced_use--apriltag-advanced-use]
 file_filter            = locale/<lang>/LC_MESSAGES/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.po
 source_file            = locale/pot/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:first-inspires:p:ftcdocs:r:apriltag--vision_portal--apriltag_camera_calibration--apriltag-camera-calibration]
-file_filter            = locale/<lang>/LC_MESSAGES/apriltag/vision_portal/apriltag_camera_calibration/apriltag-camera-calibration.po
-source_file            = locale/pot/apriltag/vision_portal/apriltag_camera_calibration/apriltag-camera-calibration.pot
 type                   = PO
 minimum_perc           = 0
 replace_edited_strings = false
@@ -130,9 +122,209 @@ minimum_perc           = 0
 replace_edited_strings = false
 keep_translations      = false
 
-[o:first-inspires:p:ftcdocs:r:apriltag--vision_portal--visionportal_camera_controls--visionportal-camera-controls]
-file_filter            = locale/<lang>/LC_MESSAGES/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.po
-source_file            = locale/pot/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.pot
+[o:first-inspires:p:ftcdocs:r:apriltag--vision_portal--visionportal_camera_controls--blocks--blocks]
+file_filter            = locale/<lang>/LC_MESSAGES/apriltag/vision_portal/visionportal_camera_controls/blocks/blocks.po
+source_file            = locale/pot/apriltag/vision_portal/visionportal_camera_controls/blocks/blocks.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:apriltag--vision_portal--visionportal_camera_controls--eval--eval]
+file_filter            = locale/<lang>/LC_MESSAGES/apriltag/vision_portal/visionportal_camera_controls/eval/eval.po
+source_file            = locale/pot/apriltag/vision_portal/visionportal_camera_controls/eval/eval.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:apriltag--vision_portal--visionportal_camera_controls--exposure--auto_exposure--auto-exposure]
+file_filter            = locale/<lang>/LC_MESSAGES/apriltag/vision_portal/visionportal_camera_controls/exposure/auto_exposure/auto-exposure.po
+source_file            = locale/pot/apriltag/vision_portal/visionportal_camera_controls/exposure/auto_exposure/auto-exposure.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:apriltag--vision_portal--visionportal_camera_controls--exposure--control--control]
+file_filter            = locale/<lang>/LC_MESSAGES/apriltag/vision_portal/visionportal_camera_controls/exposure/control/control.po
+source_file            = locale/pot/apriltag/vision_portal/visionportal_camera_controls/exposure/control/control.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:apriltag--vision_portal--visionportal_camera_controls--exposure--index]
+file_filter            = locale/<lang>/LC_MESSAGES/apriltag/vision_portal/visionportal_camera_controls/exposure/index.po
+source_file            = locale/pot/apriltag/vision_portal/visionportal_camera_controls/exposure/index.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:apriltag--vision_portal--visionportal_camera_controls--exposure--mode--mode]
+file_filter            = locale/<lang>/LC_MESSAGES/apriltag/vision_portal/visionportal_camera_controls/exposure/mode/mode.po
+source_file            = locale/pot/apriltag/vision_portal/visionportal_camera_controls/exposure/mode/mode.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:apriltag--vision_portal--visionportal_camera_controls--exposure--samples--samples]
+file_filter            = locale/<lang>/LC_MESSAGES/apriltag/vision_portal/visionportal_camera_controls/exposure/samples/samples.po
+source_file            = locale/pot/apriltag/vision_portal/visionportal_camera_controls/exposure/samples/samples.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:apriltag--vision_portal--visionportal_camera_controls--focus--control--control]
+file_filter            = locale/<lang>/LC_MESSAGES/apriltag/vision_portal/visionportal_camera_controls/focus/control/control.po
+source_file            = locale/pot/apriltag/vision_portal/visionportal_camera_controls/focus/control/control.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:apriltag--vision_portal--visionportal_camera_controls--focus--index]
+file_filter            = locale/<lang>/LC_MESSAGES/apriltag/vision_portal/visionportal_camera_controls/focus/index.po
+source_file            = locale/pot/apriltag/vision_portal/visionportal_camera_controls/focus/index.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:apriltag--vision_portal--visionportal_camera_controls--focus--mode--mode]
+file_filter            = locale/<lang>/LC_MESSAGES/apriltag/vision_portal/visionportal_camera_controls/focus/mode/mode.po
+source_file            = locale/pot/apriltag/vision_portal/visionportal_camera_controls/focus/mode/mode.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:apriltag--vision_portal--visionportal_camera_controls--gain--control--control]
+file_filter            = locale/<lang>/LC_MESSAGES/apriltag/vision_portal/visionportal_camera_controls/gain/control/control.po
+source_file            = locale/pot/apriltag/vision_portal/visionportal_camera_controls/gain/control/control.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:apriltag--vision_portal--visionportal_camera_controls--gain--ex1--ex1]
+file_filter            = locale/<lang>/LC_MESSAGES/apriltag/vision_portal/visionportal_camera_controls/gain/ex1/ex1.po
+source_file            = locale/pot/apriltag/vision_portal/visionportal_camera_controls/gain/ex1/ex1.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:apriltag--vision_portal--visionportal_camera_controls--gain--ex2--ex2]
+file_filter            = locale/<lang>/LC_MESSAGES/apriltag/vision_portal/visionportal_camera_controls/gain/ex2/ex2.po
+source_file            = locale/pot/apriltag/vision_portal/visionportal_camera_controls/gain/ex2/ex2.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:apriltag--vision_portal--visionportal_camera_controls--gain--ex3--ex3]
+file_filter            = locale/<lang>/LC_MESSAGES/apriltag/vision_portal/visionportal_camera_controls/gain/ex3/ex3.po
+source_file            = locale/pot/apriltag/vision_portal/visionportal_camera_controls/gain/ex3/ex3.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:apriltag--vision_portal--visionportal_camera_controls--gain--index]
+file_filter            = locale/<lang>/LC_MESSAGES/apriltag/vision_portal/visionportal_camera_controls/gain/index.po
+source_file            = locale/pot/apriltag/vision_portal/visionportal_camera_controls/gain/index.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:apriltag--vision_portal--visionportal_camera_controls--index]
+file_filter            = locale/<lang>/LC_MESSAGES/apriltag/vision_portal/visionportal_camera_controls/index.po
+source_file            = locale/pot/apriltag/vision_portal/visionportal_camera_controls/index.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:apriltag--vision_portal--visionportal_camera_controls--observing--observing]
+file_filter            = locale/<lang>/LC_MESSAGES/apriltag/vision_portal/visionportal_camera_controls/observing/observing.po
+source_file            = locale/pot/apriltag/vision_portal/visionportal_camera_controls/observing/observing.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:apriltag--vision_portal--visionportal_camera_controls--overview--overview]
+file_filter            = locale/<lang>/LC_MESSAGES/apriltag/vision_portal/visionportal_camera_controls/overview/overview.po
+source_file            = locale/pot/apriltag/vision_portal/visionportal_camera_controls/overview/overview.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:apriltag--vision_portal--visionportal_camera_controls--ptz--index]
+file_filter            = locale/<lang>/LC_MESSAGES/apriltag/vision_portal/visionportal_camera_controls/ptz/index.po
+source_file            = locale/pot/apriltag/vision_portal/visionportal_camera_controls/ptz/index.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:apriltag--vision_portal--visionportal_camera_controls--ptz--pan_tilt--pan-tilt]
+file_filter            = locale/<lang>/LC_MESSAGES/apriltag/vision_portal/visionportal_camera_controls/ptz/pan_tilt/pan-tilt.po
+source_file            = locale/pot/apriltag/vision_portal/visionportal_camera_controls/ptz/pan_tilt/pan-tilt.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:apriltag--vision_portal--visionportal_camera_controls--ptz--zoom--zoom]
+file_filter            = locale/<lang>/LC_MESSAGES/apriltag/vision_portal/visionportal_camera_controls/ptz/zoom/zoom.po
+source_file            = locale/pot/apriltag/vision_portal/visionportal_camera_controls/ptz/zoom/zoom.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:apriltag--vision_portal--visionportal_camera_controls--samples--samples]
+file_filter            = locale/<lang>/LC_MESSAGES/apriltag/vision_portal/visionportal_camera_controls/samples/samples.po
+source_file            = locale/pot/apriltag/vision_portal/visionportal_camera_controls/samples/samples.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:apriltag--vision_portal--visionportal_camera_controls--webcam_states--webcam-states]
+file_filter            = locale/<lang>/LC_MESSAGES/apriltag/vision_portal/visionportal_camera_controls/webcam_states/webcam-states.po
+source_file            = locale/pot/apriltag/vision_portal/visionportal_camera_controls/webcam_states/webcam-states.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:apriltag--vision_portal--visionportal_camera_controls--white_balance--control--control]
+file_filter            = locale/<lang>/LC_MESSAGES/apriltag/vision_portal/visionportal_camera_controls/white_balance/control/control.po
+source_file            = locale/pot/apriltag/vision_portal/visionportal_camera_controls/white_balance/control/control.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:apriltag--vision_portal--visionportal_camera_controls--white_balance--index]
+file_filter            = locale/<lang>/LC_MESSAGES/apriltag/vision_portal/visionportal_camera_controls/white_balance/index.po
+source_file            = locale/pot/apriltag/vision_portal/visionportal_camera_controls/white_balance/index.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:apriltag--vision_portal--visionportal_camera_controls--white_balance--mode--mode]
+file_filter            = locale/<lang>/LC_MESSAGES/apriltag/vision_portal/visionportal_camera_controls/white_balance/mode/mode.po
+source_file            = locale/pot/apriltag/vision_portal/visionportal_camera_controls/white_balance/mode/mode.pot
 type                   = PO
 minimum_perc           = 0
 replace_edited_strings = false
@@ -1853,190 +2045,6 @@ keep_translations      = false
 [o:first-inspires:p:ftcdocs:r:programming_resources--vision--vision_overview--vision-overview]
 file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/vision/vision_overview/vision-overview.po
 source_file            = locale/pot/programming_resources/vision/vision_overview/vision-overview.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:first-inspires:p:ftcdocs:r:programming_resources--vision--webcam_controls--eval--eval]
-file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/vision/webcam_controls/eval/eval.po
-source_file            = locale/pot/programming_resources/vision/webcam_controls/eval/eval.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:first-inspires:p:ftcdocs:r:programming_resources--vision--webcam_controls--exposure--auto_exposure--auto-exposure]
-file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/vision/webcam_controls/exposure/auto_exposure/auto-exposure.po
-source_file            = locale/pot/programming_resources/vision/webcam_controls/exposure/auto_exposure/auto-exposure.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:first-inspires:p:ftcdocs:r:programming_resources--vision--webcam_controls--exposure--control--control]
-file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/vision/webcam_controls/exposure/control/control.po
-source_file            = locale/pot/programming_resources/vision/webcam_controls/exposure/control/control.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:first-inspires:p:ftcdocs:r:programming_resources--vision--webcam_controls--exposure--index]
-file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/vision/webcam_controls/exposure/index.po
-source_file            = locale/pot/programming_resources/vision/webcam_controls/exposure/index.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:first-inspires:p:ftcdocs:r:programming_resources--vision--webcam_controls--exposure--mode--mode]
-file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/vision/webcam_controls/exposure/mode/mode.po
-source_file            = locale/pot/programming_resources/vision/webcam_controls/exposure/mode/mode.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:first-inspires:p:ftcdocs:r:programming_resources--vision--webcam_controls--exposure--samples--samples]
-file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/vision/webcam_controls/exposure/samples/samples.po
-source_file            = locale/pot/programming_resources/vision/webcam_controls/exposure/samples/samples.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:first-inspires:p:ftcdocs:r:programming_resources--vision--webcam_controls--focus--control--control]
-file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/vision/webcam_controls/focus/control/control.po
-source_file            = locale/pot/programming_resources/vision/webcam_controls/focus/control/control.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:first-inspires:p:ftcdocs:r:programming_resources--vision--webcam_controls--focus--index]
-file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/vision/webcam_controls/focus/index.po
-source_file            = locale/pot/programming_resources/vision/webcam_controls/focus/index.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:first-inspires:p:ftcdocs:r:programming_resources--vision--webcam_controls--focus--mode--mode]
-file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/vision/webcam_controls/focus/mode/mode.po
-source_file            = locale/pot/programming_resources/vision/webcam_controls/focus/mode/mode.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:first-inspires:p:ftcdocs:r:programming_resources--vision--webcam_controls--gain--control--control]
-file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/vision/webcam_controls/gain/control/control.po
-source_file            = locale/pot/programming_resources/vision/webcam_controls/gain/control/control.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:first-inspires:p:ftcdocs:r:programming_resources--vision--webcam_controls--gain--ex1--ex1]
-file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/vision/webcam_controls/gain/ex1/ex1.po
-source_file            = locale/pot/programming_resources/vision/webcam_controls/gain/ex1/ex1.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:first-inspires:p:ftcdocs:r:programming_resources--vision--webcam_controls--gain--ex2--ex2]
-file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/vision/webcam_controls/gain/ex2/ex2.po
-source_file            = locale/pot/programming_resources/vision/webcam_controls/gain/ex2/ex2.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:first-inspires:p:ftcdocs:r:programming_resources--vision--webcam_controls--gain--ex3--ex3]
-file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/vision/webcam_controls/gain/ex3/ex3.po
-source_file            = locale/pot/programming_resources/vision/webcam_controls/gain/ex3/ex3.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:first-inspires:p:ftcdocs:r:programming_resources--vision--webcam_controls--gain--index]
-file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/vision/webcam_controls/gain/index.po
-source_file            = locale/pot/programming_resources/vision/webcam_controls/gain/index.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:first-inspires:p:ftcdocs:r:programming_resources--vision--webcam_controls--index]
-file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/vision/webcam_controls/index.po
-source_file            = locale/pot/programming_resources/vision/webcam_controls/index.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:first-inspires:p:ftcdocs:r:programming_resources--vision--webcam_controls--overview--overview]
-file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/vision/webcam_controls/overview/overview.po
-source_file            = locale/pot/programming_resources/vision/webcam_controls/overview/overview.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:first-inspires:p:ftcdocs:r:programming_resources--vision--webcam_controls--ptz--index]
-file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/vision/webcam_controls/ptz/index.po
-source_file            = locale/pot/programming_resources/vision/webcam_controls/ptz/index.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:first-inspires:p:ftcdocs:r:programming_resources--vision--webcam_controls--ptz--pan_tilt--pan-tilt]
-file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/vision/webcam_controls/ptz/pan_tilt/pan-tilt.po
-source_file            = locale/pot/programming_resources/vision/webcam_controls/ptz/pan_tilt/pan-tilt.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:first-inspires:p:ftcdocs:r:programming_resources--vision--webcam_controls--ptz--zoom--zoom]
-file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/vision/webcam_controls/ptz/zoom/zoom.po
-source_file            = locale/pot/programming_resources/vision/webcam_controls/ptz/zoom/zoom.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:first-inspires:p:ftcdocs:r:programming_resources--vision--webcam_controls--samples--samples]
-file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/vision/webcam_controls/samples/samples.po
-source_file            = locale/pot/programming_resources/vision/webcam_controls/samples/samples.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:first-inspires:p:ftcdocs:r:programming_resources--vision--webcam_controls--white_balance--control--control]
-file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/vision/webcam_controls/white_balance/control/control.po
-source_file            = locale/pot/programming_resources/vision/webcam_controls/white_balance/control/control.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:first-inspires:p:ftcdocs:r:programming_resources--vision--webcam_controls--white_balance--index]
-file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/vision/webcam_controls/white_balance/index.po
-source_file            = locale/pot/programming_resources/vision/webcam_controls/white_balance/index.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:first-inspires:p:ftcdocs:r:programming_resources--vision--webcam_controls--white_balance--mode--mode]
-file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/vision/webcam_controls/white_balance/mode/mode.po
-source_file            = locale/pot/programming_resources/vision/webcam_controls/white_balance/mode/mode.pot
 type                   = PO
 minimum_perc           = 0
 replace_edited_strings = false

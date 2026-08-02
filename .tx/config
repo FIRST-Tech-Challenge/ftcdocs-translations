@@ -1,6 +1,6 @@
 [main]
 host     = https://www.transifex.com
-lang_map = es_MX: es, fr_CA: fr
+lang_map = fr_CA: fr, es_MX: es
 
 [o:first-inspires:p:ftcdocs:r:404]
 file_filter            = locale/<lang>/LC_MESSAGES/404.po
@@ -13,14 +13,6 @@ keep_translations      = false
 [o:first-inspires:p:ftcdocs:r:ai--innovation_corner--innovation-corner]
 file_filter            = locale/<lang>/LC_MESSAGES/ai/innovation_corner/innovation-corner.po
 source_file            = locale/pot/ai/innovation_corner/innovation-corner.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:first-inspires:p:ftcdocs:r:apriltag--apriltag_tips--decode_apriltag--decode-apriltag]
-file_filter            = locale/<lang>/LC_MESSAGES/apriltag/apriltag_tips/decode_apriltag/decode-apriltag.po
-source_file            = locale/pot/apriltag/apriltag_tips/decode_apriltag/decode-apriltag.pot
 type                   = PO
 minimum_perc           = 0
 replace_edited_strings = false
@@ -1357,6 +1349,14 @@ keep_translations      = false
 [o:first-inspires:p:ftcdocs:r:manufacturing--3d_printing--printer_choice--budget_printers--budget_printers]
 file_filter            = locale/<lang>/LC_MESSAGES/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.po
 source_file            = locale/pot/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:manufacturing--3d_printing--printer_choice--discontinued_printers--discontinued_printers]
+file_filter            = locale/<lang>/LC_MESSAGES/manufacturing/3d_printing/printer_choice/discontinued_printers/discontinued_printers.po
+source_file            = locale/pot/manufacturing/3d_printing/printer_choice/discontinued_printers/discontinued_printers.pot
 type                   = PO
 minimum_perc           = 0
 replace_edited_strings = false

@@ -1,6 +1,6 @@
 [main]
 host     = https://www.transifex.com
-lang_map = fr_CA: fr, es_MX: es
+lang_map = es_MX: es, fr_CA: fr
 
 [o:first-inspires:p:ftcdocs:r:404]
 file_filter            = locale/<lang>/LC_MESSAGES/404.po
@@ -2186,9 +2186,153 @@ minimum_perc           = 0
 replace_edited_strings = false
 keep_translations      = false
 
+[o:first-inspires:p:ftcdocs:r:tech_tips--tech-tips--tech-tip-battery-care--tech-tip-battery-care]
+file_filter            = locale/<lang>/LC_MESSAGES/tech_tips/tech-tips/tech-tip-battery-care/tech-tip-battery-care.po
+source_file            = locale/pot/tech_tips/tech-tips/tech-tip-battery-care/tech-tip-battery-care.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:tech_tips--tech-tips--tech-tip-battery-voltage-sag--tech-tip-battery-voltage-sag]
+file_filter            = locale/<lang>/LC_MESSAGES/tech_tips/tech-tips/tech-tip-battery-voltage-sag/tech-tip-battery-voltage-sag.po
+source_file            = locale/pot/tech_tips/tech-tips/tech-tip-battery-voltage-sag/tech-tip-battery-voltage-sag.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:tech_tips--tech-tips--tech-tip-competition-prep--tech-tip-competition-prep]
+file_filter            = locale/<lang>/LC_MESSAGES/tech_tips/tech-tips/tech-tip-competition-prep/tech-tip-competition-prep.po
+source_file            = locale/pot/tech_tips/tech-tips/tech-tip-competition-prep/tech-tip-competition-prep.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:tech_tips--tech-tips--tech-tip-driver-hub--tech-tip-driver-hub]
+file_filter            = locale/<lang>/LC_MESSAGES/tech_tips/tech-tips/tech-tip-driver-hub/tech-tip-driver-hub.po
+source_file            = locale/pot/tech_tips/tech-tips/tech-tip-driver-hub/tech-tip-driver-hub.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:tech_tips--tech-tips--tech-tip-driver-station-choice--tech-tip-driver-station-choice]
+file_filter            = locale/<lang>/LC_MESSAGES/tech_tips/tech-tips/tech-tip-driver-station-choice/tech-tip-driver-station-choice.po
+source_file            = locale/pot/tech_tips/tech-tips/tech-tip-driver-station-choice/tech-tip-driver-station-choice.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:tech_tips--tech-tips--tech-tip-ftc-docs-resources--tech-tip-ftc-docs-resources]
+file_filter            = locale/<lang>/LC_MESSAGES/tech_tips/tech-tips/tech-tip-ftc-docs-resources/tech-tip-ftc-docs-resources.po
+source_file            = locale/pot/tech_tips/tech-tips/tech-tip-ftc-docs-resources/tech-tip-ftc-docs-resources.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:tech_tips--tech-tips--tech-tip-gamepad-drift--tech-tip-gamepad-drift]
+file_filter            = locale/<lang>/LC_MESSAGES/tech_tips/tech-tips/tech-tip-gamepad-drift/tech-tip-gamepad-drift.po
+source_file            = locale/pot/tech_tips/tech-tips/tech-tip-gamepad-drift/tech-tip-gamepad-drift.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:tech_tips--tech-tips--tech-tip-google-ai-studio--tech-tip-google-ai-studio]
+file_filter            = locale/<lang>/LC_MESSAGES/tech_tips/tech-tips/tech-tip-google-ai-studio/tech-tip-google-ai-studio.po
+source_file            = locale/pot/tech_tips/tech-tips/tech-tip-google-ai-studio/tech-tip-google-ai-studio.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:tech_tips--tech-tips--tech-tip-hub-tips--tech-tip-hub-tips]
+file_filter            = locale/<lang>/LC_MESSAGES/tech_tips/tech-tips/tech-tip-hub-tips/tech-tip-hub-tips.po
+source_file            = locale/pot/tech_tips/tech-tips/tech-tip-hub-tips/tech-tip-hub-tips.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:tech_tips--tech-tips--tech-tip-motor-modes--tech-tip-motor-modes]
+file_filter            = locale/<lang>/LC_MESSAGES/tech_tips/tech-tips/tech-tip-motor-modes/tech-tip-motor-modes.po
+source_file            = locale/pot/tech_tips/tech-tips/tech-tip-motor-modes/tech-tip-motor-modes.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:tech_tips--tech-tips--tech-tip-motor-servo-power--tech-tip-motor-servo-power]
+file_filter            = locale/<lang>/LC_MESSAGES/tech_tips/tech-tips/tech-tip-motor-servo-power/tech-tip-motor-servo-power.po
+source_file            = locale/pot/tech_tips/tech-tips/tech-tip-motor-servo-power/tech-tip-motor-servo-power.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:tech_tips--tech-tips--tech-tip-noise-and-static--tech-tip-noise-and-static]
+file_filter            = locale/<lang>/LC_MESSAGES/tech_tips/tech-tips/tech-tip-noise-and-static/tech-tip-noise-and-static.po
+source_file            = locale/pot/tech_tips/tech-tips/tech-tip-noise-and-static/tech-tip-noise-and-static.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
 [o:first-inspires:p:ftcdocs:r:tech_tips--tech-tips--tech-tip-practice-timer--tech-tip-practice-timer]
 file_filter            = locale/<lang>/LC_MESSAGES/tech_tips/tech-tips/tech-tip-practice-timer/tech-tip-practice-timer.po
 source_file            = locale/pot/tech_tips/tech-tips/tech-tip-practice-timer/tech-tip-practice-timer.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:tech_tips--tech-tips--tech-tip-protecting-robot-code--tech-tip-protecting-robot-code]
+file_filter            = locale/<lang>/LC_MESSAGES/tech_tips/tech-tips/tech-tip-protecting-robot-code/tech-tip-protecting-robot-code.po
+source_file            = locale/pot/tech_tips/tech-tips/tech-tip-protecting-robot-code/tech-tip-protecting-robot-code.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:tech_tips--tech-tips--tech-tip-updating-software--tech-tip-updating-software]
+file_filter            = locale/<lang>/LC_MESSAGES/tech_tips/tech-tips/tech-tip-updating-software/tech-tip-updating-software.po
+source_file            = locale/pot/tech_tips/tech-tips/tech-tip-updating-software/tech-tip-updating-software.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:tech_tips--tech-tips--tech-tip-using-servos--tech-tip-using-servos]
+file_filter            = locale/<lang>/LC_MESSAGES/tech_tips/tech-tips/tech-tip-using-servos/tech-tip-using-servos.po
+source_file            = locale/pot/tech_tips/tech-tips/tech-tip-using-servos/tech-tip-using-servos.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:tech_tips--tech-tips--tech-tip-vision-resources--tech-tip-vision-resources]
+file_filter            = locale/<lang>/LC_MESSAGES/tech_tips/tech-tips/tech-tip-vision-resources/tech-tip-vision-resources.po
+source_file            = locale/pot/tech_tips/tech-tips/tech-tip-vision-resources/tech-tip-vision-resources.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:tech_tips--tech-tips--tech-tip-wifi-bands--tech-tip-wifi-bands]
+file_filter            = locale/<lang>/LC_MESSAGES/tech_tips/tech-tips/tech-tip-wifi-bands/tech-tip-wifi-bands.po
+source_file            = locale/pot/tech_tips/tech-tips/tech-tip-wifi-bands/tech-tip-wifi-bands.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:tech_tips--tech-tips--tech-tip-wifi-monitoring--tech-tip-wifi-monitoring]
+file_filter            = locale/<lang>/LC_MESSAGES/tech_tips/tech-tips/tech-tip-wifi-monitoring/tech-tip-wifi-monitoring.po
+source_file            = locale/pot/tech_tips/tech-tips/tech-tip-wifi-monitoring/tech-tip-wifi-monitoring.pot
 type                   = PO
 minimum_perc           = 0
 replace_edited_strings = false

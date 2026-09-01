@@ -1498,6 +1498,14 @@ minimum_perc           = 0
 replace_edited_strings = false
 keep_translations      = false
 
+[o:first-inspires:p:ftcdocs:r:programming_resources--android_studio_java--before_you_start--before-you-start]
+file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/android_studio_java/before_you_start/before-you-start.po
+source_file            = locale/pot/programming_resources/android_studio_java/before_you_start/before-you-start.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
 [o:first-inspires:p:ftcdocs:r:programming_resources--android_studio_java--config--config]
 file_filter            = locale/<lang>/LC_MESSAGES/programming_resources/android_studio_java/config/config.po
 source_file            = locale/pot/programming_resources/android_studio_java/config/config.pot

@@ -1,6 +1,6 @@
 [main]
 host     = https://www.transifex.com
-lang_map = fr_CA: fr, es_MX: es
+lang_map = es_MX: es, fr_CA: fr
 
 [o:first-inspires:p:ftcdocs:r:404]
 file_filter            = locale/<lang>/LC_MESSAGES/404.po
@@ -2357,14 +2357,6 @@ keep_translations      = false
 [o:first-inspires:p:ftcdocs:r:todo]
 file_filter            = locale/<lang>/LC_MESSAGES/todo.po
 source_file            = locale/pot/todo.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:first-inspires:p:ftcdocs:r:tos--tos]
-file_filter            = locale/<lang>/LC_MESSAGES/tos/tos.po
-source_file            = locale/pot/tos/tos.pot
 type                   = PO
 minimum_perc           = 0
 replace_edited_strings = false

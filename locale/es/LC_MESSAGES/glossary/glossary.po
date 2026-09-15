@@ -3,24 +3,16 @@
 # This file is distributed under the same license as the FIRST Tech Challenge Docs package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# Uday Vidyadharan, 2023
-# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-15 16:19+0000\n"
-"PO-Revision-Date: 2023-07-07 03:17+0000\n"
-"Last-Translator: Uday Vidyadharan, 2023\n"
+"PO-Revision-Date: 2026-09-15 16:20+0000\n"
 "Language-Team: Spanish (https://app.transifex.com/first-inspires/teams/171738/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
-
-#: ../../ftcdocs/docs/source/programming_resources/android_studio_java/Android-Studio-Tutorial.rst:2
-msgid "Android Studio Programming Tutorial"
-msgstr "Tutorial de programación de Android Studio"

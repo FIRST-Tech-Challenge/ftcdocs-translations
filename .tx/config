@@ -1,6 +1,6 @@
 [main]
 host     = https://www.transifex.com
-lang_map = fr_CA: fr, es_MX: es
+lang_map = es_MX: es, fr_CA: fr
 
 [o:first-inspires:p:ftcdocs:r:404]
 file_filter            = locale/<lang>/LC_MESSAGES/404.po
@@ -13,6 +13,14 @@ keep_translations      = false
 [o:first-inspires:p:ftcdocs:r:ai--innovation_corner--innovation-corner]
 file_filter            = locale/<lang>/LC_MESSAGES/ai/innovation_corner/innovation-corner.po
 source_file            = locale/pot/ai/innovation_corner/innovation-corner.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:apriltag--index]
+file_filter            = locale/<lang>/LC_MESSAGES/apriltag/index.po
+source_file            = locale/pot/apriltag/index.pot
 type                   = PO
 minimum_perc           = 0
 replace_edited_strings = false
@@ -362,49 +370,9 @@ minimum_perc           = 0
 replace_edited_strings = false
 keep_translations      = false
 
-[o:first-inspires:p:ftcdocs:r:booklets--advanced]
-file_filter            = locale/<lang>/LC_MESSAGES/booklets/advanced.po
-source_file            = locale/pot/booklets/advanced.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:first-inspires:p:ftcdocs:r:booklets--apriltags]
-file_filter            = locale/<lang>/LC_MESSAGES/booklets/apriltags.po
-source_file            = locale/pot/booklets/apriltags.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:first-inspires:p:ftcdocs:r:booklets--control_system]
-file_filter            = locale/<lang>/LC_MESSAGES/booklets/control_system.po
-source_file            = locale/pot/booklets/control_system.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
 [o:first-inspires:p:ftcdocs:r:booklets--index]
 file_filter            = locale/<lang>/LC_MESSAGES/booklets/index.po
 source_file            = locale/pot/booklets/index.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:first-inspires:p:ftcdocs:r:booklets--sdk]
-file_filter            = locale/<lang>/LC_MESSAGES/booklets/sdk.po
-source_file            = locale/pot/booklets/sdk.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:first-inspires:p:ftcdocs:r:booklets--wiring_guide]
-file_filter            = locale/<lang>/LC_MESSAGES/booklets/wiring_guide.po
-source_file            = locale/pot/booklets/wiring_guide.pot
 type                   = PO
 minimum_perc           = 0
 replace_edited_strings = false
@@ -501,6 +469,14 @@ keep_translations      = false
 [o:first-inspires:p:ftcdocs:r:color_processing--index]
 file_filter            = locale/<lang>/LC_MESSAGES/color_processing/index.po
 source_file            = locale/pot/color_processing/index.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:color_processing--overview--overview]
+file_filter            = locale/<lang>/LC_MESSAGES/color_processing/overview/overview.po
+source_file            = locale/pot/color_processing/overview/overview.pot
 type                   = PO
 minimum_perc           = 0
 replace_edited_strings = false

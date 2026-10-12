@@ -2122,6 +2122,14 @@ minimum_perc           = 0
 replace_edited_strings = false
 keep_translations      = false
 
+[o:first-inspires:p:ftcdocs:r:robot_building--best_practices--usb-port-selection]
+file_filter            = locale/<lang>/LC_MESSAGES/robot_building/best_practices/usb-port-selection.po
+source_file            = locale/pot/robot_building/best_practices/usb-port-selection.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
 [o:first-inspires:p:ftcdocs:r:robot_building--wiring_guide--wiring-guide]
 file_filter            = locale/<lang>/LC_MESSAGES/robot_building/wiring_guide/wiring-guide.po
 source_file            = locale/pot/robot_building/wiring_guide/wiring-guide.pot

@@ -1,6 +1,6 @@
 [main]
 host     = https://www.transifex.com
-lang_map = fr_CA: fr, es_MX: es
+lang_map = es_MX: es, fr_CA: fr
 
 [o:first-inspires:p:ftcdocs:r:404]
 file_filter            = locale/<lang>/LC_MESSAGES/404.po
@@ -866,6 +866,158 @@ minimum_perc           = 0
 replace_edited_strings = false
 keep_translations      = false
 
+[o:first-inspires:p:ftcdocs:r:event_streaming--addons--ftc_live_integration--ftc-live-integration]
+file_filter            = locale/<lang>/LC_MESSAGES/event_streaming/addons/ftc_live_integration/ftc-live-integration.po
+source_file            = locale/pot/event_streaming/addons/ftc_live_integration/ftc-live-integration.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:event_streaming--addons--index]
+file_filter            = locale/<lang>/LC_MESSAGES/event_streaming/addons/index.po
+source_file            = locale/pot/event_streaming/addons/index.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:event_streaming--addons--match_splitting--index]
+file_filter            = locale/<lang>/LC_MESSAGES/event_streaming/addons/match_splitting/index.po
+source_file            = locale/pot/event_streaming/addons/match_splitting/index.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:event_streaming--addons--match_splitting--live--live]
+file_filter            = locale/<lang>/LC_MESSAGES/event_streaming/addons/match_splitting/live/live.po
+source_file            = locale/pot/event_streaming/addons/match_splitting/live/live.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:event_streaming--addons--match_splitting--post_event--post-event]
+file_filter            = locale/<lang>/LC_MESSAGES/event_streaming/addons/match_splitting/post_event/post-event.po
+source_file            = locale/pot/event_streaming/addons/match_splitting/post_event/post-event.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:event_streaming--addons--obs_plugins--obs-plugins]
+file_filter            = locale/<lang>/LC_MESSAGES/event_streaming/addons/obs_plugins/obs-plugins.po
+source_file            = locale/pot/event_streaming/addons/obs_plugins/obs-plugins.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:event_streaming--budget--budget]
+file_filter            = locale/<lang>/LC_MESSAGES/event_streaming/budget/budget.po
+source_file            = locale/pot/event_streaming/budget/budget.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:event_streaming--day_of_checklist--day-of-checklist]
+file_filter            = locale/<lang>/LC_MESSAGES/event_streaming/day_of_checklist/day-of-checklist.po
+source_file            = locale/pot/event_streaming/day_of_checklist/day-of-checklist.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:event_streaming--hardware--audio--audio]
+file_filter            = locale/<lang>/LC_MESSAGES/event_streaming/hardware/audio/audio.po
+source_file            = locale/pot/event_streaming/hardware/audio/audio.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:event_streaming--hardware--cameras--cameras]
+file_filter            = locale/<lang>/LC_MESSAGES/event_streaming/hardware/cameras/cameras.po
+source_file            = locale/pot/event_streaming/hardware/cameras/cameras.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:event_streaming--hardware--index]
+file_filter            = locale/<lang>/LC_MESSAGES/event_streaming/hardware/index.po
+source_file            = locale/pot/event_streaming/hardware/index.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:event_streaming--hardware--network--network]
+file_filter            = locale/<lang>/LC_MESSAGES/event_streaming/hardware/network/network.po
+source_file            = locale/pot/event_streaming/hardware/network/network.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:event_streaming--hardware--streaming_computer--streaming-computer]
+file_filter            = locale/<lang>/LC_MESSAGES/event_streaming/hardware/streaming_computer/streaming-computer.po
+source_file            = locale/pot/event_streaming/hardware/streaming_computer/streaming-computer.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:event_streaming--hardware--video_output--video-output]
+file_filter            = locale/<lang>/LC_MESSAGES/event_streaming/hardware/video_output/video-output.po
+source_file            = locale/pot/event_streaming/hardware/video_output/video-output.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:event_streaming--index]
+file_filter            = locale/<lang>/LC_MESSAGES/event_streaming/index.po
+source_file            = locale/pot/event_streaming/index.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:event_streaming--software--encoders_obs--encoders-obs]
+file_filter            = locale/<lang>/LC_MESSAGES/event_streaming/software/encoders_obs/encoders-obs.po
+source_file            = locale/pot/event_streaming/software/encoders_obs/encoders-obs.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:event_streaming--software--index]
+file_filter            = locale/<lang>/LC_MESSAGES/event_streaming/software/index.po
+source_file            = locale/pot/event_streaming/software/index.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:event_streaming--software--streaming_platform--streaming-platform]
+file_filter            = locale/<lang>/LC_MESSAGES/event_streaming/software/streaming_platform/streaming-platform.po
+source_file            = locale/pot/event_streaming/software/streaming_platform/streaming-platform.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:event_streaming--system_overview--system-overview]
+file_filter            = locale/<lang>/LC_MESSAGES/event_streaming/system_overview/system-overview.po
+source_file            = locale/pot/event_streaming/system_overview/system-overview.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
 [o:first-inspires:p:ftcdocs:r:faq--faqs]
 file_filter            = locale/<lang>/LC_MESSAGES/faq/faqs.po
 source_file            = locale/pot/faq/faqs.pot
@@ -1469,6 +1621,14 @@ keep_translations      = false
 [o:first-inspires:p:ftcdocs:r:persona_pages--veteran_teams--veteran_teams]
 file_filter            = locale/<lang>/LC_MESSAGES/persona_pages/veteran_teams/veteran_teams.po
 source_file            = locale/pot/persona_pages/veteran_teams/veteran_teams.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:persona_pages--volunteer--volunteer]
+file_filter            = locale/<lang>/LC_MESSAGES/persona_pages/volunteer/volunteer.po
+source_file            = locale/pot/persona_pages/volunteer/volunteer.pot
 type                   = PO
 minimum_perc           = 0
 replace_edited_strings = false
@@ -2397,6 +2557,14 @@ keep_translations      = false
 [o:first-inspires:p:ftcdocs:r:utility_opmodes--test_hardware--test_hardware_utility]
 file_filter            = locale/<lang>/LC_MESSAGES/utility_opmodes/test_hardware/test_hardware_utility.po
 source_file            = locale/pot/utility_opmodes/test_hardware/test_hardware_utility.pot
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
+[o:first-inspires:p:ftcdocs:r:volunteer_docs--technical_director--index]
+file_filter            = locale/<lang>/LC_MESSAGES/volunteer_docs/technical_director/index.po
+source_file            = locale/pot/volunteer_docs/technical_director/index.pot
 type                   = PO
 minimum_perc           = 0
 replace_edited_strings = false
